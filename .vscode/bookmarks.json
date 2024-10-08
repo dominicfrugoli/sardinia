@@ -1,0 +1,54 @@
+{
+	"files": [
+		{
+			"path": "sardinia.cpp",
+			"bookmarks": [
+				{
+					"line": 0,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 10,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 43,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 114,
+					"column": 0,
+					"label": ""
+				}
+			]
+		},
+		{
+			"path": "hardware.h",
+			"bookmarks": [
+				{
+					"line": 0,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 46,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 57,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 63,
+					"column": 0,
+					"label": ""
+				}
+			]
+		}
+	]
+}
