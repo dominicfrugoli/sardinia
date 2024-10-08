@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   27:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/switch.h ****     enum Polarity
   28:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/switch.h ****     {
   29:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/switch.h ****         POLARITY_NORMAL,   /**< & */
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 2
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 2
 
 
   30:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/switch.h ****         POLARITY_INVERTED, /**< & */
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   20:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/encoder.h ****     Encoder() {}
   21:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/encoder.h ****     ~Encoder() {}
   54              		.loc 2 21 5 is_stmt 1 view -0
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 3
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 3
 
 
   55              		.cfi_startproc
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   88              		.loc 3 23 20 is_stmt 0 view .LVU7
   89 0000 7047     		bx	lr
   90              		.cfi_endproc
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 4
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 4
 
 
   91              	.LFE2017:
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   11:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/sys/system.h **** /** A handle for interacting with the Core System.
   12:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/sys/system.h ****  ** This includes the Clock tree, MPU, global DMA initialization,
   13:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/sys/system.h ****  ** cache handling, and any other necessary global initiailzation
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 5
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 5
 
 
   14:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/sys/system.h ****  **
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   68:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/sys/system.h ****         SRAM_D2,
   69:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/sys/system.h ****         SRAM_D3,
   70:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/sys/system.h ****         SDRAM,
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 6
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 6
 
 
   71:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/sys/system.h ****         QSPI,
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   22:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/usb.h ****     enum class Result
   23:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/usb.h ****     {
   24:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/usb.h ****         OK,
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 7
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 7
 
 
   25:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/usb.h ****         ERR,
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   31:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/adc.h **** struct AdcChannelConfig
   32:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/adc.h **** {
   33:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/adc.h ****     /** Which pin to use for multiplexing */
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 8
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 8
 
 
   34:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/adc.h ****     enum MuxPin
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   88:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/adc.h ****    @brief Handler for analog to digital conversion
   89:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/adc.h **** */
   90:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/adc.h **** class AdcHandle
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 9
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 9
 
 
   91:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/adc.h **** {
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   29:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/audio.h ****         /** number of samples to process per callback */
   30:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/audio.h ****         size_t blocksize;
   31:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/audio.h **** 
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 10
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 10
 
 
   32:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/audio.h ****         /**< Sample rate of audio */
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   86:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/audio.h ****     typedef float* InterleavingOutputBuffer;
   87:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/audio.h **** 
   88:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/audio.h ****     /** Interleaving Audio Callback 
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 11
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 11
 
 
   89:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/audio.h ****      * Interleaving audio callbacks in daisy must be of this type
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   28:hardware.h    **** #define encoderPinA D11
   29:hardware.h    **** #define encoderPinB D10
   30:hardware.h    **** #define encoderPinClick D12
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 12
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 12
 
 
   31:hardware.h    **** 
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  165              		.cfi_offset 7, -16
  166              		.cfi_offset 8, -12
  167              		.cfi_offset 9, -8
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 13
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 13
 
 
  168              		.cfi_offset 14, -4
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  217              		.loc 9 73 28 view .LVU27
  218 0088 ADF80410 		strh	r1, [sp, #4]	@ movhi
  219 008c ADF80020 		strh	r2, [sp]	@ movhi
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 14
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 14
 
 
  220 0090 0822     		movs	r2, #8
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  270              		.cfi_restore 4
  271              		.cfi_def_cfa_offset 0
   77:hardware.h    **** 	encoder.Init(encoderPinA, encoderPinB, encoderPinClick);
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 15
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 15
 
 
  272              		.loc 9 77 14 view .LVU35
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  309              		.loc 2 36 47 is_stmt 0 view .LVU40
  310 0000 074B     		ldr	r3, .L15
  311 0002 1879     		ldrb	r0, [r3, #4]	@ zero_extendqisi2
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 16
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 16
 
 
  312              		.loc 2 36 56 view .LVU41
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  355              		@ link register save eliminated.
   96:hardware.h    **** 	float encoderInc = enc.Increment();
  356              		.loc 9 96 2 view .LVU48
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 17
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 17
 
 
  357              	.LBB202:
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  401              		.file 10 "sampleengine.h"
    1:sampleengine.h **** // ================================
    2:sampleengine.h **** // COMPANY: Feni Design
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 18
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 18
 
 
    3:sampleengine.h **** // AUTHOR: Dominic Frugoli
@@ -1036,65 +1036,66 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   15:sampleengine.h **** 
   16:sampleengine.h **** // |Audio Objects|---------------------------------------------------------------------------------
   17:sampleengine.h **** 
-  18:sampleengine.h **** #define numKeyPads 8
-  19:sampleengine.h **** #define MAX_SIZE (48000 * 60) // 60 seconds of floats at 48 khz
-  20:sampleengine.h **** float DSY_SDRAM_BSS buffer[MAX_SIZE];
-  21:sampleengine.h **** 
-  22:sampleengine.h **** float readIndex = 0; // index for reading buffer
-  23:sampleengine.h **** uint32_t readIndexInt;
-  24:sampleengine.h **** float readIndexFraction;
-  25:sampleengine.h **** float readFactor = 1; // playback speed
-  26:sampleengine.h **** float readPitch;
-  27:sampleengine.h **** uint32_t writeIndex = 0; // index for writing into buffer
-  28:sampleengine.h **** uint32_t recordingLength = MAX_SIZE; // tracks size of sample recording
-  29:sampleengine.h **** uint32_t lengthTrack = 0; // for tracking recording size while recording
-  30:sampleengine.h **** 
-  31:sampleengine.h **** uint32_t keyStartIndex[numKeyPads];
-  32:sampleengine.h **** uint32_t keyStopIndex[numKeyPads];
-  33:sampleengine.h **** uint32_t startPoint;
-  34:sampleengine.h **** uint32_t stopPoint;
-  35:sampleengine.h **** 
-  36:sampleengine.h **** bool isRecording = false;
-  37:sampleengine.h **** bool isPlaying = false;
-  38:sampleengine.h **** 
+  18:sampleengine.h **** 
+  19:sampleengine.h **** #define numKeyPads 8
+  20:sampleengine.h **** #define MAX_SIZE (48000 * 60) // 60 seconds of floats at 48 khz
+  21:sampleengine.h **** float DSY_SDRAM_BSS buffer[MAX_SIZE];
+  22:sampleengine.h **** 
+  23:sampleengine.h **** float readIndex = 0; // index for reading buffer
+  24:sampleengine.h **** uint32_t readIndexInt;
+  25:sampleengine.h **** float readIndexFraction;
+  26:sampleengine.h **** float readFactor = 1; // playback speed
+  27:sampleengine.h **** float readPitch;
+  28:sampleengine.h **** uint32_t writeIndex = 0; // index for writing into buffer
+  29:sampleengine.h **** uint32_t recordingLength = MAX_SIZE; // tracks size of sample recording
+  30:sampleengine.h **** uint32_t lengthTrack = 0; // for tracking recording size while recording
+  31:sampleengine.h **** 
+  32:sampleengine.h **** uint32_t keyStartIndex[numKeyPads];
+  33:sampleengine.h **** uint32_t keyStopIndex[numKeyPads];
+  34:sampleengine.h **** uint32_t startPoint;
+  35:sampleengine.h **** uint32_t stopPoint;
+  36:sampleengine.h **** 
+  37:sampleengine.h **** bool isRecording = false;
+  38:sampleengine.h **** bool isPlaying = false;
   39:sampleengine.h **** 
-  40:sampleengine.h **** // |Init Functions|--------------------------------------------------------------------------------
-  41:sampleengine.h **** 
+  40:sampleengine.h **** 
+  41:sampleengine.h **** // |Init Functions|--------------------------------------------------------------------------------
   42:sampleengine.h **** 
-  43:sampleengine.h **** void InitBuffer()
-  44:sampleengine.h **** {
- 402              		.loc 10 44 1 is_stmt 1 view -0
+  43:sampleengine.h **** 
+  44:sampleengine.h **** void InitBuffer()
+  45:sampleengine.h **** {
+ 402              		.loc 10 45 1 is_stmt 1 view -0
  403              		.cfi_startproc
  404              		@ args = 0, pretend = 0, frame = 0
  405              		@ frame_needed = 0, uses_anonymous_args = 0
  406              		@ link register save eliminated.
-  45:sampleengine.h ****     readIndex = 0.0f;
- 407              		.loc 10 45 5 view .LVU60
- 408              		.loc 10 45 15 is_stmt 0 view .LVU61
+  46:sampleengine.h ****     readIndex = 0.0f;
+ 407              		.loc 10 46 5 view .LVU60
+ 408              		.loc 10 46 15 is_stmt 0 view .LVU61
  409 0000 044B     		ldr	r3, .L23
  410 0002 4FF0000C 		mov	ip, #0
  411              	.LBB204:
-  46:sampleengine.h ****     for(uint32_t i = 0; i < MAX_SIZE; i++) // initializes buffer to all 0s
-  47:sampleengine.h ****     {
-  48:sampleengine.h ****         buffer[i] = 0.0f;
- 412              		.loc 10 48 19 view .LVU62
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 19
+  47:sampleengine.h ****     for(uint32_t i = 0; i < MAX_SIZE; i++) // initializes buffer to all 0s
+  48:sampleengine.h ****     {
+  49:sampleengine.h ****         buffer[i] = 0.0f;
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 19
 
 
+ 412              		.loc 10 49 19 view .LVU62
  413 0006 044A     		ldr	r2, .L23+4
  414 0008 0021     		movs	r1, #0
  415 000a 0448     		ldr	r0, .L23+8
  416              	.LBE204:
-  45:sampleengine.h ****     readIndex = 0.0f;
- 417              		.loc 10 45 15 view .LVU63
+  46:sampleengine.h ****     readIndex = 0.0f;
+ 417              		.loc 10 46 15 view .LVU63
  418 000c C3F800C0 		str	ip, [r3]	@ float
-  46:sampleengine.h ****     for(uint32_t i = 0; i < MAX_SIZE; i++) // initializes buffer to all 0s
- 419              		.loc 10 46 5 is_stmt 1 view .LVU64
+  47:sampleengine.h ****     for(uint32_t i = 0; i < MAX_SIZE; i++) // initializes buffer to all 0s
+ 419              		.loc 10 47 5 is_stmt 1 view .LVU64
  420              	.LVL18:
  421              	.LBB205:
-  46:sampleengine.h ****     for(uint32_t i = 0; i < MAX_SIZE; i++) // initializes buffer to all 0s
- 422              		.loc 10 46 27 view .LVU65
- 423              		.loc 10 48 19 is_stmt 0 view .LVU66
+  47:sampleengine.h ****     for(uint32_t i = 0; i < MAX_SIZE; i++) // initializes buffer to all 0s
+ 422              		.loc 10 47 27 view .LVU65
+ 423              		.loc 10 49 19 is_stmt 0 view .LVU66
  424 0010 FFF7FEBF 		b	memset
  425              	.LVL19:
  426              	.L24:
@@ -1116,40 +1117,40 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  444              	_Z12RecordSamplef:
  445              	.LVL20:
  446              	.LFB4686:
-  49:sampleengine.h ****     }
-  50:sampleengine.h **** }
-  51:sampleengine.h **** 
-  52:sampleengine.h **** void RecordSample(float sample) // Records sample from argument and moves forward write index
-  53:sampleengine.h **** {
- 447              		.loc 10 53 1 is_stmt 1 view -0
+  50:sampleengine.h ****     }
+  51:sampleengine.h **** }
+  52:sampleengine.h **** 
+  53:sampleengine.h **** void RecordSample(float sample) // Records sample from argument and moves forward write index
+  54:sampleengine.h **** {
+ 447              		.loc 10 54 1 is_stmt 1 view -0
  448              		.cfi_startproc
  449              		@ args = 0, pretend = 0, frame = 0
  450              		@ frame_needed = 0, uses_anonymous_args = 0
  451              		@ link register save eliminated.
-  54:sampleengine.h ****     buffer[writeIndex] = sample;
- 452              		.loc 10 54 5 view .LVU68
- 453              		.loc 10 54 22 is_stmt 0 view .LVU69
+  55:sampleengine.h ****     buffer[writeIndex] = sample;
+ 452              		.loc 10 55 5 view .LVU68
+ 453              		.loc 10 55 22 is_stmt 0 view .LVU69
  454 0000 0449     		ldr	r1, .L26
- 455              		.loc 10 54 24 view .LVU70
+ 455              		.loc 10 55 24 view .LVU70
  456 0002 054A     		ldr	r2, .L26+4
- 457              		.loc 10 54 22 view .LVU71
+ 457              		.loc 10 55 22 view .LVU71
  458 0004 0B68     		ldr	r3, [r1]
- 459              		.loc 10 54 24 view .LVU72
+ 459              		.loc 10 55 24 view .LVU72
  460 0006 02EB8302 		add	r2, r2, r3, lsl #2
-  55:sampleengine.h ****     writeIndex++;
- 461              		.loc 10 55 15 view .LVU73
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 20
+  56:sampleengine.h ****     writeIndex++;
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 20
 
 
+ 461              		.loc 10 56 15 view .LVU73
  462 000a 0133     		adds	r3, r3, #1
-  54:sampleengine.h ****     buffer[writeIndex] = sample;
- 463              		.loc 10 54 24 view .LVU74
+  55:sampleengine.h ****     buffer[writeIndex] = sample;
+ 463              		.loc 10 55 24 view .LVU74
  464 000c 82ED000A 		vstr.32	s0, [r2]
- 465              		.loc 10 55 5 is_stmt 1 view .LVU75
- 466              		.loc 10 55 15 is_stmt 0 view .LVU76
+ 465              		.loc 10 56 5 is_stmt 1 view .LVU75
+ 466              		.loc 10 56 15 is_stmt 0 view .LVU76
  467 0010 0B60     		str	r3, [r1]
-  56:sampleengine.h **** }
- 468              		.loc 10 56 1 view .LVU77
+  57:sampleengine.h **** }
+ 468              		.loc 10 57 1 view .LVU77
  469 0012 7047     		bx	lr
  470              	.L27:
  471              		.align	2
@@ -1167,110 +1168,110 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  484              		.thumb_func
  486              	_Z9GetSamplev:
  487              	.LFB4687:
-  57:sampleengine.h **** 
-  58:sampleengine.h **** float GetSample()
-  59:sampleengine.h **** {
- 488              		.loc 10 59 1 is_stmt 1 view -0
+  58:sampleengine.h **** 
+  59:sampleengine.h **** float GetSample()
+  60:sampleengine.h **** {
+ 488              		.loc 10 60 1 is_stmt 1 view -0
  489              		.cfi_startproc
  490              		@ args = 0, pretend = 0, frame = 0
  491              		@ frame_needed = 0, uses_anonymous_args = 0
  492              		@ link register save eliminated.
-  60:sampleengine.h ****     float a, b, out;
- 493              		.loc 10 60 5 view .LVU79
-  61:sampleengine.h **** 
-  62:sampleengine.h ****     readIndex += readFactor; // increase index by play speed
- 494              		.loc 10 62 5 view .LVU80
- 495              		.loc 10 62 15 is_stmt 0 view .LVU81
+  61:sampleengine.h ****     float a, b, out;
+ 493              		.loc 10 61 5 view .LVU79
+  62:sampleengine.h **** 
+  63:sampleengine.h ****     readIndex += readFactor; // increase index by play speed
+ 494              		.loc 10 63 5 view .LVU80
+ 495              		.loc 10 63 15 is_stmt 0 view .LVU81
  496 0000 1349     		ldr	r1, .L30
  497 0002 144A     		ldr	r2, .L30+4
  498 0004 D1ED007A 		vldr.32	s15, [r1]
  499 0008 92ED007A 		vldr.32	s14, [r2]
-  63:sampleengine.h **** 
-  64:sampleengine.h ****     readIndexInt = static_cast<int32_t>(readIndex);
-  65:sampleengine.h **** 	readIndexFraction = readIndex - readIndexInt;
-  66:sampleengine.h **** 
-  67:sampleengine.h **** 	a = buffer[readIndexInt]; // current sample
- 500              		.loc 10 67 4 view .LVU82
+  64:sampleengine.h **** 
+  65:sampleengine.h ****     readIndexInt = static_cast<int32_t>(readIndex);
+  66:sampleengine.h **** 	readIndexFraction = readIndex - readIndexInt;
+  67:sampleengine.h **** 
+  68:sampleengine.h **** 	a = buffer[readIndexInt]; // current sample
+ 500              		.loc 10 68 4 view .LVU82
  501 000c 124B     		ldr	r3, .L30+8
-  62:sampleengine.h **** 
- 502              		.loc 10 62 15 view .LVU83
+  63:sampleengine.h **** 
+ 502              		.loc 10 63 15 view .LVU83
  503 000e 77EE877A 		vadd.f32	s15, s15, s14
-  65:sampleengine.h **** 
- 504              		.loc 10 65 20 view .LVU84
+  66:sampleengine.h **** 
+ 504              		.loc 10 66 20 view .LVU84
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 21
+
+
  505 0012 1248     		ldr	r0, .L30+12
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 21
-
-
-  59:sampleengine.h ****     float a, b, out;
- 506              		.loc 10 59 1 view .LVU85
+  60:sampleengine.h ****     float a, b, out;
+ 506              		.loc 10 60 1 view .LVU85
  507 0014 10B4     		push	{r4}
  508              		.cfi_def_cfa_offset 4
  509              		.cfi_offset 4, -4
-  64:sampleengine.h **** 	readIndexFraction = readIndex - readIndexInt;
- 510              		.loc 10 64 20 view .LVU86
+  65:sampleengine.h **** 	readIndexFraction = readIndex - readIndexInt;
+ 510              		.loc 10 65 20 view .LVU86
  511 0016 BDEEE77A 		vcvt.s32.f32	s14, s15
-  62:sampleengine.h **** 
- 512              		.loc 10 62 15 view .LVU87
+  63:sampleengine.h **** 
+ 512              		.loc 10 63 15 view .LVU87
  513 001a C1ED007A 		vstr.32	s15, [r1]
-  64:sampleengine.h **** 	readIndexFraction = readIndex - readIndexInt;
- 514              		.loc 10 64 5 is_stmt 1 view .LVU88
-  64:sampleengine.h **** 	readIndexFraction = readIndex - readIndexInt;
- 515              		.loc 10 64 18 is_stmt 0 view .LVU89
+  65:sampleengine.h **** 	readIndexFraction = readIndex - readIndexInt;
+ 514              		.loc 10 65 5 is_stmt 1 view .LVU88
+  65:sampleengine.h **** 	readIndexFraction = readIndex - readIndexInt;
+ 515              		.loc 10 65 18 is_stmt 0 view .LVU89
  516 001e 104C     		ldr	r4, .L30+16
-  64:sampleengine.h **** 	readIndexFraction = readIndex - readIndexInt;
- 517              		.loc 10 64 20 view .LVU90
+  65:sampleengine.h **** 	readIndexFraction = readIndex - readIndexInt;
+ 517              		.loc 10 65 20 view .LVU90
  518 0020 17EE102A 		vmov	r2, s14	@ int
-  65:sampleengine.h **** 
- 519              		.loc 10 65 32 view .LVU91
+  66:sampleengine.h **** 
+ 519              		.loc 10 66 32 view .LVU91
  520 0024 F8EE476A 		vcvt.f32.u32	s13, s14
-  64:sampleengine.h **** 	readIndexFraction = readIndex - readIndexInt;
- 521              		.loc 10 64 18 view .LVU92
+  65:sampleengine.h **** 	readIndexFraction = readIndex - readIndexInt;
+ 521              		.loc 10 65 18 view .LVU92
  522 0028 84ED007A 		vstr.32	s14, [r4]	@ int
- 523              		.loc 10 67 4 view .LVU93
+ 523              		.loc 10 68 4 view .LVU93
  524 002c 03EB8201 		add	r1, r3, r2, lsl #2
-  65:sampleengine.h **** 
- 525              		.loc 10 65 2 is_stmt 1 view .LVU94
-  68:sampleengine.h **** 	b = buffer[readIndexInt + 1]; // next sample
-  69:sampleengine.h **** 	out = a + (b - a) * readIndexFraction; // Linear Interpolation
-  70:sampleengine.h **** 
-  71:sampleengine.h ****     return out;
-  72:sampleengine.h **** }
- 526              		.loc 10 72 1 is_stmt 0 view .LVU95
+  66:sampleengine.h **** 
+ 525              		.loc 10 66 2 is_stmt 1 view .LVU94
+  69:sampleengine.h **** 	b = buffer[readIndexInt + 1]; // next sample
+  70:sampleengine.h **** 	out = a + (b - a) * readIndexFraction; // Linear Interpolation
+  71:sampleengine.h **** 
+  72:sampleengine.h ****     return out;
+  73:sampleengine.h **** }
+ 526              		.loc 10 73 1 is_stmt 0 view .LVU95
  527 0030 5DF8044B 		ldr	r4, [sp], #4
  528              		.cfi_restore 4
  529              		.cfi_def_cfa_offset 0
-  65:sampleengine.h **** 
- 530              		.loc 10 65 32 view .LVU96
+  66:sampleengine.h **** 
+ 530              		.loc 10 66 32 view .LVU96
  531 0034 77EEE67A 		vsub.f32	s15, s15, s13
-  67:sampleengine.h **** 	b = buffer[readIndexInt + 1]; // next sample
- 532              		.loc 10 67 4 view .LVU97
+  68:sampleengine.h **** 	b = buffer[readIndexInt + 1]; // next sample
+ 532              		.loc 10 68 4 view .LVU97
  533 0038 91ED000A 		vldr.32	s0, [r1]
-  69:sampleengine.h **** 
- 534              		.loc 10 69 15 view .LVU98
+  70:sampleengine.h **** 
+ 534              		.loc 10 70 15 view .LVU98
  535 003c 91ED017A 		vldr.32	s14, [r1, #4]
-  65:sampleengine.h **** 
- 536              		.loc 10 65 20 view .LVU99
+  66:sampleengine.h **** 
+ 536              		.loc 10 66 20 view .LVU99
  537 0040 C0ED007A 		vstr.32	s15, [r0]
-  67:sampleengine.h **** 	b = buffer[readIndexInt + 1]; // next sample
- 538              		.loc 10 67 2 is_stmt 1 view .LVU100
+  68:sampleengine.h **** 	b = buffer[readIndexInt + 1]; // next sample
+ 538              		.loc 10 68 2 is_stmt 1 view .LVU100
  539              	.LVL21:
-  68:sampleengine.h **** 	out = a + (b - a) * readIndexFraction; // Linear Interpolation
- 540              		.loc 10 68 2 view .LVU101
-  69:sampleengine.h **** 
- 541              		.loc 10 69 2 view .LVU102
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 22
+  69:sampleengine.h **** 	out = a + (b - a) * readIndexFraction; // Linear Interpolation
+ 540              		.loc 10 69 2 view .LVU101
+  70:sampleengine.h **** 
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 22
 
 
-  69:sampleengine.h **** 
- 542              		.loc 10 69 15 is_stmt 0 view .LVU103
+ 541              		.loc 10 70 2 view .LVU102
+  70:sampleengine.h **** 
+ 542              		.loc 10 70 15 is_stmt 0 view .LVU103
  543 0044 37EE407A 		vsub.f32	s14, s14, s0
  544              	.LVL22:
-  71:sampleengine.h **** }
- 545              		.loc 10 71 5 is_stmt 1 view .LVU104
- 546              		.loc 10 72 1 is_stmt 0 view .LVU105
+  72:sampleengine.h **** }
+ 545              		.loc 10 72 5 is_stmt 1 view .LVU104
+ 546              		.loc 10 73 1 is_stmt 0 view .LVU105
  547 0048 A7EE870A 		vfma.f32	s0, s15, s14
  548              	.LVL23:
- 549              		.loc 10 72 1 view .LVU106
+ 549              		.loc 10 73 1 view .LVU106
  550 004c 7047     		bx	lr
  551              	.L31:
  552 004e 00BF     		.align	2
@@ -1291,7 +1292,6 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  568              		.thumb_func
  570              	_Z12SetKeyIndexsv:
  571              	.LFB4688:
-  73:sampleengine.h **** 
   74:sampleengine.h **** 
   75:sampleengine.h **** void SetKeyIndexs()
   76:sampleengine.h **** {
@@ -1318,7 +1318,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   76:sampleengine.h ****     for(int i = 0; i < numKeyPads; i++)
  588              		.loc 10 76 1 view .LVU112
  589 0008 30B4     		push	{r4, r5}
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 23
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 23
 
 
  590              		.cfi_def_cfa_offset 8
@@ -1378,7 +1378,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  637              		.p2align 2,,3
  638              		.global	_Z13GetStartPointv
  639              		.syntax unified
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 24
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 24
 
 
  640              		.thumb
@@ -1438,7 +1438,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  687 0008 00000000 		.word	.LANCHOR11
  688              		.cfi_endproc
  689              	.LFE4690:
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 25
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 25
 
 
  691              		.section	.text._Z7InitLCDv,"ax",%progbits
@@ -1498,7 +1498,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   45:display.h     **** 
   46:display.h     **** 
   47:display.h     **** void InitLCD()
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 26
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 26
 
 
   48:display.h     **** {
@@ -1558,7 +1558,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   56:display.h     **** 	lcd_config.d7 = PIN_LCD_D7;
  735              		.loc 11 56 16 is_stmt 0 view .LVU149
  736 0020 8DF80B10 		strb	r1, [sp, #11]
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 27
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 27
 
 
  737              		.loc 11 58 10 view .LVU150
@@ -1618,7 +1618,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  777 005c 00000000 		.word	.LANCHOR12
  778 0060 00000000 		.word	.LANCHOR13
  779              		.cfi_endproc
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 28
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 28
 
 
  780              	.LFE4691:
@@ -1678,7 +1678,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   69:display.h     **** 	{
   70:display.h     **** 		lcd.Print("Play Mode       ");
   71:display.h     **** 	}
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 29
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 29
 
 
   72:display.h     **** 	else if(mode == edit)
@@ -1738,7 +1738,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  859              		.section	.text._Z13IncrementMenui,"ax",%progbits
  860              		.align	1
  861              		.p2align 2,,3
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 30
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 30
 
 
  862              		.global	_Z13IncrementMenui
@@ -1798,7 +1798,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  899 0014 022B     		cmp	r3, #2
  900 0016 F8D1     		bne	.L59
   86:display.h     **** 	}
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 31
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 31
 
 
  901              		.loc 11 86 3 is_stmt 1 view .LVU193
@@ -1858,7 +1858,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   25:sardinia.cpp  **** // |Hardware Instantiations|-----------------------------------------------------------------------
   26:sardinia.cpp  **** 
   27:sardinia.cpp  **** 
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 32
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 32
 
 
   28:sardinia.cpp  **** DaisySeed hw;
@@ -1866,213 +1866,214 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   30:sardinia.cpp  **** 
   31:sardinia.cpp  **** // |Audio Objects + Variables|---------------------------------------------------------------------
   32:sardinia.cpp  **** 
-  33:sardinia.cpp  **** float outputMix;
-  34:sardinia.cpp  **** float sampleSig;
-  35:sardinia.cpp  **** float inputSig;
-  36:sardinia.cpp  **** float outputAmp = 0.5f;
-  37:sardinia.cpp  **** 
-  38:sardinia.cpp  **** int testVal;
-  39:sardinia.cpp  **** 
-  40:sardinia.cpp  **** uint32_t GetStartIndex();
-  41:sardinia.cpp  **** uint32_t GetStopIndex();
-  42:sardinia.cpp  **** 
+  33:sardinia.cpp  **** 
+  34:sardinia.cpp  **** float outputMix;
+  35:sardinia.cpp  **** float sampleSig;
+  36:sardinia.cpp  **** float inputSig;
+  37:sardinia.cpp  **** float outputAmp = 0.5f;
+  38:sardinia.cpp  **** 
+  39:sardinia.cpp  **** int testVal;
+  40:sardinia.cpp  **** 
+  41:sardinia.cpp  **** uint32_t GetStartIndex();
+  42:sardinia.cpp  **** uint32_t GetStopIndex();
   43:sardinia.cpp  **** 
-  44:sardinia.cpp  **** // |Main Setup and Audio Callback|-----------------------------------------------------------------
-  45:sardinia.cpp  **** 
+  44:sardinia.cpp  **** 
+  45:sardinia.cpp  **** // |Main Setup and Audio Callback|-----------------------------------------------------------------
   46:sardinia.cpp  **** 
-  47:sardinia.cpp  **** void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, size_t size)
-  48:sardinia.cpp  **** {
-  49:sardinia.cpp  **** 	ProcessControlsKR();
-  50:sardinia.cpp  **** 
-  51:sardinia.cpp  **** 	for (size_t i = 0; i < size; i++)
-  52:sardinia.cpp  **** 	{
-  53:sardinia.cpp  **** 		sampleSig = 0; // Reset signal values to 0 in case no sample is being played
-  54:sardinia.cpp  **** 		outputMix = 0;
-  55:sardinia.cpp  **** 
-  56:sardinia.cpp  **** 		ProcessControlsAR();
-  57:sardinia.cpp  **** 
-  58:sardinia.cpp  **** 		inputSig = (in[0][i] + in[1][i]) * 0.5f;
-  59:sardinia.cpp  **** 		
-  60:sardinia.cpp  **** 		if(isRecording)
-  61:sardinia.cpp  **** 		{
-  62:sardinia.cpp  **** 			RecordSample((inputSig)); // Record the input and increment the sample length tracker
-  63:sardinia.cpp  **** 			lengthTrack++;
-  64:sardinia.cpp  **** 		}
-  65:sardinia.cpp  **** 
-  66:sardinia.cpp  **** 		if(isPlaying)
-  67:sardinia.cpp  **** 		{
-  68:sardinia.cpp  **** 			sampleSig = GetSample();
-  69:sardinia.cpp  **** 			if(readIndex > recordingLength) // recordingLength dynamically changes the size of sample based 
-  70:sardinia.cpp  **** 			{
-  71:sardinia.cpp  **** 				readIndex = 0;
-  72:sardinia.cpp  **** 			}
-  73:sardinia.cpp  **** 		}
-  74:sardinia.cpp  **** 
-  75:sardinia.cpp  **** 		
-  76:sardinia.cpp  **** 		outputMix = inputSig + sampleSig; // Mix the sample playback with the input
-  77:sardinia.cpp  **** 		outputMix *= outputAmp;
-  78:sardinia.cpp  **** 
-  79:sardinia.cpp  **** 		// Output the mixed signals
-  80:sardinia.cpp  ****         out[0][i] = outputMix;
-  81:sardinia.cpp  **** 		out[1][i] = outputMix;
-  82:sardinia.cpp  **** 	}
-  83:sardinia.cpp  **** }
-  84:sardinia.cpp  **** 
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 33
+  47:sardinia.cpp  **** 
+  48:sardinia.cpp  **** void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, size_t size)
+  49:sardinia.cpp  **** {
+  50:sardinia.cpp  **** 	ProcessControlsKR();
+  51:sardinia.cpp  **** 
+  52:sardinia.cpp  **** 	for (size_t i = 0; i < size; i++)
+  53:sardinia.cpp  **** 	{
+  54:sardinia.cpp  **** 		sampleSig = 0; // Reset signal values to 0 in case no sample is being played
+  55:sardinia.cpp  **** 		outputMix = 0;
+  56:sardinia.cpp  **** 
+  57:sardinia.cpp  **** 		ProcessControlsAR();
+  58:sardinia.cpp  **** 
+  59:sardinia.cpp  **** 		inputSig = (in[0][i] + in[1][i]) * 0.5f;
+  60:sardinia.cpp  **** 		
+  61:sardinia.cpp  **** 		if(isRecording)
+  62:sardinia.cpp  **** 		{
+  63:sardinia.cpp  **** 			RecordSample((inputSig)); // Record the input and increment the sample length tracker
+  64:sardinia.cpp  **** 			lengthTrack++;
+  65:sardinia.cpp  **** 		}
+  66:sardinia.cpp  **** 
+  67:sardinia.cpp  **** 		if(isPlaying)
+  68:sardinia.cpp  **** 		{
+  69:sardinia.cpp  **** 			sampleSig = GetSample();
+  70:sardinia.cpp  **** 			if(readIndex > recordingLength) // recordingLength dynamically changes the size of sample based 
+  71:sardinia.cpp  **** 			{
+  72:sardinia.cpp  **** 				readIndex = 0;
+  73:sardinia.cpp  **** 			}
+  74:sardinia.cpp  **** 		}
+  75:sardinia.cpp  **** 
+  76:sardinia.cpp  **** 		
+  77:sardinia.cpp  **** 		outputMix = inputSig + sampleSig; // Mix the sample playback with the input
+  78:sardinia.cpp  **** 		outputMix *= outputAmp;
+  79:sardinia.cpp  **** 
+  80:sardinia.cpp  **** 		// Output the mixed signals
+  81:sardinia.cpp  ****         out[0][i] = outputMix;
+  82:sardinia.cpp  **** 		out[1][i] = outputMix;
+  83:sardinia.cpp  **** 	}
+  84:sardinia.cpp  **** }
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 33
 
 
-  85:sardinia.cpp  **** int main(void)
-  86:sardinia.cpp  **** {
- 930              		.loc 12 86 1 is_stmt 1 view -0
+  85:sardinia.cpp  **** 
+  86:sardinia.cpp  **** int main(void)
+  87:sardinia.cpp  **** {
+ 930              		.loc 12 87 1 is_stmt 1 view -0
  931              		.cfi_startproc
  932              		@ Volatile: function does not return.
  933              		@ args = 0, pretend = 0, frame = 0
  934              		@ frame_needed = 0, uses_anonymous_args = 0
+  88:sardinia.cpp  **** 	hw.Init();
+ 935              		.loc 12 88 2 view .LVU198
   87:sardinia.cpp  **** 	hw.Init();
- 935              		.loc 12 87 2 view .LVU198
-  86:sardinia.cpp  **** 	hw.Init();
- 936              		.loc 12 86 1 is_stmt 0 view .LVU199
+ 936              		.loc 12 87 1 is_stmt 0 view .LVU199
  937 0000 08B5     		push	{r3, lr}
  938              		.cfi_def_cfa_offset 8
  939              		.cfi_offset 3, -8
  940              		.cfi_offset 14, -4
- 941              		.loc 12 87 9 view .LVU200
+ 941              		.loc 12 88 9 view .LVU200
  942 0002 0021     		movs	r1, #0
  943 0004 1A48     		ldr	r0, .L73
  944 0006 FFF7FEFF 		bl	_ZN5daisy9DaisySeed4InitEb
  945              	.LVL36:
-  88:sardinia.cpp  **** 	hw.SetAudioBlockSize(4); // number of samples handled per callback
- 946              		.loc 12 88 2 is_stmt 1 view .LVU201
- 947              		.loc 12 88 22 is_stmt 0 view .LVU202
+  89:sardinia.cpp  **** 	hw.SetAudioBlockSize(4); // number of samples handled per callback
+ 946              		.loc 12 89 2 is_stmt 1 view .LVU201
+ 947              		.loc 12 89 22 is_stmt 0 view .LVU202
  948 000a 0421     		movs	r1, #4
  949 000c 1848     		ldr	r0, .L73
  950 000e FFF7FEFF 		bl	_ZN5daisy9DaisySeed17SetAudioBlockSizeEj
  951              	.LVL37:
-  89:sardinia.cpp  **** 	hw.SetAudioSampleRate(SaiHandle::Config::SampleRate::SAI_48KHZ);
- 952              		.loc 12 89 2 is_stmt 1 view .LVU203
- 953              		.loc 12 89 23 is_stmt 0 view .LVU204
+  90:sardinia.cpp  **** 	hw.SetAudioSampleRate(SaiHandle::Config::SampleRate::SAI_48KHZ);
+ 952              		.loc 12 90 2 is_stmt 1 view .LVU203
+ 953              		.loc 12 90 23 is_stmt 0 view .LVU204
  954 0012 0321     		movs	r1, #3
  955 0014 1648     		ldr	r0, .L73
  956 0016 FFF7FEFF 		bl	_ZN5daisy9DaisySeed18SetAudioSampleRateENS_9SaiHandle6Config10SampleRateE
  957              	.LVL38:
-  90:sardinia.cpp  **** 	//float sampleRate = hw.AudioSampleRate();
-  91:sardinia.cpp  **** 
-  92:sardinia.cpp  **** 	InitLCD();
- 958              		.loc 12 92 2 is_stmt 1 view .LVU205
- 959              		.loc 12 92 9 is_stmt 0 view .LVU206
+  91:sardinia.cpp  **** 	//float sampleRate = hw.AudioSampleRate();
+  92:sardinia.cpp  **** 
+  93:sardinia.cpp  **** 	InitLCD();
+ 958              		.loc 12 93 2 is_stmt 1 view .LVU205
+ 959              		.loc 12 93 9 is_stmt 0 view .LVU206
  960 001a FFF7FEFF 		bl	_Z7InitLCDv
  961              	.LVL39:
-  93:sardinia.cpp  **** 	InitControls();
- 962              		.loc 12 93 2 is_stmt 1 view .LVU207
- 963              		.loc 12 93 14 is_stmt 0 view .LVU208
+  94:sardinia.cpp  **** 	InitControls();
+ 962              		.loc 12 94 2 is_stmt 1 view .LVU207
+ 963              		.loc 12 94 14 is_stmt 0 view .LVU208
  964 001e FFF7FEFF 		bl	_Z12InitControlsv
  965              	.LVL40:
-  94:sardinia.cpp  **** 	hw.adc.Init(adcConfig, NUM_ADC_CHANNELS); //initializes adc system using the config and number of 
- 966              		.loc 12 94 2 is_stmt 1 view .LVU209
- 967              		.loc 12 94 13 is_stmt 0 view .LVU210
+  95:sardinia.cpp  **** 	hw.adc.Init(adcConfig, NUM_ADC_CHANNELS); //initializes adc system using the config and number of 
+ 966              		.loc 12 95 2 is_stmt 1 view .LVU209
+ 967              		.loc 12 95 13 is_stmt 0 view .LVU210
  968 0022 0423     		movs	r3, #4
  969 0024 0222     		movs	r2, #2
  970 0026 1349     		ldr	r1, .L73+4
  971 0028 1348     		ldr	r0, .L73+8
  972 002a FFF7FEFF 		bl	_ZN5daisy9AdcHandle4InitEPNS_16AdcChannelConfigEjNS0_12OverSamplingE
  973              	.LVL41:
-  95:sardinia.cpp  **** 	hw.adc.Start();
- 974              		.loc 12 95 2 is_stmt 1 view .LVU211
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 34
+  96:sardinia.cpp  **** 	hw.adc.Start();
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 34
 
 
- 975              		.loc 12 95 14 is_stmt 0 view .LVU212
+ 974              		.loc 12 96 2 is_stmt 1 view .LVU211
+ 975              		.loc 12 96 14 is_stmt 0 view .LVU212
  976 002e 1248     		ldr	r0, .L73+8
  977 0030 FFF7FEFF 		bl	_ZN5daisy9AdcHandle5StartEv
  978              	.LVL42:
-  96:sardinia.cpp  **** 	
-  97:sardinia.cpp  **** 	InitBuffer(); // Initialize buffer to all 0s
- 979              		.loc 12 97 2 is_stmt 1 view .LVU213
+  97:sardinia.cpp  **** 	
+  98:sardinia.cpp  **** 	InitBuffer(); // Initialize buffer to all 0s
+ 979              		.loc 12 98 2 is_stmt 1 view .LVU213
  980              	.LBB213:
  981              	.LBI213:
-  43:sampleengine.h **** {
- 982              		.loc 10 43 6 view .LVU214
+  44:sampleengine.h **** {
+ 982              		.loc 10 44 6 view .LVU214
  983              	.LBB214:
-  45:sampleengine.h ****     for(uint32_t i = 0; i < MAX_SIZE; i++) // initializes buffer to all 0s
- 984              		.loc 10 45 5 view .LVU215
-  45:sampleengine.h ****     for(uint32_t i = 0; i < MAX_SIZE; i++) // initializes buffer to all 0s
- 985              		.loc 10 45 15 is_stmt 0 view .LVU216
+  46:sampleengine.h ****     for(uint32_t i = 0; i < MAX_SIZE; i++) // initializes buffer to all 0s
+ 984              		.loc 10 46 5 view .LVU215
+  46:sampleengine.h ****     for(uint32_t i = 0; i < MAX_SIZE; i++) // initializes buffer to all 0s
+ 985              		.loc 10 46 15 is_stmt 0 view .LVU216
  986 0034 114B     		ldr	r3, .L73+12
  987 0036 4FF0000C 		mov	ip, #0
  988              	.LBB215:
-  48:sampleengine.h ****     }
- 989              		.loc 10 48 19 view .LVU217
+  49:sampleengine.h ****     }
+ 989              		.loc 10 49 19 view .LVU217
  990 003a 0021     		movs	r1, #0
  991 003c 104A     		ldr	r2, .L73+16
  992 003e 1148     		ldr	r0, .L73+20
  993              	.LBE215:
-  45:sampleengine.h ****     for(uint32_t i = 0; i < MAX_SIZE; i++) // initializes buffer to all 0s
- 994              		.loc 10 45 15 view .LVU218
+  46:sampleengine.h ****     for(uint32_t i = 0; i < MAX_SIZE; i++) // initializes buffer to all 0s
+ 994              		.loc 10 46 15 view .LVU218
  995 0040 C3F800C0 		str	ip, [r3]	@ float
-  46:sampleengine.h ****     {
- 996              		.loc 10 46 5 is_stmt 1 view .LVU219
+  47:sampleengine.h ****     {
+ 996              		.loc 10 47 5 is_stmt 1 view .LVU219
  997              	.LVL43:
  998              	.LBB216:
-  46:sampleengine.h ****     {
- 999              		.loc 10 46 27 view .LVU220
-  48:sampleengine.h ****     }
- 1000              		.loc 10 48 19 is_stmt 0 view .LVU221
+  47:sampleengine.h ****     {
+ 999              		.loc 10 47 27 view .LVU220
+  49:sampleengine.h ****     }
+ 1000              		.loc 10 49 19 is_stmt 0 view .LVU221
  1001 0044 FFF7FEFF 		bl	memset
  1002              	.LVL44:
-  48:sampleengine.h ****     }
- 1003              		.loc 10 48 19 view .LVU222
+  49:sampleengine.h ****     }
+ 1003              		.loc 10 49 19 view .LVU222
  1004              	.LBE216:
  1005              	.LBE214:
  1006              	.LBE213:
-  98:sardinia.cpp  **** 
-  99:sardinia.cpp  **** 	//hw.StartLog(true); // Use for serial testing. COMMENT OUT WHEN NOT USING!!
- 100:sardinia.cpp  **** 
- 101:sardinia.cpp  **** 	hw.StartAudio(AudioCallback);
- 1007              		.loc 12 101 2 is_stmt 1 view .LVU223
- 1008              		.loc 12 101 15 is_stmt 0 view .LVU224
+  99:sardinia.cpp  **** 
+ 100:sardinia.cpp  **** 	//hw.StartLog(true); // Use for serial testing. COMMENT OUT WHEN NOT USING!!
+ 101:sardinia.cpp  **** 
+ 102:sardinia.cpp  **** 	hw.StartAudio(AudioCallback);
+ 1007              		.loc 12 102 2 is_stmt 1 view .LVU223
+ 1008              		.loc 12 102 15 is_stmt 0 view .LVU224
  1009 0048 0F49     		ldr	r1, .L73+24
  1010 004a 0948     		ldr	r0, .L73
  1011 004c FFF7FEFF 		bl	_ZN5daisy9DaisySeed10StartAudioEPFvPKPKfPPfjE
  1012              	.LVL45:
  1013              	.L71:
- 102:sardinia.cpp  **** 
- 103:sardinia.cpp  **** 	while(1)
- 1014              		.loc 12 103 2 is_stmt 1 discriminator 1 view .LVU225
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 35
+ 103:sardinia.cpp  **** 
+ 104:sardinia.cpp  **** 	while(1)
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 35
 
 
- 104:sardinia.cpp  **** 	{
- 105:sardinia.cpp  **** 		lcd.SetCursor(0, 0);
- 1015              		.loc 12 105 3 discriminator 1 view .LVU226
- 1016              		.loc 12 105 16 is_stmt 0 discriminator 1 view .LVU227
+ 1014              		.loc 12 104 2 is_stmt 1 discriminator 1 view .LVU225
+ 105:sardinia.cpp  **** 	{
+ 106:sardinia.cpp  **** 		lcd.SetCursor(0, 0);
+ 1015              		.loc 12 106 3 discriminator 1 view .LVU226
+ 1016              		.loc 12 106 16 is_stmt 0 discriminator 1 view .LVU227
  1017 0050 0022     		movs	r2, #0
  1018 0052 0E48     		ldr	r0, .L73+28
  1019 0054 1146     		mov	r1, r2
  1020 0056 FFF7FEFF 		bl	_ZN5daisy10LcdHD447809SetCursorEhh
  1021              	.LVL46:
- 106:sardinia.cpp  **** 		PrintMenu();
- 1022              		.loc 12 106 3 is_stmt 1 discriminator 1 view .LVU228
- 1023              		.loc 12 106 12 is_stmt 0 discriminator 1 view .LVU229
+ 107:sardinia.cpp  **** 		PrintMenu();
+ 1022              		.loc 12 107 3 is_stmt 1 discriminator 1 view .LVU228
+ 1023              		.loc 12 107 12 is_stmt 0 discriminator 1 view .LVU229
  1024 005a FFF7FEFF 		bl	_Z9PrintMenuv
  1025              	.LVL47:
- 107:sardinia.cpp  **** 		lcd.SetCursor(1, 0);
- 1026              		.loc 12 107 3 is_stmt 1 discriminator 1 view .LVU230
- 1027              		.loc 12 107 16 is_stmt 0 discriminator 1 view .LVU231
+ 108:sardinia.cpp  **** 		lcd.SetCursor(1, 0);
+ 1026              		.loc 12 108 3 is_stmt 1 discriminator 1 view .LVU230
+ 1027              		.loc 12 108 16 is_stmt 0 discriminator 1 view .LVU231
  1028 005e 0022     		movs	r2, #0
  1029 0060 0121     		movs	r1, #1
  1030 0062 0A48     		ldr	r0, .L73+28
  1031 0064 FFF7FEFF 		bl	_ZN5daisy10LcdHD447809SetCursorEhh
  1032              	.LVL48:
- 108:sardinia.cpp  **** 		//lcd.PrintInt(testVal); // UNCOMMENT IF WANTING TO TEST A VALUE (USE "testVal" VARIABLE)
- 109:sardinia.cpp  **** 
- 110:sardinia.cpp  **** 		System::Delay(50);
- 1033              		.loc 12 110 3 is_stmt 1 discriminator 1 view .LVU232
- 1034              		.loc 12 110 16 is_stmt 0 discriminator 1 view .LVU233
+ 109:sardinia.cpp  **** 		//lcd.PrintInt(testVal); // UNCOMMENT IF WANTING TO TEST A VALUE (USE "testVal" VARIABLE)
+ 110:sardinia.cpp  **** 
+ 111:sardinia.cpp  **** 		System::Delay(50);
+ 1033              		.loc 12 111 3 is_stmt 1 discriminator 1 view .LVU232
+ 1034              		.loc 12 111 16 is_stmt 0 discriminator 1 view .LVU233
  1035 0068 3220     		movs	r0, #50
  1036 006a FFF7FEFF 		bl	_ZN5daisy6System5DelayEm
  1037              	.LVL49:
- 103:sardinia.cpp  **** 	{
- 1038              		.loc 12 103 2 is_stmt 1 discriminator 1 view .LVU234
+ 104:sardinia.cpp  **** 	{
+ 1038              		.loc 12 104 2 is_stmt 1 discriminator 1 view .LVU234
  1039 006e EFE7     		b	.L71
  1040              	.L74:
  1041              		.align	2
@@ -2096,57 +2097,57 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1060              		.thumb_func
  1062              	_Z17ProcessControlsKRv:
  1063              	.LFB4696:
- 111:sardinia.cpp  **** 	}
- 112:sardinia.cpp  **** }
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 36
+ 112:sardinia.cpp  **** 	}
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 36
 
 
- 113:sardinia.cpp  **** 
+ 113:sardinia.cpp  **** }
  114:sardinia.cpp  **** 
- 115:sardinia.cpp  **** // |Offboard Control Functions|--------------------------------------------------------------------
- 116:sardinia.cpp  **** 
+ 115:sardinia.cpp  **** 
+ 116:sardinia.cpp  **** // |Offboard Control Functions|--------------------------------------------------------------------
  117:sardinia.cpp  **** 
- 118:sardinia.cpp  **** void ProcessControlsKR() // For controls that only need to be processed every audio block
- 119:sardinia.cpp  **** {
- 1064              		.loc 12 119 1 view -0
+ 118:sardinia.cpp  **** 
+ 119:sardinia.cpp  **** void ProcessControlsKR() // For controls that only need to be processed every audio block
+ 120:sardinia.cpp  **** {
+ 1064              		.loc 12 120 1 view -0
  1065              		.cfi_startproc
  1066              		@ args = 0, pretend = 0, frame = 0
  1067              		@ frame_needed = 0, uses_anonymous_args = 0
+ 121:sardinia.cpp  **** 	recButton.Debounce();
+ 1068              		.loc 12 121 2 view .LVU236
  120:sardinia.cpp  **** 	recButton.Debounce();
- 1068              		.loc 12 120 2 view .LVU236
- 119:sardinia.cpp  **** 	recButton.Debounce();
- 1069              		.loc 12 119 1 is_stmt 0 view .LVU237
+ 1069              		.loc 12 120 1 is_stmt 0 view .LVU237
  1070 0000 10B5     		push	{r4, lr}
  1071              		.cfi_def_cfa_offset 8
  1072              		.cfi_offset 4, -8
  1073              		.cfi_offset 14, -4
- 1074              		.loc 12 120 20 view .LVU238
+ 1074              		.loc 12 121 20 view .LVU238
  1075 0002 474C     		ldr	r4, .L105
- 119:sardinia.cpp  **** 	recButton.Debounce();
- 1076              		.loc 12 119 1 view .LVU239
+ 120:sardinia.cpp  **** 	recButton.Debounce();
+ 1076              		.loc 12 120 1 view .LVU239
  1077 0004 2DED028B 		vpush.64	{d8}
  1078              		.cfi_def_cfa_offset 16
  1079              		.cfi_offset 80, -16
  1080              		.cfi_offset 81, -12
- 1081              		.loc 12 120 20 view .LVU240
+ 1081              		.loc 12 121 20 view .LVU240
  1082 0008 2046     		mov	r0, r4
  1083 000a FFF7FEFF 		bl	_ZN5daisy6Switch8DebounceEv
  1084              	.LVL50:
- 121:sardinia.cpp  **** 	playButton.Debounce();
- 1085              		.loc 12 121 2 is_stmt 1 view .LVU241
- 1086              		.loc 12 121 21 is_stmt 0 view .LVU242
+ 122:sardinia.cpp  **** 	playButton.Debounce();
+ 1085              		.loc 12 122 2 is_stmt 1 view .LVU241
+ 1086              		.loc 12 122 21 is_stmt 0 view .LVU242
  1087 000e 4548     		ldr	r0, .L105+4
  1088 0010 FFF7FEFF 		bl	_ZN5daisy6Switch8DebounceEv
  1089              	.LVL51:
- 122:sardinia.cpp  **** 	encoder.Debounce();
- 1090              		.loc 12 122 2 is_stmt 1 view .LVU243
- 1091              		.loc 12 122 18 is_stmt 0 view .LVU244
+ 123:sardinia.cpp  **** 	encoder.Debounce();
+ 1090              		.loc 12 123 2 is_stmt 1 view .LVU243
+ 1091              		.loc 12 123 18 is_stmt 0 view .LVU244
  1092 0014 4448     		ldr	r0, .L105+8
  1093 0016 FFF7FEFF 		bl	_ZN5daisy7Encoder8DebounceEv
  1094              	.LVL52:
- 123:sardinia.cpp  **** 
- 124:sardinia.cpp  **** 	if(recButton.RisingEdge()) // Starts recording from start on press and resets the length track
- 1095              		.loc 12 124 2 is_stmt 1 view .LVU245
+ 124:sardinia.cpp  **** 
+ 125:sardinia.cpp  **** 	if(recButton.RisingEdge()) // Starts recording from start on press and resets the length track
+ 1095              		.loc 12 125 2 is_stmt 1 view .LVU245
  1096              	.LBB248:
  1097              	.LBI248:
   43:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/switch.h **** 
@@ -2157,10 +2158,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   48:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/switch.h ****     \param t switch type -- Default: TYPE_MOMENTARY
   49:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/switch.h ****     \param pol switch polarity -- Default: POLARITY_INVERTED
   50:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/switch.h ****     \param pu switch pull up/down -- Default: PULL_UP
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 37
+
+
   51:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/switch.h ****     */
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 37
-
-
   52:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/switch.h ****     void
   53:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/switch.h ****     Init(dsy_gpio_pin pin, float update_rate, Type t, Polarity pol, Pull pu);
   54:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/switch.h **** 
@@ -2192,42 +2193,42 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1107              		.loc 1 70 56 view .LVU250
  1108              	.LBE249:
  1109              	.LBE248:
- 1110              		.loc 12 124 2 view .LVU251
+ 1110              		.loc 12 125 2 view .LVU251
  1111 0020 7F2B     		cmp	r3, #127
  1112 0022 4FD1     		bne	.L77
- 125:sardinia.cpp  **** 	{
- 126:sardinia.cpp  **** 		isRecording = true;
- 1113              		.loc 12 126 3 is_stmt 1 view .LVU252
- 1114              		.loc 12 126 15 is_stmt 0 view .LVU253
+ 126:sardinia.cpp  **** 	{
+ 127:sardinia.cpp  **** 		isRecording = true;
+ 1113              		.loc 12 127 3 is_stmt 1 view .LVU252
+ 1114              		.loc 12 127 15 is_stmt 0 view .LVU253
  1115 0024 4149     		ldr	r1, .L105+12
  1116 0026 0120     		movs	r0, #1
- 127:sardinia.cpp  **** 		lengthTrack = 0;
- 1117              		.loc 12 127 15 view .LVU254
+ 128:sardinia.cpp  **** 		lengthTrack = 0;
+ 1117              		.loc 12 128 15 view .LVU254
  1118 0028 414B     		ldr	r3, .L105+16
  1119 002a 0022     		movs	r2, #0
- 126:sardinia.cpp  **** 		lengthTrack = 0;
- 1120              		.loc 12 126 15 view .LVU255
+ 127:sardinia.cpp  **** 		lengthTrack = 0;
+ 1120              		.loc 12 127 15 view .LVU255
  1121 002c 0870     		strb	r0, [r1]
- 1122              		.loc 12 127 3 is_stmt 1 view .LVU256
- 1123              		.loc 12 127 15 is_stmt 0 view .LVU257
+ 1122              		.loc 12 128 3 is_stmt 1 view .LVU256
+ 1123              		.loc 12 128 15 is_stmt 0 view .LVU257
  1124 002e 1A60     		str	r2, [r3]
  1125              	.L76:
- 128:sardinia.cpp  **** 	}
- 129:sardinia.cpp  **** 	else if(recButton.FallingEdge()) // Stops recording when let go, resets write index, and assigns r
- 130:sardinia.cpp  **** 	{
- 131:sardinia.cpp  **** 		isRecording = false;
- 132:sardinia.cpp  **** 		writeIndex = 0;
- 133:sardinia.cpp  **** 		recordingLength = lengthTrack;
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 38
+ 129:sardinia.cpp  **** 	}
+ 130:sardinia.cpp  **** 	else if(recButton.FallingEdge()) // Stops recording when let go, resets write index, and assigns r
+ 131:sardinia.cpp  **** 	{
+ 132:sardinia.cpp  **** 		isRecording = false;
+ 133:sardinia.cpp  **** 		writeIndex = 0;
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 38
 
 
- 134:sardinia.cpp  **** 		SetKeyIndexs();
- 135:sardinia.cpp  **** 		startPoint = GetStartPoint();
- 136:sardinia.cpp  **** 		stopPoint = GetStopPoint();
- 137:sardinia.cpp  **** 	}
- 138:sardinia.cpp  **** 
- 139:sardinia.cpp  **** 	if(playButton.RisingEdge()) // Starts the sample from the beginning when pressed
- 1126              		.loc 12 139 2 is_stmt 1 view .LVU258
+ 134:sardinia.cpp  **** 		recordingLength = lengthTrack;
+ 135:sardinia.cpp  **** 		SetKeyIndexs();
+ 136:sardinia.cpp  **** 		startPoint = GetStartPoint();
+ 137:sardinia.cpp  **** 		stopPoint = GetStopPoint();
+ 138:sardinia.cpp  **** 	}
+ 139:sardinia.cpp  **** 
+ 140:sardinia.cpp  **** 	if(playButton.RisingEdge()) // Starts the sample from the beginning when pressed
+ 1126              		.loc 12 140 2 is_stmt 1 view .LVU258
  1127              	.LVL54:
  1128              	.LBB250:
  1129              	.LBI250:
@@ -2243,17 +2244,17 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1139              		.loc 1 70 54 view .LVU263
  1140              	.LBE251:
  1141              	.LBE250:
- 1142              		.loc 12 139 2 view .LVU264
+ 1142              		.loc 12 140 2 view .LVU264
  1143 0036 9B7A     		ldrb	r3, [r3, #10]	@ zero_extendqisi2
  1144 0038 7F2B     		cmp	r3, #127
  1145 003a 64D0     		beq	.L102
  1146              	.L79:
- 140:sardinia.cpp  **** 	{
- 141:sardinia.cpp  **** 		readIndex = 0;
- 142:sardinia.cpp  **** 	}
- 143:sardinia.cpp  **** 
- 144:sardinia.cpp  **** 	encoderTurnVal = encoder.Increment();
- 1147              		.loc 12 144 2 is_stmt 1 view .LVU265
+ 141:sardinia.cpp  **** 	{
+ 142:sardinia.cpp  **** 		readIndex = 0;
+ 143:sardinia.cpp  **** 	}
+ 144:sardinia.cpp  **** 
+ 145:sardinia.cpp  **** 	encoderTurnVal = encoder.Increment();
+ 1147              		.loc 12 145 2 is_stmt 1 view .LVU265
  1148              	.LVL56:
  1149              	.LBB252:
  1150              	.LBI252:
@@ -2269,23 +2270,23 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1160              		.loc 2 36 56 view .LVU270
  1161              	.LBE253:
  1162              	.LBE252:
- 1163              		.loc 12 144 17 view .LVU271
+ 1163              		.loc 12 145 17 view .LVU271
  1164 0042 3C4B     		ldr	r3, .L105+20
  1165 0044 1A60     		str	r2, [r3]
- 145:sardinia.cpp  **** 	if(encoderTurnVal != 0)
- 1166              		.loc 12 145 2 is_stmt 1 view .LVU272
+ 146:sardinia.cpp  **** 	if(encoderTurnVal != 0)
+ 1166              		.loc 12 146 2 is_stmt 1 view .LVU272
  1167              	.L81:
- 146:sardinia.cpp  **** 	{
- 147:sardinia.cpp  **** 		IncrementMenu(encoderTurnVal);
- 148:sardinia.cpp  **** 		testVal = encoderTurnVal;
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 39
+ 147:sardinia.cpp  **** 	{
+ 148:sardinia.cpp  **** 		IncrementMenu(encoderTurnVal);
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 39
 
 
- 149:sardinia.cpp  **** 	}
- 150:sardinia.cpp  **** 
- 151:sardinia.cpp  **** 	outputAmp = fmap(hw.adc.GetMuxFloat(1, 0), 0, 2, Mapping::LINEAR); // bottom far left
- 1168              		.loc 12 151 2 view .LVU273
- 1169              		.loc 12 151 18 is_stmt 0 view .LVU274
+ 149:sardinia.cpp  **** 		testVal = encoderTurnVal;
+ 150:sardinia.cpp  **** 	}
+ 151:sardinia.cpp  **** 
+ 152:sardinia.cpp  **** 	outputAmp = fmap(hw.adc.GetMuxFloat(1, 0), 0, 2, Mapping::LINEAR); // bottom far left
+ 1168              		.loc 12 152 2 view .LVU273
+ 1169              		.loc 12 152 18 is_stmt 0 view .LVU274
  1170 0046 0022     		movs	r2, #0
  1171 0048 0121     		movs	r1, #1
  1172 004a 3B48     		ldr	r0, .L105+24
@@ -2337,10 +2338,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   43:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h **** #ifdef __arm__
   44:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h ****     asm("vmaxnm.f32 %[d], %[n], %[m]" : [d] "=t"(r) : [n] "t"(a), [m] "t"(b) :);
   45:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h **** #else
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 40
+
+
   46:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h ****     r = (a > b) ? a : b;
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 40
-
-
   47:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h **** #endif // __arm__
   48:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h ****     return r;
   49:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h **** }
@@ -2397,10 +2398,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  100:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h **** inline float fastmod1f(float x)
  101:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h **** {
  102:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h ****     return x - static_cast<int>(x);
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 41
+
+
  103:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h **** }
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 41
-
-
  104:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h **** 
  105:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h **** /** From http://openaudio.blogspot.com/2017/02/faster-log10-and-pow.html
  106:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h **** No approximation, pow10f(x) gives a 90% speed increase over powf(10.f, x)
@@ -2457,10 +2458,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  157:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h **** enum class Mapping
  158:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h **** {
  159:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h ****     LINEAR,
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 42
+
+
  160:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h ****     EXP,
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 42
-
-
  161:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h ****     LOG,
  162:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h **** };
  163:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h **** 
@@ -2494,7 +2495,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1177 004c B0EE008A 		vmov.f32	s16, #2.0e+0
  1178              	.LBE256:
  1179              	.LBE255:
- 1180              		.loc 12 151 18 view .LVU276
+ 1180              		.loc 12 152 18 view .LVU276
  1181 0050 FFF7FEFF 		bl	_ZNK5daisy9AdcHandle11GetMuxFloatEhh
  1182              	.LVL58:
  1183              	.LBB267:
@@ -2514,14 +2515,14 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1194 0054 DFED397A 		vldr.32	s15, .L105+28
  1195              	.LBE263:
  1196              	.LBE268:
- 152:sardinia.cpp  **** 	readFactor = fmap(hw.adc.GetMuxFloat(1, 1), 0.5, 2, Mapping::EXP); // top far left
- 1197              		.loc 12 152 19 view .LVU283
+ 153:sardinia.cpp  **** 	readFactor = fmap(hw.adc.GetMuxFloat(1, 1), 0.5, 2, Mapping::EXP); // top far left
+ 1197              		.loc 12 153 19 view .LVU283
  1198 0058 0122     		movs	r2, #1
- 151:sardinia.cpp  **** 	readFactor = fmap(hw.adc.GetMuxFloat(1, 1), 0.5, 2, Mapping::EXP); // top far left
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 43
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 43
 
 
- 1199              		.loc 12 151 12 view .LVU284
+ 152:sardinia.cpp  **** 	readFactor = fmap(hw.adc.GetMuxFloat(1, 1), 0.5, 2, Mapping::EXP); // top far left
+ 1199              		.loc 12 152 12 view .LVU284
  1200 005a 394B     		ldr	r3, .L105+32
  1201              	.LBB269:
  1202              	.LBB264:
@@ -2529,7 +2530,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1204 005c B0EE677A 		vmov.f32	s14, s15
  1205              	.LBE264:
  1206              	.LBE269:
- 1207              		.loc 12 152 19 view .LVU286
+ 1207              		.loc 12 153 19 view .LVU286
  1208 0060 3548     		ldr	r0, .L105+24
  1209 0062 1146     		mov	r1, r2
  1210              	.LBB270:
@@ -2577,10 +2578,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1244              		.loc 13 51 14 is_stmt 1 view .LVU295
  1245              	.LBB261:
   53:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h **** #ifdef __arm__
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 44
+
+
  1246              		.loc 13 53 5 view .LVU296
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 44
-
-
   55:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h **** #else
  1247              		.loc 13 55 5 view .LVU297
  1248              		.syntax unified
@@ -2599,11 +2600,11 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1259              	.LBE262:
  1260              	.LBE266:
  1261              	.LBE271:
- 151:sardinia.cpp  **** 	readFactor = fmap(hw.adc.GetMuxFloat(1, 1), 0.5, 2, Mapping::EXP); // top far left
- 1262              		.loc 12 151 12 view .LVU300
+ 152:sardinia.cpp  **** 	readFactor = fmap(hw.adc.GetMuxFloat(1, 1), 0.5, 2, Mapping::EXP); // top far left
+ 1262              		.loc 12 152 12 view .LVU300
  1263 0070 83ED007A 		vstr.32	s14, [r3]
- 1264              		.loc 12 152 2 is_stmt 1 view .LVU301
- 1265              		.loc 12 152 19 is_stmt 0 view .LVU302
+ 1264              		.loc 12 153 2 is_stmt 1 view .LVU301
+ 1265              		.loc 12 153 19 is_stmt 0 view .LVU302
  1266 0074 FFF7FEFF 		bl	_ZNK5daisy9AdcHandle11GetMuxFloatEhh
  1267              	.LVL62:
  1268              	.LBB272:
@@ -2624,7 +2625,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1278 0078 B6EE007A 		vmov.f32	s14, #5.0e-1
  1279              	.LBE273:
  1280              	.LBE282:
- 1281              		.loc 12 152 13 view .LVU308
+ 1281              		.loc 12 153 13 view .LVU308
  1282 007c 314B     		ldr	r3, .L105+36
  1283              	.LBB283:
  1284              	.LBB280:
@@ -2637,10 +2638,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1289              	.LVL63:
  182:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/dsp.h ****         case Mapping::LOG:
  1290              		.loc 13 182 26 view .LVU311
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 45
+
+
  1291 0086 F0EE477A 		vmov.f32	s15, s14
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 45
-
-
  1292 008a E0EE267A 		vfma.f32	s15, s0, s13
  1293              	.LVL64:
  1294              	.LBB274:
@@ -2697,25 +2698,25 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1333              		.loc 13 59 5 is_stmt 0 view .LVU323
  1334              		.thumb
  1335              		.syntax unified
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 46
+
+
  1336              	.LBE278:
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 46
-
-
  1337              	.LBE277:
  1338              	.LBE279:
  1339              	.LBE281:
  1340              	.LBE284:
- 153:sardinia.cpp  **** }
- 1341              		.loc 12 153 1 view .LVU324
+ 154:sardinia.cpp  **** }
+ 1341              		.loc 12 154 1 view .LVU324
  1342 0096 BDEC028B 		vldm	sp!, {d8}
  1343              		.cfi_remember_state
  1344              		.cfi_restore 80
  1345              		.cfi_restore 81
  1346              		.cfi_def_cfa_offset 8
- 152:sardinia.cpp  **** }
- 1347              		.loc 12 152 13 view .LVU325
+ 153:sardinia.cpp  **** }
+ 1347              		.loc 12 153 13 view .LVU325
  1348 009a C3ED007A 		vstr.32	s15, [r3]
- 1349              		.loc 12 153 1 view .LVU326
+ 1349              		.loc 12 154 1 view .LVU326
  1350 009e 10BD     		pop	{r4, pc}
  1351              	.LVL67:
  1352              	.L80:
@@ -2728,16 +2729,16 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1359              		.loc 2 36 56 view .LVU328
  1360              	.LBE254:
  1361              	.LBE285:
- 144:sardinia.cpp  **** 	if(encoderTurnVal != 0)
- 1362              		.loc 12 144 17 view .LVU329
+ 145:sardinia.cpp  **** 	if(encoderTurnVal != 0)
+ 1362              		.loc 12 145 17 view .LVU329
  1363 00a2 244A     		ldr	r2, .L105+20
  1364 00a4 1360     		str	r3, [r2]
- 145:sardinia.cpp  **** 	{
- 1365              		.loc 12 145 2 is_stmt 1 view .LVU330
+ 146:sardinia.cpp  **** 	{
+ 1365              		.loc 12 146 2 is_stmt 1 view .LVU330
  1366 00a6 002B     		cmp	r3, #0
  1367 00a8 CDD0     		beq	.L81
- 147:sardinia.cpp  **** 		testVal = encoderTurnVal;
- 1368              		.loc 12 147 3 view .LVU331
+ 148:sardinia.cpp  **** 		testVal = encoderTurnVal;
+ 1368              		.loc 12 148 3 view .LVU331
  1369              	.LVL69:
  1370              	.LBB286:
  1371              	.LBI286:
@@ -2757,10 +2758,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   84:display.h     **** 	{
  1381              		.loc 11 84 7 is_stmt 1 view .LVU336
   84:display.h     **** 	{
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 47
+
+
  1382              		.loc 11 84 23 is_stmt 0 view .LVU337
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 47
-
-
  1383 00b2 022A     		cmp	r2, #2
  1384 00b4 01D1     		bne	.L83
  1385 00b6 012B     		cmp	r3, #1
@@ -2780,16 +2781,16 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1395              		.loc 11 90 8 view .LVU341
  1396              	.LBE287:
  1397              	.LBE286:
- 148:sardinia.cpp  **** 	}
- 1398              		.loc 12 148 3 is_stmt 1 view .LVU342
- 148:sardinia.cpp  **** 	}
- 1399              		.loc 12 148 11 is_stmt 0 view .LVU343
+ 149:sardinia.cpp  **** 	}
+ 1398              		.loc 12 149 3 is_stmt 1 view .LVU342
+ 149:sardinia.cpp  **** 	}
+ 1399              		.loc 12 149 11 is_stmt 0 view .LVU343
  1400 00be 234A     		ldr	r2, .L105+44
  1401 00c0 1360     		str	r3, [r2]
  1402 00c2 C0E7     		b	.L81
  1403              	.L77:
- 129:sardinia.cpp  **** 	{
- 1404              		.loc 12 129 7 is_stmt 1 view .LVU344
+ 130:sardinia.cpp  **** 	{
+ 1404              		.loc 12 130 7 is_stmt 1 view .LVU344
  1405              	.LVL71:
   71:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/switch.h **** 
   72:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/switch.h ****     /** \return true if the button was just released */
@@ -2797,50 +2798,50 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   74:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/switch.h ****     {
   75:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/switch.h ****         return updated_ ? state_ == 0x80 : false;
  1406              		.loc 1 75 9 view .LVU345
- 129:sardinia.cpp  **** 	{
- 1407              		.loc 12 129 7 is_stmt 0 view .LVU346
+ 130:sardinia.cpp  **** 	{
+ 1407              		.loc 12 130 7 is_stmt 0 view .LVU346
  1408 00c4 802B     		cmp	r3, #128
  1409 00c6 B3D1     		bne	.L76
- 131:sardinia.cpp  **** 		writeIndex = 0;
- 1410              		.loc 12 131 3 is_stmt 1 view .LVU347
- 131:sardinia.cpp  **** 		writeIndex = 0;
- 1411              		.loc 12 131 15 is_stmt 0 view .LVU348
+ 132:sardinia.cpp  **** 		writeIndex = 0;
+ 1410              		.loc 12 132 3 is_stmt 1 view .LVU347
+ 132:sardinia.cpp  **** 		writeIndex = 0;
+ 1411              		.loc 12 132 15 is_stmt 0 view .LVU348
  1412 00c8 0023     		movs	r3, #0
- 133:sardinia.cpp  **** 		SetKeyIndexs();
- 1413              		.loc 12 133 19 view .LVU349
+ 134:sardinia.cpp  **** 		SetKeyIndexs();
+ 1413              		.loc 12 134 19 view .LVU349
  1414 00ca 194A     		ldr	r2, .L105+16
- 131:sardinia.cpp  **** 		writeIndex = 0;
- 1415              		.loc 12 131 15 view .LVU350
+ 132:sardinia.cpp  **** 		writeIndex = 0;
+ 1415              		.loc 12 132 15 view .LVU350
  1416 00cc 1748     		ldr	r0, .L105+12
- 132:sardinia.cpp  **** 		recordingLength = lengthTrack;
- 1417              		.loc 12 132 14 view .LVU351
+ 133:sardinia.cpp  **** 		recordingLength = lengthTrack;
+ 1417              		.loc 12 133 14 view .LVU351
  1418 00ce 2049     		ldr	r1, .L105+48
- 133:sardinia.cpp  **** 		SetKeyIndexs();
- 1419              		.loc 12 133 19 view .LVU352
+ 134:sardinia.cpp  **** 		SetKeyIndexs();
+ 1419              		.loc 12 134 19 view .LVU352
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 48
+
+
  1420 00d0 1468     		ldr	r4, [r2]
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 48
-
-
- 131:sardinia.cpp  **** 		writeIndex = 0;
- 1421              		.loc 12 131 15 view .LVU353
+ 132:sardinia.cpp  **** 		writeIndex = 0;
+ 1421              		.loc 12 132 15 view .LVU353
  1422 00d2 0370     		strb	r3, [r0]
- 132:sardinia.cpp  **** 		recordingLength = lengthTrack;
- 1423              		.loc 12 132 3 is_stmt 1 view .LVU354
- 133:sardinia.cpp  **** 		SetKeyIndexs();
- 1424              		.loc 12 133 19 is_stmt 0 view .LVU355
+ 133:sardinia.cpp  **** 		recordingLength = lengthTrack;
+ 1423              		.loc 12 133 3 is_stmt 1 view .LVU354
+ 134:sardinia.cpp  **** 		SetKeyIndexs();
+ 1424              		.loc 12 134 19 is_stmt 0 view .LVU355
  1425 00d4 1F4A     		ldr	r2, .L105+52
- 132:sardinia.cpp  **** 		recordingLength = lengthTrack;
- 1426              		.loc 12 132 14 view .LVU356
+ 133:sardinia.cpp  **** 		recordingLength = lengthTrack;
+ 1426              		.loc 12 133 14 view .LVU356
  1427 00d6 0B60     		str	r3, [r1]
- 133:sardinia.cpp  **** 		SetKeyIndexs();
- 1428              		.loc 12 133 3 is_stmt 1 view .LVU357
+ 134:sardinia.cpp  **** 		SetKeyIndexs();
+ 1428              		.loc 12 134 3 is_stmt 1 view .LVU357
  1429 00d8 1F48     		ldr	r0, .L105+56
  1430 00da 2049     		ldr	r1, .L105+60
- 133:sardinia.cpp  **** 		SetKeyIndexs();
- 1431              		.loc 12 133 19 is_stmt 0 view .LVU358
+ 134:sardinia.cpp  **** 		SetKeyIndexs();
+ 1431              		.loc 12 134 19 is_stmt 0 view .LVU358
  1432 00dc 1460     		str	r4, [r2]
- 134:sardinia.cpp  **** 		startPoint = GetStartPoint();
- 1433              		.loc 12 134 3 is_stmt 1 view .LVU359
+ 135:sardinia.cpp  **** 		startPoint = GetStartPoint();
+ 1433              		.loc 12 135 3 is_stmt 1 view .LVU359
  1434              	.LBB289:
  1435              	.LBI289:
   75:sampleengine.h **** {
@@ -2877,10 +2878,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   77:sampleengine.h ****     {
  1457              		.loc 10 77 5 is_stmt 1 view .LVU370
  1458              	.LVL74:
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 49
+
+
   77:sampleengine.h ****     {
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 49
-
-
  1459              		.loc 10 77 22 view .LVU371
  1460 00f2 F4D1     		bne	.L78
  1461              	.LVL75:
@@ -2888,8 +2889,8 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1462              		.loc 10 77 22 is_stmt 0 view .LVU372
  1463              	.LBE290:
  1464              	.LBE289:
- 135:sardinia.cpp  **** 		stopPoint = GetStopPoint();
- 1465              		.loc 12 135 3 is_stmt 1 view .LVU373
+ 136:sardinia.cpp  **** 		stopPoint = GetStopPoint();
+ 1465              		.loc 12 136 3 is_stmt 1 view .LVU373
  1466              	.LBB291:
  1467              	.LBI291:
   84:sampleengine.h **** {
@@ -2909,19 +2910,19 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1478 00f6 1B4A     		ldr	r2, .L105+68
  1479              	.LBE294:
  1480              	.LBE293:
- 135:sardinia.cpp  **** 		stopPoint = GetStopPoint();
- 1481              		.loc 12 135 14 view .LVU378
+ 136:sardinia.cpp  **** 		stopPoint = GetStopPoint();
+ 1481              		.loc 12 136 14 view .LVU378
  1482 00f8 0068     		ldr	r0, [r0]
  1483 00fa 1B49     		ldr	r1, .L105+72
- 136:sardinia.cpp  **** 	}
- 1484              		.loc 12 136 13 view .LVU379
+ 137:sardinia.cpp  **** 	}
+ 1484              		.loc 12 137 13 view .LVU379
  1485 00fc 1B4B     		ldr	r3, .L105+76
  1486 00fe 1268     		ldr	r2, [r2]
- 135:sardinia.cpp  **** 		stopPoint = GetStopPoint();
- 1487              		.loc 12 135 14 view .LVU380
+ 136:sardinia.cpp  **** 		stopPoint = GetStopPoint();
+ 1487              		.loc 12 136 14 view .LVU380
  1488 0100 0860     		str	r0, [r1]
- 136:sardinia.cpp  **** 	}
- 1489              		.loc 12 136 3 is_stmt 1 view .LVU381
+ 137:sardinia.cpp  **** 	}
+ 1489              		.loc 12 137 3 is_stmt 1 view .LVU381
  1490              	.LBB296:
  1491              	.LBI293:
   89:sampleengine.h **** {
@@ -2931,18 +2932,18 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1494              		.loc 10 91 5 view .LVU383
  1495              	.LBE295:
  1496              	.LBE296:
- 136:sardinia.cpp  **** 	}
- 1497              		.loc 12 136 13 is_stmt 0 view .LVU384
+ 137:sardinia.cpp  **** 	}
+ 1497              		.loc 12 137 13 is_stmt 0 view .LVU384
  1498 0102 1A60     		str	r2, [r3]
  1499 0104 94E7     		b	.L76
  1500              	.L102:
- 141:sardinia.cpp  **** 	}
- 1501              		.loc 12 141 3 is_stmt 1 view .LVU385
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 50
+ 142:sardinia.cpp  **** 	}
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 50
 
 
- 141:sardinia.cpp  **** 	}
- 1502              		.loc 12 141 13 is_stmt 0 view .LVU386
+ 1501              		.loc 12 142 3 is_stmt 1 view .LVU385
+ 142:sardinia.cpp  **** 	}
+ 1502              		.loc 12 142 13 is_stmt 0 view .LVU386
  1503 0106 1A4B     		ldr	r3, .L105+80
  1504 0108 0022     		movs	r2, #0
  1505 010a 1A60     		str	r2, [r3]	@ float
@@ -2997,10 +2998,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1549              	.LBE288:
  1550              	.LBE297:
  1551              		.cfi_endproc
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 51
+
+
  1552              	.LFE4696:
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 51
-
-
  1554              		.section	.text._Z13AudioCallbackPKPKfPPfj,"ax",%progbits
  1555              		.align	1
  1556              		.p2align 2,,3
@@ -3011,15 +3012,15 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1562              	_Z13AudioCallbackPKPKfPPfj:
  1563              	.LVL77:
  1564              	.LFB4694:
-  48:sardinia.cpp  **** 	ProcessControlsKR();
- 1565              		.loc 12 48 1 is_stmt 1 view -0
+  49:sardinia.cpp  **** 	ProcessControlsKR();
+ 1565              		.loc 12 49 1 is_stmt 1 view -0
  1566              		.cfi_startproc
  1567              		@ args = 0, pretend = 0, frame = 8
  1568              		@ frame_needed = 0, uses_anonymous_args = 0
-  49:sardinia.cpp  **** 
- 1569              		.loc 12 49 2 view .LVU393
-  48:sardinia.cpp  **** 	ProcessControlsKR();
- 1570              		.loc 12 48 1 is_stmt 0 view .LVU394
+  50:sardinia.cpp  **** 
+ 1569              		.loc 12 50 2 view .LVU393
+  49:sardinia.cpp  **** 	ProcessControlsKR();
+ 1570              		.loc 12 49 1 is_stmt 0 view .LVU394
  1571 0000 2DE9F04F 		push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
  1572              		.cfi_def_cfa_offset 36
  1573              		.cfi_offset 4, -36
@@ -3034,74 +3035,74 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1582 0004 1446     		mov	r4, r2
  1583 0006 83B0     		sub	sp, sp, #12
  1584              		.cfi_def_cfa_offset 48
-  48:sardinia.cpp  **** 	ProcessControlsKR();
- 1585              		.loc 12 48 1 view .LVU395
+  49:sardinia.cpp  **** 	ProcessControlsKR();
+ 1585              		.loc 12 49 1 view .LVU395
  1586 0008 8146     		mov	r9, r0
  1587 000a 8A46     		mov	r10, r1
  1588 000c 0192     		str	r2, [sp, #4]
-  49:sardinia.cpp  **** 
- 1589              		.loc 12 49 19 view .LVU396
+  50:sardinia.cpp  **** 
+ 1589              		.loc 12 50 19 view .LVU396
  1590 000e FFF7FEFF 		bl	_Z17ProcessControlsKRv
  1591              	.LVL78:
-  51:sardinia.cpp  **** 	{
- 1592              		.loc 12 51 2 is_stmt 1 view .LVU397
+  52:sardinia.cpp  **** 	{
+ 1592              		.loc 12 52 2 is_stmt 1 view .LVU397
  1593              	.LBB309:
-  51:sardinia.cpp  **** 	{
- 1594              		.loc 12 51 23 view .LVU398
+  52:sardinia.cpp  **** 	{
+ 1594              		.loc 12 52 23 view .LVU398
  1595 0012 002C     		cmp	r4, #0
  1596 0014 59D0     		beq	.L107
-  51:sardinia.cpp  **** 	{
- 1597              		.loc 12 51 14 is_stmt 0 view .LVU399
+  52:sardinia.cpp  **** 	{
+ 1597              		.loc 12 52 14 is_stmt 0 view .LVU399
  1598 0016 0024     		movs	r4, #0
  1599              	.LVL79:
-  51:sardinia.cpp  **** 	{
- 1600              		.loc 12 51 14 view .LVU400
+  52:sardinia.cpp  **** 	{
+ 1600              		.loc 12 52 14 view .LVU400
  1601 0018 3C4E     		ldr	r6, .L123
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 52
+
+
  1602 001a 3D4D     		ldr	r5, .L123+4
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 52
-
-
  1603 001c DFF814B1 		ldr	fp, .L123+40
  1604 0020 3C4F     		ldr	r7, .L123+8
  1605              	.LVL80:
  1606              	.L108:
-  53:sardinia.cpp  **** 		outputMix = 0;
- 1607              		.loc 12 53 3 is_stmt 1 view .LVU401
-  53:sardinia.cpp  **** 		outputMix = 0;
- 1608              		.loc 12 53 13 is_stmt 0 view .LVU402
+  54:sardinia.cpp  **** 		outputMix = 0;
+ 1607              		.loc 12 54 3 is_stmt 1 view .LVU401
+  54:sardinia.cpp  **** 		outputMix = 0;
+ 1608              		.loc 12 54 13 is_stmt 0 view .LVU402
  1609 0022 0023     		movs	r3, #0
  1610              	.LBB310:
  1611              	.LBB311:
- 154:sardinia.cpp  **** 
- 155:sardinia.cpp  **** void ProcessControlsAR() // For controls that need to process every sample
- 156:sardinia.cpp  **** {
- 157:sardinia.cpp  **** 	playButton.Debounce();
- 1612              		.loc 12 157 21 view .LVU403
+ 155:sardinia.cpp  **** 
+ 156:sardinia.cpp  **** void ProcessControlsAR() // For controls that need to process every sample
+ 157:sardinia.cpp  **** {
+ 158:sardinia.cpp  **** 	playButton.Debounce();
+ 1612              		.loc 12 158 21 view .LVU403
  1613 0024 3C48     		ldr	r0, .L123+12
  1614              	.LBE311:
  1615              	.LBE310:
-  53:sardinia.cpp  **** 		outputMix = 0;
- 1616              		.loc 12 53 13 view .LVU404
+  54:sardinia.cpp  **** 		outputMix = 0;
+ 1616              		.loc 12 54 13 view .LVU404
  1617 0026 3360     		str	r3, [r6]	@ float
-  54:sardinia.cpp  **** 
- 1618              		.loc 12 54 3 is_stmt 1 view .LVU405
-  54:sardinia.cpp  **** 
- 1619              		.loc 12 54 13 is_stmt 0 view .LVU406
+  55:sardinia.cpp  **** 
+ 1618              		.loc 12 55 3 is_stmt 1 view .LVU405
+  55:sardinia.cpp  **** 
+ 1619              		.loc 12 55 13 is_stmt 0 view .LVU406
  1620 0028 2B60     		str	r3, [r5]	@ float
-  56:sardinia.cpp  **** 
- 1621              		.loc 12 56 3 is_stmt 1 view .LVU407
+  57:sardinia.cpp  **** 
+ 1621              		.loc 12 57 3 is_stmt 1 view .LVU407
  1622              	.LBB321:
  1623              	.LBI310:
- 155:sardinia.cpp  **** {
- 1624              		.loc 12 155 6 view .LVU408
+ 156:sardinia.cpp  **** {
+ 1624              		.loc 12 156 6 view .LVU408
  1625              	.LBB318:
- 1626              		.loc 12 157 2 view .LVU409
- 1627              		.loc 12 157 21 is_stmt 0 view .LVU410
+ 1626              		.loc 12 158 2 view .LVU409
+ 1627              		.loc 12 158 21 is_stmt 0 view .LVU410
  1628 002a FFF7FEFF 		bl	_ZN5daisy6Switch8DebounceEv
  1629              	.LVL81:
- 158:sardinia.cpp  **** 
- 159:sardinia.cpp  **** 	if(playButton.Pressed()) // Play button is a toggle for the sample
- 1630              		.loc 12 159 2 is_stmt 1 view .LVU411
+ 159:sardinia.cpp  **** 
+ 160:sardinia.cpp  **** 	if(playButton.Pressed()) // Play button is a toggle for the sample
+ 1630              		.loc 12 160 2 is_stmt 1 view .LVU411
  1631              	.LBB312:
  1632              	.LBI312:
   76:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/switch.h ****     }
@@ -3114,29 +3115,29 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1636              		.loc 1 79 35 is_stmt 0 view .LVU414
  1637              	.LBE313:
  1638              	.LBE312:
- 1639              		.loc 12 159 2 view .LVU415
+ 1639              		.loc 12 160 2 view .LVU415
  1640 002e 3A4B     		ldr	r3, .L123+12
  1641 0030 9B7A     		ldrb	r3, [r3, #10]	@ zero_extendqisi2
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 53
+
+
  1642 0032 FF2B     		cmp	r3, #255
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 53
-
-
  1643 0034 4CD0     		beq	.L122
  1644              	.LBB314:
  1645              	.LBI314:
- 155:sardinia.cpp  **** {
- 1646              		.loc 12 155 6 is_stmt 1 view .LVU416
+ 156:sardinia.cpp  **** {
+ 1646              		.loc 12 156 6 is_stmt 1 view .LVU416
  1647              	.LBB315:
- 160:sardinia.cpp  **** 	{
- 161:sardinia.cpp  **** 		isPlaying = true;
- 162:sardinia.cpp  **** 	}
- 163:sardinia.cpp  **** 	else
- 164:sardinia.cpp  **** 	{
- 165:sardinia.cpp  **** 		if(readIndex == 0)
- 1648              		.loc 12 165 3 view .LVU417
- 1649              		.loc 12 165 16 is_stmt 0 view .LVU418
+ 161:sardinia.cpp  **** 	{
+ 162:sardinia.cpp  **** 		isPlaying = true;
+ 163:sardinia.cpp  **** 	}
+ 164:sardinia.cpp  **** 	else
+ 165:sardinia.cpp  **** 	{
+ 166:sardinia.cpp  **** 		if(readIndex == 0)
+ 1648              		.loc 12 166 3 view .LVU417
+ 1649              		.loc 12 166 16 is_stmt 0 view .LVU418
  1650 0036 394B     		ldr	r3, .L123+16
- 1651              		.loc 12 165 3 view .LVU419
+ 1651              		.loc 12 166 3 view .LVU419
  1652 0038 D3ED007A 		vldr.32	s15, [r3]
  1653 003c F5EE407A 		vcmp.f32	s15, #0
  1654 0040 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
@@ -3145,179 +3146,179 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1657              	.LBE314:
  1658              	.LBE318:
  1659              	.LBE321:
-  66:sardinia.cpp  **** 		{
- 1660              		.loc 12 66 3 view .LVU420
+  67:sardinia.cpp  **** 		{
+ 1660              		.loc 12 67 3 view .LVU420
  1661 0046 364B     		ldr	r3, .L123+20
  1662 0048 1978     		ldrb	r1, [r3]	@ zero_extendqisi2
  1663              	.L110:
-  58:sardinia.cpp  **** 		
- 1664              		.loc 12 58 3 is_stmt 1 view .LVU421
-  58:sardinia.cpp  **** 		
- 1665              		.loc 12 58 22 is_stmt 0 view .LVU422
+  59:sardinia.cpp  **** 		
+ 1664              		.loc 12 59 3 is_stmt 1 view .LVU421
+  59:sardinia.cpp  **** 		
+ 1665              		.loc 12 59 22 is_stmt 0 view .LVU422
  1666 004a D9F80020 		ldr	r2, [r9]
-  58:sardinia.cpp  **** 		
- 1667              		.loc 12 58 36 view .LVU423
+  59:sardinia.cpp  **** 		
+ 1667              		.loc 12 59 36 view .LVU423
  1668 004e B6EE000A 		vmov.f32	s0, #5.0e-1
-  60:sardinia.cpp  **** 		{
- 1669              		.loc 12 60 3 view .LVU424
+  61:sardinia.cpp  **** 		{
+ 1669              		.loc 12 61 3 view .LVU424
  1670 0052 344B     		ldr	r3, .L123+24
  1671 0054 4FEA8408 		lsl	r8, r4, #2
-  58:sardinia.cpp  **** 		
- 1672              		.loc 12 58 22 view .LVU425
+  59:sardinia.cpp  **** 		
+ 1672              		.loc 12 59 22 view .LVU425
  1673 0058 02EB8402 		add	r2, r2, r4, lsl #2
-  60:sardinia.cpp  **** 		{
- 1674              		.loc 12 60 3 view .LVU426
+  61:sardinia.cpp  **** 		{
+ 1674              		.loc 12 61 3 view .LVU426
  1675 005c 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
-  58:sardinia.cpp  **** 		
- 1676              		.loc 12 58 24 view .LVU427
+  59:sardinia.cpp  **** 		
+ 1676              		.loc 12 59 24 view .LVU427
  1677 005e D2ED007A 		vldr.32	s15, [r2]
-  58:sardinia.cpp  **** 		
- 1678              		.loc 12 58 33 view .LVU428
+  59:sardinia.cpp  **** 		
+ 1678              		.loc 12 59 33 view .LVU428
  1679 0062 D9F80420 		ldr	r2, [r9, #4]
  1680 0066 02EB8402 		add	r2, r2, r4, lsl #2
-  58:sardinia.cpp  **** 		
- 1681              		.loc 12 58 24 view .LVU429
+  59:sardinia.cpp  **** 		
+ 1681              		.loc 12 59 24 view .LVU429
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 54
+
+
  1682 006a 92ED007A 		vldr.32	s14, [r2]
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 54
-
-
  1683 006e 77EE877A 		vadd.f32	s15, s15, s14
-  58:sardinia.cpp  **** 		
- 1684              		.loc 12 58 36 view .LVU430
+  59:sardinia.cpp  **** 		
+ 1684              		.loc 12 59 36 view .LVU430
  1685 0072 67EE807A 		vmul.f32	s15, s15, s0
-  58:sardinia.cpp  **** 		
- 1686              		.loc 12 58 12 view .LVU431
+  59:sardinia.cpp  **** 		
+ 1686              		.loc 12 59 12 view .LVU431
  1687 0076 CBED007A 		vstr.32	s15, [fp]
-  60:sardinia.cpp  **** 		{
- 1688              		.loc 12 60 3 is_stmt 1 view .LVU432
+  61:sardinia.cpp  **** 		{
+ 1688              		.loc 12 61 3 is_stmt 1 view .LVU432
  1689 007a 6BB1     		cbz	r3, .L112
-  62:sardinia.cpp  **** 			lengthTrack++;
- 1690              		.loc 12 62 4 view .LVU433
+  63:sardinia.cpp  **** 			lengthTrack++;
+ 1690              		.loc 12 63 4 view .LVU433
  1691              	.LVL82:
  1692              	.LBB322:
  1693              	.LBI322:
-  52:sampleengine.h **** {
- 1694              		.loc 10 52 6 view .LVU434
+  53:sampleengine.h **** {
+ 1694              		.loc 10 53 6 view .LVU434
  1695              	.LBB323:
-  54:sampleengine.h ****     writeIndex++;
- 1696              		.loc 10 54 5 view .LVU435
-  54:sampleengine.h ****     writeIndex++;
- 1697              		.loc 10 54 22 is_stmt 0 view .LVU436
+  55:sampleengine.h ****     writeIndex++;
+ 1696              		.loc 10 55 5 view .LVU435
+  55:sampleengine.h ****     writeIndex++;
+ 1697              		.loc 10 55 22 is_stmt 0 view .LVU436
  1698 007c 2A48     		ldr	r0, .L123+28
-  54:sampleengine.h ****     writeIndex++;
- 1699              		.loc 10 54 24 view .LVU437
+  55:sampleengine.h ****     writeIndex++;
+ 1699              		.loc 10 55 24 view .LVU437
  1700 007e DFF8B8C0 		ldr	ip, .L123+44
-  54:sampleengine.h ****     writeIndex++;
- 1701              		.loc 10 54 22 view .LVU438
+  55:sampleengine.h ****     writeIndex++;
+ 1701              		.loc 10 55 22 view .LVU438
  1702 0082 0368     		ldr	r3, [r0]
  1703              	.LBE323:
  1704              	.LBE322:
-  63:sardinia.cpp  **** 		}
- 1705              		.loc 12 63 15 view .LVU439
+  64:sardinia.cpp  **** 		}
+ 1705              		.loc 12 64 15 view .LVU439
  1706 0084 294A     		ldr	r2, .L123+32
  1707              	.LBB326:
  1708              	.LBB324:
-  54:sampleengine.h ****     writeIndex++;
- 1709              		.loc 10 54 24 view .LVU440
+  55:sampleengine.h ****     writeIndex++;
+ 1709              		.loc 10 55 24 view .LVU440
  1710 0086 0CEB830C 		add	ip, ip, r3, lsl #2
-  55:sampleengine.h **** }
- 1711              		.loc 10 55 15 view .LVU441
+  56:sampleengine.h **** }
+ 1711              		.loc 10 56 15 view .LVU441
  1712 008a 0133     		adds	r3, r3, #1
  1713 008c 0360     		str	r3, [r0]
  1714              	.LBE324:
  1715              	.LBE326:
-  63:sardinia.cpp  **** 		}
- 1716              		.loc 12 63 15 view .LVU442
+  64:sardinia.cpp  **** 		}
+ 1716              		.loc 12 64 15 view .LVU442
  1717 008e 1368     		ldr	r3, [r2]
  1718              	.LBB327:
  1719              	.LBB325:
-  54:sampleengine.h ****     writeIndex++;
- 1720              		.loc 10 54 24 view .LVU443
+  55:sampleengine.h ****     writeIndex++;
+ 1720              		.loc 10 55 24 view .LVU443
  1721 0090 CCED007A 		vstr.32	s15, [ip]
-  55:sampleengine.h **** }
- 1722              		.loc 10 55 5 is_stmt 1 view .LVU444
+  56:sampleengine.h **** }
+ 1722              		.loc 10 56 5 is_stmt 1 view .LVU444
  1723              	.LVL83:
-  55:sampleengine.h **** }
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 55
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 55
 
 
- 1724              		.loc 10 55 5 is_stmt 0 view .LVU445
+  56:sampleengine.h **** }
+ 1724              		.loc 10 56 5 is_stmt 0 view .LVU445
  1725              	.LBE325:
  1726              	.LBE327:
-  63:sardinia.cpp  **** 		}
- 1727              		.loc 12 63 4 is_stmt 1 view .LVU446
-  63:sardinia.cpp  **** 		}
- 1728              		.loc 12 63 15 is_stmt 0 view .LVU447
+  64:sardinia.cpp  **** 		}
+ 1727              		.loc 12 64 4 is_stmt 1 view .LVU446
+  64:sardinia.cpp  **** 		}
+ 1728              		.loc 12 64 15 is_stmt 0 view .LVU447
  1729 0094 0133     		adds	r3, r3, #1
  1730 0096 1360     		str	r3, [r2]
  1731              	.L112:
-  66:sardinia.cpp  **** 		{
- 1732              		.loc 12 66 3 is_stmt 1 view .LVU448
+  67:sardinia.cpp  **** 		{
+ 1732              		.loc 12 67 3 is_stmt 1 view .LVU448
  1733 0098 F1B9     		cbnz	r1, .L113
-  76:sardinia.cpp  **** 		outputMix *= outputAmp;
- 1734              		.loc 12 76 24 is_stmt 0 view .LVU449
+  77:sardinia.cpp  **** 		outputMix *= outputAmp;
+ 1734              		.loc 12 77 24 is_stmt 0 view .LVU449
  1735 009a 96ED000A 		vldr.32	s0, [r6]
  1736              	.L114:
-  76:sardinia.cpp  **** 		outputMix *= outputAmp;
- 1737              		.loc 12 76 3 is_stmt 1 discriminator 2 view .LVU450
-  77:sardinia.cpp  **** 
- 1738              		.loc 12 77 3 discriminator 2 view .LVU451
-  76:sardinia.cpp  **** 		outputMix *= outputAmp;
- 1739              		.loc 12 76 24 is_stmt 0 discriminator 2 view .LVU452
+  77:sardinia.cpp  **** 		outputMix *= outputAmp;
+ 1737              		.loc 12 77 3 is_stmt 1 discriminator 2 view .LVU450
+  78:sardinia.cpp  **** 
+ 1738              		.loc 12 78 3 discriminator 2 view .LVU451
+  77:sardinia.cpp  **** 		outputMix *= outputAmp;
+ 1739              		.loc 12 77 24 is_stmt 0 discriminator 2 view .LVU452
  1740 009e 37EE800A 		vadd.f32	s0, s15, s0
-  77:sardinia.cpp  **** 
- 1741              		.loc 12 77 13 discriminator 2 view .LVU453
+  78:sardinia.cpp  **** 
+ 1741              		.loc 12 78 13 discriminator 2 view .LVU453
  1742 00a2 D7ED007A 		vldr.32	s15, [r7]
-  80:sardinia.cpp  **** 		out[1][i] = outputMix;
- 1743              		.loc 12 80 19 discriminator 2 view .LVU454
+  81:sardinia.cpp  **** 		out[1][i] = outputMix;
+ 1743              		.loc 12 81 19 discriminator 2 view .LVU454
  1744 00a6 DAF80020 		ldr	r2, [r10]
-  51:sardinia.cpp  **** 	{
- 1745              		.loc 12 51 2 discriminator 2 view .LVU455
+  52:sardinia.cpp  **** 	{
+ 1745              		.loc 12 52 2 discriminator 2 view .LVU455
  1746 00aa 0134     		adds	r4, r4, #1
  1747              	.LVL84:
-  81:sardinia.cpp  **** 	}
- 1748              		.loc 12 81 13 discriminator 2 view .LVU456
+  82:sardinia.cpp  **** 	}
+ 1748              		.loc 12 82 13 discriminator 2 view .LVU456
  1749 00ac DAF80430 		ldr	r3, [r10, #4]
-  77:sardinia.cpp  **** 
- 1750              		.loc 12 77 13 discriminator 2 view .LVU457
+  78:sardinia.cpp  **** 
+ 1750              		.loc 12 78 13 discriminator 2 view .LVU457
  1751 00b0 20EE270A 		vmul.f32	s0, s0, s15
-  80:sardinia.cpp  **** 		out[1][i] = outputMix;
- 1752              		.loc 12 80 19 discriminator 2 view .LVU458
+  81:sardinia.cpp  **** 		out[1][i] = outputMix;
+ 1752              		.loc 12 81 19 discriminator 2 view .LVU458
  1753 00b4 4244     		add	r2, r2, r8
-  81:sardinia.cpp  **** 	}
- 1754              		.loc 12 81 13 discriminator 2 view .LVU459
+  82:sardinia.cpp  **** 	}
+ 1754              		.loc 12 82 13 discriminator 2 view .LVU459
  1755 00b6 4344     		add	r3, r3, r8
-  77:sardinia.cpp  **** 
- 1756              		.loc 12 77 13 discriminator 2 view .LVU460
+  78:sardinia.cpp  **** 
+ 1756              		.loc 12 78 13 discriminator 2 view .LVU460
  1757 00b8 85ED000A 		vstr.32	s0, [r5]
-  80:sardinia.cpp  **** 		out[1][i] = outputMix;
- 1758              		.loc 12 80 9 is_stmt 1 discriminator 2 view .LVU461
-  80:sardinia.cpp  **** 		out[1][i] = outputMix;
- 1759              		.loc 12 80 19 is_stmt 0 discriminator 2 view .LVU462
+  81:sardinia.cpp  **** 		out[1][i] = outputMix;
+ 1758              		.loc 12 81 9 is_stmt 1 discriminator 2 view .LVU461
+  81:sardinia.cpp  **** 		out[1][i] = outputMix;
+ 1759              		.loc 12 81 19 is_stmt 0 discriminator 2 view .LVU462
  1760 00bc 82ED000A 		vstr.32	s0, [r2]
-  81:sardinia.cpp  **** 	}
- 1761              		.loc 12 81 3 is_stmt 1 discriminator 2 view .LVU463
-  81:sardinia.cpp  **** 	}
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 56
+  82:sardinia.cpp  **** 	}
+ 1761              		.loc 12 82 3 is_stmt 1 discriminator 2 view .LVU463
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 56
 
 
- 1762              		.loc 12 81 13 is_stmt 0 discriminator 2 view .LVU464
+  82:sardinia.cpp  **** 	}
+ 1762              		.loc 12 82 13 is_stmt 0 discriminator 2 view .LVU464
  1763 00c0 83ED000A 		vstr.32	s0, [r3]
-  51:sardinia.cpp  **** 	{
- 1764              		.loc 12 51 2 is_stmt 1 discriminator 2 view .LVU465
+  52:sardinia.cpp  **** 	{
+ 1764              		.loc 12 52 2 is_stmt 1 discriminator 2 view .LVU465
  1765              	.LVL85:
-  51:sardinia.cpp  **** 	{
- 1766              		.loc 12 51 23 discriminator 2 view .LVU466
+  52:sardinia.cpp  **** 	{
+ 1766              		.loc 12 52 23 discriminator 2 view .LVU466
  1767 00c4 019B     		ldr	r3, [sp, #4]
  1768 00c6 A342     		cmp	r3, r4
  1769 00c8 ABD1     		bne	.L108
  1770              	.LVL86:
  1771              	.L107:
-  51:sardinia.cpp  **** 	{
- 1772              		.loc 12 51 23 is_stmt 0 discriminator 2 view .LVU467
+  52:sardinia.cpp  **** 	{
+ 1772              		.loc 12 52 23 is_stmt 0 discriminator 2 view .LVU467
  1773              	.LBE309:
-  83:sardinia.cpp  **** 
- 1774              		.loc 12 83 1 view .LVU468
+  84:sardinia.cpp  **** 
+ 1774              		.loc 12 84 1 view .LVU468
  1775 00ca 03B0     		add	sp, sp, #12
  1776              		.cfi_remember_state
  1777              		.cfi_def_cfa_offset 36
@@ -3329,55 +3330,55 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1783              	.LBB330:
  1784              	.LBB328:
  1785              	.LBB319:
- 161:sardinia.cpp  **** 	}
- 1786              		.loc 12 161 3 is_stmt 1 view .LVU469
- 161:sardinia.cpp  **** 	}
- 1787              		.loc 12 161 13 is_stmt 0 view .LVU470
+ 162:sardinia.cpp  **** 	}
+ 1786              		.loc 12 162 3 is_stmt 1 view .LVU469
+ 162:sardinia.cpp  **** 	}
+ 1787              		.loc 12 162 13 is_stmt 0 view .LVU470
  1788 00d0 0121     		movs	r1, #1
  1789 00d2 134B     		ldr	r3, .L123+20
  1790 00d4 1970     		strb	r1, [r3]
  1791 00d6 B8E7     		b	.L110
  1792              	.L113:
- 161:sardinia.cpp  **** 	}
- 1793              		.loc 12 161 13 view .LVU471
+ 162:sardinia.cpp  **** 	}
+ 1793              		.loc 12 162 13 view .LVU471
  1794              	.LBE319:
  1795              	.LBE328:
-  68:sardinia.cpp  **** 			if(readIndex > recordingLength) // recordingLength dynamically changes the size of sample based 
- 1796              		.loc 12 68 4 is_stmt 1 view .LVU472
-  68:sardinia.cpp  **** 			if(readIndex > recordingLength) // recordingLength dynamically changes the size of sample based 
- 1797              		.loc 12 68 25 is_stmt 0 view .LVU473
+  69:sardinia.cpp  **** 			if(readIndex > recordingLength) // recordingLength dynamically changes the size of sample based 
+ 1796              		.loc 12 69 4 is_stmt 1 view .LVU472
+  69:sardinia.cpp  **** 			if(readIndex > recordingLength) // recordingLength dynamically changes the size of sample based 
+ 1797              		.loc 12 69 25 is_stmt 0 view .LVU473
  1798 00d8 FFF7FEFF 		bl	_Z9GetSamplev
  1799              	.LVL88:
-  69:sardinia.cpp  **** 			{
- 1800              		.loc 12 69 17 view .LVU474
+  70:sardinia.cpp  **** 			{
+ 1800              		.loc 12 70 17 view .LVU474
  1801 00dc 144B     		ldr	r3, .L123+36
-  68:sardinia.cpp  **** 			if(readIndex > recordingLength) // recordingLength dynamically changes the size of sample based 
- 1802              		.loc 12 68 14 view .LVU475
+  69:sardinia.cpp  **** 			if(readIndex > recordingLength) // recordingLength dynamically changes the size of sample based 
+ 1802              		.loc 12 69 14 view .LVU475
  1803 00de 86ED000A 		vstr.32	s0, [r6]
-  69:sardinia.cpp  **** 			{
- 1804              		.loc 12 69 4 is_stmt 1 view .LVU476
-  69:sardinia.cpp  **** 			{
- 1805              		.loc 12 69 17 is_stmt 0 view .LVU477
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 57
+  70:sardinia.cpp  **** 			{
+ 1804              		.loc 12 70 4 is_stmt 1 view .LVU476
+  70:sardinia.cpp  **** 			{
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 57
 
 
+ 1805              		.loc 12 70 17 is_stmt 0 view .LVU477
  1806 00e2 D3ED007A 		vldr.32	s15, [r3]	@ int
  1807 00e6 0D4B     		ldr	r3, .L123+16
  1808 00e8 F8EE677A 		vcvt.f32.u32	s15, s15
-  69:sardinia.cpp  **** 			{
- 1809              		.loc 12 69 4 view .LVU478
+  70:sardinia.cpp  **** 			{
+ 1809              		.loc 12 70 4 view .LVU478
  1810 00ec 93ED007A 		vldr.32	s14, [r3]
  1811 00f0 F4EEC77A 		vcmpe.f32	s15, s14
-  76:sardinia.cpp  **** 		outputMix *= outputAmp;
- 1812              		.loc 12 76 24 view .LVU479
+  77:sardinia.cpp  **** 		outputMix *= outputAmp;
+ 1812              		.loc 12 77 24 view .LVU479
  1813 00f4 DBED007A 		vldr.32	s15, [fp]
-  71:sardinia.cpp  **** 			}
- 1814              		.loc 12 71 5 is_stmt 1 view .LVU480
-  69:sardinia.cpp  **** 			{
- 1815              		.loc 12 69 4 is_stmt 0 view .LVU481
+  72:sardinia.cpp  **** 			}
+ 1814              		.loc 12 72 5 is_stmt 1 view .LVU480
+  70:sardinia.cpp  **** 			{
+ 1815              		.loc 12 70 4 is_stmt 0 view .LVU481
  1816 00f8 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
-  71:sardinia.cpp  **** 			}
- 1817              		.loc 12 71 15 view .LVU482
+  72:sardinia.cpp  **** 			}
+ 1817              		.loc 12 72 15 view .LVU482
  1818 00fc 44BF     		itt	mi
  1819 00fe 0022     		movmi	r2, #0
  1820 0100 1A60     		strmi	r2, [r3]	@ float
@@ -3387,10 +3388,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1824              	.LBB320:
  1825              	.LBB317:
  1826              	.LBB316:
- 166:sardinia.cpp  **** 		{
- 167:sardinia.cpp  **** 			isPlaying = false;
- 1827              		.loc 12 167 4 is_stmt 1 view .LVU483
- 1828              		.loc 12 167 14 is_stmt 0 view .LVU484
+ 167:sardinia.cpp  **** 		{
+ 168:sardinia.cpp  **** 			isPlaying = false;
+ 1827              		.loc 12 168 4 is_stmt 1 view .LVU483
+ 1828              		.loc 12 168 14 is_stmt 0 view .LVU484
  1829 0104 0021     		movs	r1, #0
  1830 0106 064B     		ldr	r3, .L123+20
  1831 0108 1970     		strb	r1, [r3]
@@ -3417,10 +3418,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1852              	.LBE330:
  1853              		.cfi_endproc
  1854              	.LFE4694:
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 58
+
+
  1856              		.section	.text._Z17ProcessControlsARv,"ax",%progbits
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 58
-
-
  1857              		.align	1
  1858              		.p2align 2,,3
  1859              		.global	_Z17ProcessControlsARv
@@ -3429,27 +3430,27 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1862              		.thumb_func
  1864              	_Z17ProcessControlsARv:
  1865              	.LFB4697:
- 156:sardinia.cpp  **** 	playButton.Debounce();
- 1866              		.loc 12 156 1 is_stmt 1 view -0
+ 157:sardinia.cpp  **** 	playButton.Debounce();
+ 1866              		.loc 12 157 1 is_stmt 1 view -0
  1867              		.cfi_startproc
  1868              		@ args = 0, pretend = 0, frame = 0
  1869              		@ frame_needed = 0, uses_anonymous_args = 0
- 157:sardinia.cpp  **** 
- 1870              		.loc 12 157 2 view .LVU486
- 156:sardinia.cpp  **** 	playButton.Debounce();
- 1871              		.loc 12 156 1 is_stmt 0 view .LVU487
+ 158:sardinia.cpp  **** 
+ 1870              		.loc 12 158 2 view .LVU486
+ 157:sardinia.cpp  **** 	playButton.Debounce();
+ 1871              		.loc 12 157 1 is_stmt 0 view .LVU487
  1872 0000 10B5     		push	{r4, lr}
  1873              		.cfi_def_cfa_offset 8
  1874              		.cfi_offset 4, -8
  1875              		.cfi_offset 14, -4
- 157:sardinia.cpp  **** 
- 1876              		.loc 12 157 21 view .LVU488
+ 158:sardinia.cpp  **** 
+ 1876              		.loc 12 158 21 view .LVU488
  1877 0002 0B4C     		ldr	r4, .L130
  1878 0004 2046     		mov	r0, r4
  1879 0006 FFF7FEFF 		bl	_ZN5daisy6Switch8DebounceEv
  1880              	.LVL89:
- 159:sardinia.cpp  **** 	{
- 1881              		.loc 12 159 2 is_stmt 1 view .LVU489
+ 160:sardinia.cpp  **** 	{
+ 1881              		.loc 12 160 2 is_stmt 1 view .LVU489
  1882              	.LBB337:
  1883              	.LBI337:
  1884              		.loc 1 79 17 view .LVU490
@@ -3458,52 +3459,52 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1887              		.loc 1 79 35 is_stmt 0 view .LVU492
  1888              	.LBE338:
  1889              	.LBE337:
- 159:sardinia.cpp  **** 	{
- 1890              		.loc 12 159 2 view .LVU493
+ 160:sardinia.cpp  **** 	{
+ 1890              		.loc 12 160 2 view .LVU493
  1891 000a A37A     		ldrb	r3, [r4, #10]	@ zero_extendqisi2
  1892 000c FF2B     		cmp	r3, #255
  1893 000e 0BD0     		beq	.L129
  1894              	.LBB339:
  1895              	.LBI339:
- 155:sardinia.cpp  **** {
- 1896              		.loc 12 155 6 is_stmt 1 view .LVU494
+ 156:sardinia.cpp  **** {
+ 1896              		.loc 12 156 6 is_stmt 1 view .LVU494
  1897              	.LBB340:
- 165:sardinia.cpp  **** 		{
- 1898              		.loc 12 165 3 view .LVU495
- 165:sardinia.cpp  **** 		{
- 1899              		.loc 12 165 16 is_stmt 0 view .LVU496
+ 166:sardinia.cpp  **** 		{
+ 1898              		.loc 12 166 3 view .LVU495
+ 166:sardinia.cpp  **** 		{
+ 1899              		.loc 12 166 16 is_stmt 0 view .LVU496
  1900 0010 084B     		ldr	r3, .L130+4
- 165:sardinia.cpp  **** 		{
- 1901              		.loc 12 165 3 view .LVU497
+ 166:sardinia.cpp  **** 		{
+ 1901              		.loc 12 166 3 view .LVU497
  1902 0012 D3ED007A 		vldr.32	s15, [r3]
  1903 0016 F5EE407A 		vcmp.f32	s15, #0
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 59
+
+
  1904 001a F1EE10FA 		vmrs	APSR_nzcv, FPSCR
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 59
-
-
  1905 001e 02D1     		bne	.L125
- 1906              		.loc 12 167 4 is_stmt 1 view .LVU498
- 1907              		.loc 12 167 14 is_stmt 0 view .LVU499
+ 1906              		.loc 12 168 4 is_stmt 1 view .LVU498
+ 1907              		.loc 12 168 14 is_stmt 0 view .LVU499
  1908 0020 054B     		ldr	r3, .L130+8
  1909 0022 0022     		movs	r2, #0
  1910 0024 1A70     		strb	r2, [r3]
  1911              	.L125:
  1912              	.LBE340:
  1913              	.LBE339:
- 168:sardinia.cpp  **** 		}
- 169:sardinia.cpp  **** 	}
- 170:sardinia.cpp  **** }
- 1914              		.loc 12 170 1 view .LVU500
+ 169:sardinia.cpp  **** 		}
+ 170:sardinia.cpp  **** 	}
+ 171:sardinia.cpp  **** }
+ 1914              		.loc 12 171 1 view .LVU500
  1915 0026 10BD     		pop	{r4, pc}
  1916              	.L129:
- 161:sardinia.cpp  **** 	}
- 1917              		.loc 12 161 3 is_stmt 1 view .LVU501
- 161:sardinia.cpp  **** 	}
- 1918              		.loc 12 161 13 is_stmt 0 view .LVU502
+ 162:sardinia.cpp  **** 	}
+ 1917              		.loc 12 162 3 is_stmt 1 view .LVU501
+ 162:sardinia.cpp  **** 	}
+ 1918              		.loc 12 162 13 is_stmt 0 view .LVU502
  1919 0028 034B     		ldr	r3, .L130+8
  1920 002a 0122     		movs	r2, #1
  1921 002c 1A70     		strb	r2, [r3]
- 1922              		.loc 12 170 1 view .LVU503
+ 1922              		.loc 12 171 1 view .LVU503
  1923 002e 10BD     		pop	{r4, pc}
  1924              	.L131:
  1925              		.align	2
@@ -3522,106 +3523,106 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  1939              		.thumb_func
  1941              	_Z13GetStartIndexv:
  1942              	.LFB4698:
- 171:sardinia.cpp  **** 
- 172:sardinia.cpp  **** uint32_t GetStartIndex()
- 173:sardinia.cpp  **** {
- 1943              		.loc 12 173 1 is_stmt 1 view -0
+ 172:sardinia.cpp  **** 
+ 173:sardinia.cpp  **** uint32_t GetStartIndex()
+ 174:sardinia.cpp  **** {
+ 1943              		.loc 12 174 1 is_stmt 1 view -0
  1944              		.cfi_startproc
  1945              		@ args = 0, pretend = 0, frame = 0
  1946              		@ frame_needed = 0, uses_anonymous_args = 0
- 174:sardinia.cpp  **** 	bool foundVal = false;
- 1947              		.loc 12 174 2 view .LVU505
+ 175:sardinia.cpp  **** 	bool foundVal = false;
+ 1947              		.loc 12 175 2 view .LVU505
  1948              	.LVL90:
- 175:sardinia.cpp  **** 	uint32_t startIndex = 0;
- 1949              		.loc 12 175 2 view .LVU506
- 176:sardinia.cpp  **** 
- 177:sardinia.cpp  **** 	for(int i = 0; i < numKeyPads; i++)
- 1950              		.loc 12 177 2 view .LVU507
+ 176:sardinia.cpp  **** 	uint32_t startIndex = 0;
+ 1949              		.loc 12 176 2 view .LVU506
+ 177:sardinia.cpp  **** 
+ 178:sardinia.cpp  **** 	for(int i = 0; i < numKeyPads; i++)
+ 1950              		.loc 12 178 2 view .LVU507
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 60
+
+
  1951              	.LBB341:
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 60
-
-
- 1952              		.loc 12 177 19 view .LVU508
+ 1952              		.loc 12 178 19 view .LVU508
  1953              	.LBE341:
- 173:sardinia.cpp  **** 	bool foundVal = false;
- 1954              		.loc 12 173 1 is_stmt 0 view .LVU509
+ 174:sardinia.cpp  **** 	bool foundVal = false;
+ 1954              		.loc 12 174 1 is_stmt 0 view .LVU509
  1955 0000 10B5     		push	{r4, lr}
  1956              		.cfi_def_cfa_offset 8
  1957              		.cfi_offset 4, -8
  1958              		.cfi_offset 14, -4
  1959              	.LBB342:
- 1960              		.loc 12 177 10 view .LVU510
+ 1960              		.loc 12 178 10 view .LVU510
  1961 0002 0024     		movs	r4, #0
  1962              	.LVL91:
  1963              	.L135:
- 178:sardinia.cpp  **** 	{
- 179:sardinia.cpp  **** 		if(hw.adc.GetMuxFloat(0,i) == 0.0f)
- 1964              		.loc 12 179 3 is_stmt 1 view .LVU511
- 1965              		.loc 12 179 24 is_stmt 0 view .LVU512
+ 179:sardinia.cpp  **** 	{
+ 180:sardinia.cpp  **** 		if(hw.adc.GetMuxFloat(0,i) == 0.0f)
+ 1964              		.loc 12 180 3 is_stmt 1 view .LVU511
+ 1965              		.loc 12 180 24 is_stmt 0 view .LVU512
  1966 0004 E2B2     		uxtb	r2, r4
  1967 0006 0021     		movs	r1, #0
  1968 0008 0848     		ldr	r0, .L139
  1969 000a FFF7FEFF 		bl	_ZNK5daisy9AdcHandle11GetMuxFloatEhh
  1970              	.LVL92:
+ 181:sardinia.cpp  **** 		{
+ 182:sardinia.cpp  **** 			startIndex = keyStartIndex[i];
+ 183:sardinia.cpp  **** 			foundVal = true;
+ 184:sardinia.cpp  **** 		}
+ 185:sardinia.cpp  **** 
+ 186:sardinia.cpp  **** 		if(foundVal)
+ 1971              		.loc 12 186 3 is_stmt 1 view .LVU513
+ 178:sardinia.cpp  **** 	{
+ 1972              		.loc 12 178 2 view .LVU514
  180:sardinia.cpp  **** 		{
- 181:sardinia.cpp  **** 			startIndex = keyStartIndex[i];
- 182:sardinia.cpp  **** 			foundVal = true;
- 183:sardinia.cpp  **** 		}
- 184:sardinia.cpp  **** 
- 185:sardinia.cpp  **** 		if(foundVal)
- 1971              		.loc 12 185 3 is_stmt 1 view .LVU513
- 177:sardinia.cpp  **** 	{
- 1972              		.loc 12 177 2 view .LVU514
- 179:sardinia.cpp  **** 		{
- 1973              		.loc 12 179 3 is_stmt 0 view .LVU515
+ 1973              		.loc 12 180 3 is_stmt 0 view .LVU515
  1974 000e B5EE400A 		vcmp.f32	s0, #0
  1975 0012 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
  1976 0016 04D0     		beq	.L138
- 177:sardinia.cpp  **** 	{
- 1977              		.loc 12 177 2 discriminator 2 view .LVU516
+ 178:sardinia.cpp  **** 	{
+ 1977              		.loc 12 178 2 discriminator 2 view .LVU516
  1978 0018 0134     		adds	r4, r4, #1
  1979              	.LVL93:
- 177:sardinia.cpp  **** 	{
- 1980              		.loc 12 177 19 is_stmt 1 discriminator 2 view .LVU517
+ 178:sardinia.cpp  **** 	{
+ 1980              		.loc 12 178 19 is_stmt 1 discriminator 2 view .LVU517
  1981 001a 082C     		cmp	r4, #8
  1982 001c F2D1     		bne	.L135
  1983 001e 0020     		movs	r0, #0
- 177:sardinia.cpp  **** 	{
- 1984              		.loc 12 177 19 is_stmt 0 discriminator 2 view .LVU518
+ 178:sardinia.cpp  **** 	{
+ 1984              		.loc 12 178 19 is_stmt 0 discriminator 2 view .LVU518
  1985              	.LBE342:
- 186:sardinia.cpp  **** 		{
- 187:sardinia.cpp  **** 			break;
- 188:sardinia.cpp  **** 		}
- 189:sardinia.cpp  **** 	}
- 190:sardinia.cpp  **** 
- 191:sardinia.cpp  **** 	return startIndex;
- 1986              		.loc 12 191 2 is_stmt 1 view .LVU519
- 192:sardinia.cpp  **** }
- 1987              		.loc 12 192 1 is_stmt 0 view .LVU520
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 61
+ 187:sardinia.cpp  **** 		{
+ 188:sardinia.cpp  **** 			break;
+ 189:sardinia.cpp  **** 		}
+ 190:sardinia.cpp  **** 	}
+ 191:sardinia.cpp  **** 
+ 192:sardinia.cpp  **** 	return startIndex;
+ 1986              		.loc 12 192 2 is_stmt 1 view .LVU519
+ 193:sardinia.cpp  **** }
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 61
 
 
+ 1987              		.loc 12 193 1 is_stmt 0 view .LVU520
  1988 0020 10BD     		pop	{r4, pc}
  1989              	.LVL94:
  1990              	.L138:
  1991              	.LBB343:
- 181:sardinia.cpp  **** 			foundVal = true;
- 1992              		.loc 12 181 4 is_stmt 1 view .LVU521
- 181:sardinia.cpp  **** 			foundVal = true;
- 1993              		.loc 12 181 15 is_stmt 0 view .LVU522
+ 182:sardinia.cpp  **** 			foundVal = true;
+ 1992              		.loc 12 182 4 is_stmt 1 view .LVU521
+ 182:sardinia.cpp  **** 			foundVal = true;
+ 1993              		.loc 12 182 15 is_stmt 0 view .LVU522
  1994 0022 034B     		ldr	r3, .L139+4
  1995 0024 53F82400 		ldr	r0, [r3, r4, lsl #2]
  1996              	.LVL95:
- 182:sardinia.cpp  **** 		}
- 1997              		.loc 12 182 4 is_stmt 1 view .LVU523
- 185:sardinia.cpp  **** 		{
- 1998              		.loc 12 185 3 view .LVU524
+ 183:sardinia.cpp  **** 		}
+ 1997              		.loc 12 183 4 is_stmt 1 view .LVU523
+ 186:sardinia.cpp  **** 		{
+ 1998              		.loc 12 186 3 view .LVU524
  1999              	.LBE343:
- 2000              		.loc 12 192 1 is_stmt 0 view .LVU525
+ 2000              		.loc 12 193 1 is_stmt 0 view .LVU525
  2001 0028 10BD     		pop	{r4, pc}
  2002              	.LVL96:
  2003              	.L140:
- 2004              		.loc 12 192 1 view .LVU526
+ 2004              		.loc 12 193 1 view .LVU526
  2005 002a 00BF     		.align	2
  2006              	.L139:
  2007 002c 18000000 		.word	.LANCHOR15+24
@@ -3637,111 +3638,111 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  2018              		.thumb_func
  2020              	_Z12GetStopIndexv:
  2021              	.LFB4699:
- 193:sardinia.cpp  **** 
- 194:sardinia.cpp  **** uint32_t GetStopIndex()
- 195:sardinia.cpp  **** {
- 2022              		.loc 12 195 1 is_stmt 1 view -0
+ 194:sardinia.cpp  **** 
+ 195:sardinia.cpp  **** uint32_t GetStopIndex()
+ 196:sardinia.cpp  **** {
+ 2022              		.loc 12 196 1 is_stmt 1 view -0
  2023              		.cfi_startproc
  2024              		@ args = 0, pretend = 0, frame = 0
  2025              		@ frame_needed = 0, uses_anonymous_args = 0
- 196:sardinia.cpp  **** 	bool foundVal = false;
- 2026              		.loc 12 196 2 view .LVU528
+ 197:sardinia.cpp  **** 	bool foundVal = false;
+ 2026              		.loc 12 197 2 view .LVU528
  2027              	.LVL97:
- 197:sardinia.cpp  **** 	uint32_t stopIndex = recordingLength;
- 2028              		.loc 12 197 2 view .LVU529
- 195:sardinia.cpp  **** 	bool foundVal = false;
- 2029              		.loc 12 195 1 is_stmt 0 view .LVU530
+ 198:sardinia.cpp  **** 	uint32_t stopIndex = recordingLength;
+ 2028              		.loc 12 198 2 view .LVU529
+ 196:sardinia.cpp  **** 	bool foundVal = false;
+ 2029              		.loc 12 196 1 is_stmt 0 view .LVU530
  2030 0000 38B5     		push	{r3, r4, r5, lr}
  2031              		.cfi_def_cfa_offset 16
  2032              		.cfi_offset 3, -16
  2033              		.cfi_offset 4, -12
  2034              		.cfi_offset 5, -8
  2035              		.cfi_offset 14, -4
- 2036              		.loc 12 197 11 view .LVU531
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 62
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 62
 
 
+ 2036              		.loc 12 198 11 view .LVU531
  2037 0002 0B4B     		ldr	r3, .L148
  2038              	.LBB344:
- 198:sardinia.cpp  **** 
- 199:sardinia.cpp  **** 	for(int i = 0; i < numKeyPads; i++)
- 2039              		.loc 12 199 10 view .LVU532
+ 199:sardinia.cpp  **** 
+ 200:sardinia.cpp  **** 	for(int i = 0; i < numKeyPads; i++)
+ 2039              		.loc 12 200 10 view .LVU532
  2040 0004 0024     		movs	r4, #0
  2041              	.LBE344:
- 197:sardinia.cpp  **** 
- 2042              		.loc 12 197 11 view .LVU533
+ 198:sardinia.cpp  **** 
+ 2042              		.loc 12 198 11 view .LVU533
  2043 0006 1D68     		ldr	r5, [r3]
  2044              	.LVL98:
- 2045              		.loc 12 199 2 is_stmt 1 view .LVU534
+ 2045              		.loc 12 200 2 is_stmt 1 view .LVU534
  2046              	.LBB345:
- 2047              		.loc 12 199 19 view .LVU535
+ 2047              		.loc 12 200 19 view .LVU535
  2048              	.L144:
- 200:sardinia.cpp  **** 	{
- 201:sardinia.cpp  **** 		if(hw.adc.GetMuxFloat(0,i) == 0.0f)
- 2049              		.loc 12 201 3 view .LVU536
- 2050              		.loc 12 201 24 is_stmt 0 view .LVU537
+ 201:sardinia.cpp  **** 	{
+ 202:sardinia.cpp  **** 		if(hw.adc.GetMuxFloat(0,i) == 0.0f)
+ 2049              		.loc 12 202 3 view .LVU536
+ 2050              		.loc 12 202 24 is_stmt 0 view .LVU537
  2051 0008 E2B2     		uxtb	r2, r4
  2052 000a 0021     		movs	r1, #0
  2053 000c 0948     		ldr	r0, .L148+4
  2054 000e FFF7FEFF 		bl	_ZNK5daisy9AdcHandle11GetMuxFloatEhh
  2055              	.LVL99:
+ 203:sardinia.cpp  **** 		{
+ 204:sardinia.cpp  **** 			stopIndex = keyStopIndex[i];
+ 205:sardinia.cpp  **** 			foundVal = true;
+ 206:sardinia.cpp  **** 		}
+ 207:sardinia.cpp  **** 
+ 208:sardinia.cpp  **** 		if(foundVal)
+ 2056              		.loc 12 208 3 is_stmt 1 view .LVU538
+ 200:sardinia.cpp  **** 	{
+ 2057              		.loc 12 200 2 view .LVU539
  202:sardinia.cpp  **** 		{
- 203:sardinia.cpp  **** 			stopIndex = keyStopIndex[i];
- 204:sardinia.cpp  **** 			foundVal = true;
- 205:sardinia.cpp  **** 		}
- 206:sardinia.cpp  **** 
- 207:sardinia.cpp  **** 		if(foundVal)
- 2056              		.loc 12 207 3 is_stmt 1 view .LVU538
- 199:sardinia.cpp  **** 	{
- 2057              		.loc 12 199 2 view .LVU539
- 201:sardinia.cpp  **** 		{
- 2058              		.loc 12 201 3 is_stmt 0 view .LVU540
+ 2058              		.loc 12 202 3 is_stmt 0 view .LVU540
  2059 0012 B5EE400A 		vcmp.f32	s0, #0
  2060 0016 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
  2061 001a 04D0     		beq	.L147
- 199:sardinia.cpp  **** 	{
- 2062              		.loc 12 199 2 discriminator 2 view .LVU541
+ 200:sardinia.cpp  **** 	{
+ 2062              		.loc 12 200 2 discriminator 2 view .LVU541
  2063 001c 0134     		adds	r4, r4, #1
  2064              	.LVL100:
- 199:sardinia.cpp  **** 	{
- 2065              		.loc 12 199 19 is_stmt 1 discriminator 2 view .LVU542
+ 200:sardinia.cpp  **** 	{
+ 2065              		.loc 12 200 19 is_stmt 1 discriminator 2 view .LVU542
  2066 001e 082C     		cmp	r4, #8
  2067 0020 F2D1     		bne	.L144
  2068              	.LBE345:
- 208:sardinia.cpp  **** 		{
- 209:sardinia.cpp  **** 			break;
- 210:sardinia.cpp  **** 		}
- 211:sardinia.cpp  **** 	}
- 212:sardinia.cpp  **** 
- 213:sardinia.cpp  **** 	return stopIndex;
- 214:sardinia.cpp  **** }
- 2069              		.loc 12 214 1 is_stmt 0 view .LVU543
+ 209:sardinia.cpp  **** 		{
+ 210:sardinia.cpp  **** 			break;
+ 211:sardinia.cpp  **** 		}
+ 212:sardinia.cpp  **** 	}
+ 213:sardinia.cpp  **** 
+ 214:sardinia.cpp  **** 	return stopIndex;
+ 215:sardinia.cpp  **** }
+ 2069              		.loc 12 215 1 is_stmt 0 view .LVU543
  2070 0022 2846     		mov	r0, r5
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 63
+
+
  2071 0024 38BD     		pop	{r3, r4, r5, pc}
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 63
-
-
  2072              	.LVL101:
  2073              	.L147:
  2074              	.LBB346:
- 203:sardinia.cpp  **** 			foundVal = true;
- 2075              		.loc 12 203 4 is_stmt 1 view .LVU544
- 203:sardinia.cpp  **** 			foundVal = true;
- 2076              		.loc 12 203 14 is_stmt 0 view .LVU545
+ 204:sardinia.cpp  **** 			foundVal = true;
+ 2075              		.loc 12 204 4 is_stmt 1 view .LVU544
+ 204:sardinia.cpp  **** 			foundVal = true;
+ 2076              		.loc 12 204 14 is_stmt 0 view .LVU545
  2077 0026 044B     		ldr	r3, .L148+8
  2078 0028 53F82450 		ldr	r5, [r3, r4, lsl #2]
  2079              	.LVL102:
- 204:sardinia.cpp  **** 		}
- 2080              		.loc 12 204 4 is_stmt 1 view .LVU546
- 207:sardinia.cpp  **** 		{
- 2081              		.loc 12 207 3 view .LVU547
+ 205:sardinia.cpp  **** 		}
+ 2080              		.loc 12 205 4 is_stmt 1 view .LVU546
+ 208:sardinia.cpp  **** 		{
+ 2081              		.loc 12 208 3 view .LVU547
  2082              	.LBE346:
- 2083              		.loc 12 214 1 is_stmt 0 view .LVU548
+ 2083              		.loc 12 215 1 is_stmt 0 view .LVU548
  2084 002c 2846     		mov	r0, r5
  2085 002e 38BD     		pop	{r3, r4, r5, pc}
  2086              	.LVL103:
  2087              	.L149:
- 2088              		.loc 12 214 1 view .LVU549
+ 2088              		.loc 12 215 1 view .LVU549
  2089              		.align	2
  2090              	.L148:
  2091 0030 00000000 		.word	.LANCHOR9
@@ -3757,13 +3758,13 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  2102              		.thumb_func
  2104              	_GLOBAL__sub_I_adcConfig:
  2105              	.LFB5262:
- 2106              		.loc 12 214 1 is_stmt 1 view -0
+ 2106              		.loc 12 215 1 is_stmt 1 view -0
  2107              		.cfi_startproc
  2108              		@ args = 0, pretend = 0, frame = 0
  2109              		@ frame_needed = 0, uses_anonymous_args = 0
  2110              	.LBB378:
  2111              	.LBI378:
- 2112              		.loc 12 214 1 view .LVU551
+ 2112              		.loc 12 215 1 view .LVU551
  2113              	.LVL104:
  2114              	.LBB379:
  2115              	.LBB380:
@@ -3777,15 +3778,15 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  2121              		.loc 1 41 5 view .LVU553
   41:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/hid/switch.h ****     ~Switch() {}
  2122              		.loc 1 41 5 is_stmt 0 view .LVU554
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 64
+
+
  2123              	.LBE382:
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 64
-
-
  2124              	.LBE381:
  2125              	.LBE380:
  2126              	.LBE379:
  2127              	.LBE378:
- 2128              		.loc 12 214 1 view .LVU555
+ 2128              		.loc 12 215 1 view .LVU555
  2129 0000 10B5     		push	{r4, lr}
  2130              		.cfi_def_cfa_offset 8
  2131              		.cfi_offset 4, -8
@@ -3837,10 +3838,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   22:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/dev/lcd_hd44780.h ****     ~LcdHD44780() {}
  2168              		.loc 3 22 5 is_stmt 0 view .LVU565
  2169              	.LBE385:
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 65
+
+
   40:display.h     **** enum Mode mode = record;
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 65
-
-
  2170              		.loc 11 40 12 view .LVU566
  2171 0022 094A     		ldr	r2, .L152+4
  2172 0024 0D49     		ldr	r1, .L152+24
@@ -3897,10 +3898,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   40:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h ****          *  Warnings are indicated by a leading W.
   41:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h ****          *  Errors are indicated by a leading E and cause an immediate exit.
   42:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h ****          * 
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 66
+
+
   43:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h ****          *  \param GOOD - No errors have been reported.
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 66
-
-
   44:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h ****          *  \param E_HAL_ERROR - HAL code did not return HAL_OK.
   45:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h ****          *  \param E_SWITCHING_MODES - An error was encountered while switching QSPI peripheral mod
   46:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h ****          *  \param E_INVALID_MODE - QSPI should not be written to while the program is executing fr
@@ -3957,10 +3958,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   97:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h ****         Initializes QSPI peripheral, and Resets, and prepares memory for access.
   98:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h ****         \param config should be populated with the mode, device and pin_config before calling this 
   99:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h ****         \return Result::OK or Result::ERR
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 67
+
+
  100:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h ****         */
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 67
-
-
  101:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h ****     Result Init(const Config& config);
  102:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h **** 
  103:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h ****     /** Returns the current config. */
@@ -4017,10 +4018,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  154:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h ****      */
  155:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h ****     Status GetStatus();
  156:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h **** 
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 68
+
+
  157:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h ****     /** Returns a pointer to the actual memory used 
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 68
-
-
  158:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h ****      *  The memory at this address is read-only
  159:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h ****      *  to write to it use the Write function.
  160:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/qspi.h ****      * 
@@ -4077,10 +4078,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  109:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/adc.h ****     ~AdcHandle() {}
  2223              		.loc 7 109 5 is_stmt 1 view .LVU576
  109:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/adc.h ****     ~AdcHandle() {}
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 69
+
+
  2224              		.loc 7 109 5 is_stmt 0 view .LVU577
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 69
-
-
  2225              	.LBE397:
  2226              	.LBB398:
  2227              	.LBI398:
@@ -4137,10 +4138,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   50:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/dac.h ****     };
   51:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/dac.h **** 
   52:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/dac.h ****     /** Sets the number of bits per sample transmitted out of the DAC.
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 70
+
+
   53:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/dac.h ****      ** The output range will be: 0V - VDDA
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 70
-
-
   54:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/dac.h ****      ** The resolution will be roughly: bitdepth / (VDDA - 0V) 
   55:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/dac.h ****      ***/
   56:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/dac.h ****     enum class BitDepth
@@ -4197,10 +4198,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  2247              		.loc 5 96 5 is_stmt 0 view .LVU584
  2248              	.LBE402:
  2249              	.LBB403:
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 71
+
+
  2250              	.LBI403:
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 71
-
-
  2251              		.file 16 "/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/s
    1:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/sai.h **** #pragma once
    2:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/sai.h **** #ifndef DSY_SAI_H
@@ -4257,10 +4258,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
   53:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/sai.h ****         };
   54:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/sai.h **** 
   55:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/sai.h ****         /** Rate at which samples will be streaming to/from the device. */
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 72
+
+
   56:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/sai.h ****         enum class SampleRate
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 72
-
-
   57:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/sai.h ****         {
   58:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/sai.h ****             SAI_8KHZ,
   59:/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/sai.h ****             SAI_16KHZ,
@@ -4317,10 +4318,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  2253              	.LBB404:
  2254              	.LBB405:
  2255              		.loc 16 108 33 is_stmt 0 view .LVU586
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 73
+
+
  2256 003a C363     		str	r3, [r0, #60]
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 73
-
-
  2257              	.LVL112:
  2258              		.loc 16 108 33 view .LVU587
  2259              	.LBE405:
@@ -4330,7 +4331,7 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  2263              	.LBE407:
  2264              	.LBE408:
  2265              	.LBE410:
- 2266              		.loc 12 214 1 view .LVU588
+ 2266              		.loc 12 215 1 view .LVU588
  2267 003c BDE81040 		pop	{r4, lr}
  2268              		.cfi_restore 14
  2269              		.cfi_restore 4
@@ -4377,10 +4378,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  2310              		.global	keyStartIndex
  2311              		.global	lengthTrack
  2312              		.global	recordingLength
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 74
+
+
  2313              		.global	writeIndex
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 74
-
-
  2314              		.global	readPitch
  2315              		.global	readFactor
  2316              		.global	readIndexFraction
@@ -4437,10 +4438,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  2363              		.section	.bss.inputSig,"aw",%nobits
  2364              		.align	2
  2365              		.set	.LANCHOR26,. + 0
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 75
+
+
  2368              	inputSig:
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 75
-
-
  2369 0000 00000000 		.space	4
  2370              		.section	.bss.isPlaying,"aw",%nobits
  2371              		.set	.LANCHOR25,. + 0
@@ -4497,10 +4498,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  2428              	playButton:
  2429 0000 00000000 		.space	16
  2429      00000000 
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 76
+
+
  2429      00000000 
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 76
-
-
  2429      00000000 
  2430              		.section	.bss.readIndex,"aw",%nobits
  2431              		.align	2
@@ -4557,10 +4558,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  2499              		.section	.data.outputAmp,"aw"
  2500              		.align	2
  2501              		.set	.LANCHOR22,. + 0
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 77
+
+
  2504              	outputAmp:
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 77
-
-
  2505 0000 0000003F 		.word	1056964608
  2506              		.section	.data.readFactor,"aw"
  2507              		.align	2
@@ -4617,10 +4618,10 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  2560              		.file 49 "/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/dev/m
  2561              		.file 50 "/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/per/g
  2562              		.file 51 "/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/dev/s
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 78
+
+
  2563              		.file 52 "/Applications/ARM/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h"
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 78
-
-
  2564              		.file 53 "/Applications/ARM/arm-none-eabi/include/stdio.h"
  2565              		.file 54 "/Applications/ARM/arm-none-eabi/include/string.h"
  2566              		.file 55 "/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Con
@@ -4628,144 +4629,144 @@ ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 1
  2568              		.file 57 "/Applications/ARM/arm-none-eabi/include/locale.h"
  2569              		.file 58 "/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/src/dev/s
  2570              		.file 59 "<built-in>"
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 79
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 79
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 sardinia.cpp
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:19     .text._ZN5daisy6SwitchD2Ev:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:26     .text._ZN5daisy6SwitchD2Ev:0000000000000000 _ZN5daisy6SwitchD2Ev
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:26     .text._ZN5daisy6SwitchD2Ev:0000000000000000 _ZN5daisy6SwitchD1Ev
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:43     .text._ZN5daisy7EncoderD2Ev:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:50     .text._ZN5daisy7EncoderD2Ev:0000000000000000 _ZN5daisy7EncoderD2Ev
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:50     .text._ZN5daisy7EncoderD2Ev:0000000000000000 _ZN5daisy7EncoderD1Ev
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:72     .text._ZN5daisy10LcdHD44780D2Ev:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:79     .text._ZN5daisy10LcdHD44780D2Ev:0000000000000000 _ZN5daisy10LcdHD44780D2Ev
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:79     .text._ZN5daisy10LcdHD44780D2Ev:0000000000000000 _ZN5daisy10LcdHD44780D1Ev
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:96     .text._ZN5daisy9DaisySeedD2Ev:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:103    .text._ZN5daisy9DaisySeedD2Ev:0000000000000000 _ZN5daisy9DaisySeedD2Ev
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:103    .text._ZN5daisy9DaisySeedD2Ev:0000000000000000 _ZN5daisy9DaisySeedD1Ev
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:144    .text._Z12InitControlsv:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:151    .text._Z12InitControlsv:0000000000000000 _Z12InitControlsv
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:278    .text._Z12InitControlsv:00000000000000fc $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:288    .text._Z13EncoderTurnedv:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:295    .text._Z13EncoderTurnedv:0000000000000000 _Z13EncoderTurnedv
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:336    .text._Z13EncoderTurnedv:0000000000000020 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:341    .text._Z13EncoderTurnedN5daisy7EncoderE:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:348    .text._Z13EncoderTurnedN5daisy7EncoderE:0000000000000000 _Z13EncoderTurnedN5daisy7EncoderE
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:392    .text._Z10InitBufferv:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:399    .text._Z10InitBufferv:0000000000000000 _Z10InitBufferv
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:429    .text._Z10InitBufferv:0000000000000014 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2524   .sdram_bss:0000000000000000 buffer
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:437    .text._Z12RecordSamplef:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:444    .text._Z12RecordSamplef:0000000000000000 _Z12RecordSamplef
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:473    .text._Z12RecordSamplef:0000000000000014 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:479    .text._Z9GetSamplev:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:486    .text._Z9GetSamplev:0000000000000000 _Z9GetSamplev
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:554    .text._Z9GetSamplev:0000000000000050 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:563    .text._Z12SetKeyIndexsv:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:570    .text._Z12SetKeyIndexsv:0000000000000000 _Z12SetKeyIndexsv
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:629    .text._Z12SetKeyIndexsv:0000000000000028 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:636    .text._Z13GetStartPointv:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:643    .text._Z13GetStartPointv:0000000000000000 _Z13GetStartPointv
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:659    .text._Z13GetStartPointv:0000000000000008 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:664    .text._Z12GetStopPointv:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:671    .text._Z12GetStopPointv:0000000000000000 _Z12GetStopPointv
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:687    .text._Z12GetStopPointv:0000000000000008 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:692    .text._Z7InitLCDv:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:699    .text._Z7InitLCDv:0000000000000000 _Z7InitLCDv
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:777    .text._Z7InitLCDv:000000000000005c $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:783    .rodata._Z9PrintMenuv.str1.4:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:793    .text._Z9PrintMenuv:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:800    .text._Z9PrintMenuv:0000000000000000 _Z9PrintMenuv
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:851    .text._Z9PrintMenuv:0000000000000028 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:860    .text._Z13IncrementMenui:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:867    .text._Z13IncrementMenui:0000000000000000 _Z13IncrementMenui
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:915    .text._Z13IncrementMenui:0000000000000024 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:920    .text.startup.main:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:927    .text.startup.main:0000000000000000 main
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:1043   .text.startup.main:0000000000000070 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:1562   .text._Z13AudioCallbackPKPKfPPfj:0000000000000000 _Z13AudioCallbackPKPKfPPfj
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:1055   .text._Z17ProcessControlsKRv:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:1062   .text._Z17ProcessControlsKRv:0000000000000000 _Z17ProcessControlsKRv
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 80
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:19     .text._ZN5daisy6SwitchD2Ev:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:26     .text._ZN5daisy6SwitchD2Ev:0000000000000000 _ZN5daisy6SwitchD2Ev
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:26     .text._ZN5daisy6SwitchD2Ev:0000000000000000 _ZN5daisy6SwitchD1Ev
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:43     .text._ZN5daisy7EncoderD2Ev:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:50     .text._ZN5daisy7EncoderD2Ev:0000000000000000 _ZN5daisy7EncoderD2Ev
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:50     .text._ZN5daisy7EncoderD2Ev:0000000000000000 _ZN5daisy7EncoderD1Ev
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:72     .text._ZN5daisy10LcdHD44780D2Ev:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:79     .text._ZN5daisy10LcdHD44780D2Ev:0000000000000000 _ZN5daisy10LcdHD44780D2Ev
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:79     .text._ZN5daisy10LcdHD44780D2Ev:0000000000000000 _ZN5daisy10LcdHD44780D1Ev
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:96     .text._ZN5daisy9DaisySeedD2Ev:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:103    .text._ZN5daisy9DaisySeedD2Ev:0000000000000000 _ZN5daisy9DaisySeedD2Ev
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:103    .text._ZN5daisy9DaisySeedD2Ev:0000000000000000 _ZN5daisy9DaisySeedD1Ev
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:144    .text._Z12InitControlsv:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:151    .text._Z12InitControlsv:0000000000000000 _Z12InitControlsv
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:278    .text._Z12InitControlsv:00000000000000fc $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:288    .text._Z13EncoderTurnedv:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:295    .text._Z13EncoderTurnedv:0000000000000000 _Z13EncoderTurnedv
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:336    .text._Z13EncoderTurnedv:0000000000000020 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:341    .text._Z13EncoderTurnedN5daisy7EncoderE:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:348    .text._Z13EncoderTurnedN5daisy7EncoderE:0000000000000000 _Z13EncoderTurnedN5daisy7EncoderE
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:392    .text._Z10InitBufferv:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:399    .text._Z10InitBufferv:0000000000000000 _Z10InitBufferv
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:429    .text._Z10InitBufferv:0000000000000014 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2524   .sdram_bss:0000000000000000 buffer
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:437    .text._Z12RecordSamplef:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:444    .text._Z12RecordSamplef:0000000000000000 _Z12RecordSamplef
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:473    .text._Z12RecordSamplef:0000000000000014 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:479    .text._Z9GetSamplev:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:486    .text._Z9GetSamplev:0000000000000000 _Z9GetSamplev
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:554    .text._Z9GetSamplev:0000000000000050 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:563    .text._Z12SetKeyIndexsv:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:570    .text._Z12SetKeyIndexsv:0000000000000000 _Z12SetKeyIndexsv
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:629    .text._Z12SetKeyIndexsv:0000000000000028 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:636    .text._Z13GetStartPointv:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:643    .text._Z13GetStartPointv:0000000000000000 _Z13GetStartPointv
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:659    .text._Z13GetStartPointv:0000000000000008 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:664    .text._Z12GetStopPointv:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:671    .text._Z12GetStopPointv:0000000000000000 _Z12GetStopPointv
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:687    .text._Z12GetStopPointv:0000000000000008 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:692    .text._Z7InitLCDv:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:699    .text._Z7InitLCDv:0000000000000000 _Z7InitLCDv
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:777    .text._Z7InitLCDv:000000000000005c $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:783    .rodata._Z9PrintMenuv.str1.4:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:793    .text._Z9PrintMenuv:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:800    .text._Z9PrintMenuv:0000000000000000 _Z9PrintMenuv
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:851    .text._Z9PrintMenuv:0000000000000028 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:860    .text._Z13IncrementMenui:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:867    .text._Z13IncrementMenui:0000000000000000 _Z13IncrementMenui
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:915    .text._Z13IncrementMenui:0000000000000024 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:920    .text.startup.main:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:927    .text.startup.main:0000000000000000 main
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:1043   .text.startup.main:0000000000000070 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:1562   .text._Z13AudioCallbackPKPKfPPfj:0000000000000000 _Z13AudioCallbackPKPKfPPfj
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:1055   .text._Z17ProcessControlsKRv:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:1062   .text._Z17ProcessControlsKRv:0000000000000000 _Z17ProcessControlsKRv
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 80
 
 
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:1528   .text._Z17ProcessControlsKRv:0000000000000120 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:1555   .text._Z13AudioCallbackPKPKfPPfj:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:1836   .text._Z13AudioCallbackPKPKfPPfj:000000000000010c $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:1857   .text._Z17ProcessControlsARv:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:1864   .text._Z17ProcessControlsARv:0000000000000000 _Z17ProcessControlsARv
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:1927   .text._Z17ProcessControlsARv:0000000000000030 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:1934   .text._Z13GetStartIndexv:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:1941   .text._Z13GetStartIndexv:0000000000000000 _Z13GetStartIndexv
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2007   .text._Z13GetStartIndexv:000000000000002c $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2013   .text._Z12GetStopIndexv:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2020   .text._Z12GetStopIndexv:0000000000000000 _Z12GetStopIndexv
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2091   .text._Z12GetStopIndexv:0000000000000030 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2098   .text.startup._GLOBAL__sub_I_adcConfig:0000000000000000 $t
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2104   .text.startup._GLOBAL__sub_I_adcConfig:0000000000000000 _GLOBAL__sub_I_adcConfig
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2279   .text.startup._GLOBAL__sub_I_adcConfig:0000000000000044 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2295   .init_array:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2490   .bss.testVal:0000000000000000 testVal
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2504   .data.outputAmp:0000000000000000 outputAmp
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2368   .bss.inputSig:0000000000000000 inputSig
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2469   .bss.sampleSig:0000000000000000 sampleSig
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2421   .bss.outputMix:0000000000000000 outputMix
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2361   .bss.hw:0000000000000000 hw
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2414   .bss.mode:0000000000000000 mode
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2401   .bss.lcd:0000000000000000 lcd
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2374   .bss.isPlaying:0000000000000000 isPlaying
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2380   .bss.isRecording:0000000000000000 isRecording
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2483   .bss.stopPoint:0000000000000000 stopPoint
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2476   .bss.startPoint:0000000000000000 startPoint
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2394   .bss.keyStopIndex:0000000000000000 keyStopIndex
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2387   .bss.keyStartIndex:0000000000000000 keyStartIndex
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2408   .bss.lengthTrack:0000000000000000 lengthTrack
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2518   .data.recordingLength:0000000000000000 recordingLength
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2497   .bss.writeIndex:0000000000000000 writeIndex
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2455   .bss.readPitch:0000000000000000 readPitch
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2511   .data.readFactor:0000000000000000 readFactor
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2442   .bss.readIndexFraction:0000000000000000 readIndexFraction
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2449   .bss.readIndexInt:0000000000000000 readIndexInt
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2435   .bss.readIndex:0000000000000000 readIndex
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2354   .bss.encoderTurnVal:0000000000000000 encoderTurnVal
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2462   .bss.recButton:0000000000000000 recButton
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2428   .bss.playButton:0000000000000000 playButton
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2347   .bss.encoder:0000000000000000 encoder
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2340   .bss.adcConfig:0000000000000000 adcConfig
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2326   .rodata:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2336   .bss.adcConfig:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2343   .bss.encoder:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2350   .bss.encoderTurnVal:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2357   .bss.hw:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2364   .bss.inputSig:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2375   .bss.isPlaying:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2381   .bss.isRecording:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2383   .bss.keyStartIndex:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2390   .bss.keyStopIndex:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2397   .bss.lcd:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2404   .bss.lengthTrack:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2415   .bss.mode:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2417   .bss.outputMix:0000000000000000 $d
-ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s 			page 81
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:1528   .text._Z17ProcessControlsKRv:0000000000000120 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:1555   .text._Z13AudioCallbackPKPKfPPfj:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:1836   .text._Z13AudioCallbackPKPKfPPfj:000000000000010c $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:1857   .text._Z17ProcessControlsARv:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:1864   .text._Z17ProcessControlsARv:0000000000000000 _Z17ProcessControlsARv
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:1927   .text._Z17ProcessControlsARv:0000000000000030 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:1934   .text._Z13GetStartIndexv:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:1941   .text._Z13GetStartIndexv:0000000000000000 _Z13GetStartIndexv
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2007   .text._Z13GetStartIndexv:000000000000002c $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2013   .text._Z12GetStopIndexv:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2020   .text._Z12GetStopIndexv:0000000000000000 _Z12GetStopIndexv
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2091   .text._Z12GetStopIndexv:0000000000000030 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2098   .text.startup._GLOBAL__sub_I_adcConfig:0000000000000000 $t
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2104   .text.startup._GLOBAL__sub_I_adcConfig:0000000000000000 _GLOBAL__sub_I_adcConfig
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2279   .text.startup._GLOBAL__sub_I_adcConfig:0000000000000044 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2295   .init_array:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2490   .bss.testVal:0000000000000000 testVal
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2504   .data.outputAmp:0000000000000000 outputAmp
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2368   .bss.inputSig:0000000000000000 inputSig
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2469   .bss.sampleSig:0000000000000000 sampleSig
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2421   .bss.outputMix:0000000000000000 outputMix
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2361   .bss.hw:0000000000000000 hw
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2414   .bss.mode:0000000000000000 mode
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2401   .bss.lcd:0000000000000000 lcd
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2374   .bss.isPlaying:0000000000000000 isPlaying
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2380   .bss.isRecording:0000000000000000 isRecording
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2483   .bss.stopPoint:0000000000000000 stopPoint
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2476   .bss.startPoint:0000000000000000 startPoint
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2394   .bss.keyStopIndex:0000000000000000 keyStopIndex
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2387   .bss.keyStartIndex:0000000000000000 keyStartIndex
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2408   .bss.lengthTrack:0000000000000000 lengthTrack
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2518   .data.recordingLength:0000000000000000 recordingLength
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2497   .bss.writeIndex:0000000000000000 writeIndex
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2455   .bss.readPitch:0000000000000000 readPitch
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2511   .data.readFactor:0000000000000000 readFactor
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2442   .bss.readIndexFraction:0000000000000000 readIndexFraction
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2449   .bss.readIndexInt:0000000000000000 readIndexInt
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2435   .bss.readIndex:0000000000000000 readIndex
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2354   .bss.encoderTurnVal:0000000000000000 encoderTurnVal
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2462   .bss.recButton:0000000000000000 recButton
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2428   .bss.playButton:0000000000000000 playButton
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2347   .bss.encoder:0000000000000000 encoder
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2340   .bss.adcConfig:0000000000000000 adcConfig
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2326   .rodata:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2336   .bss.adcConfig:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2343   .bss.encoder:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2350   .bss.encoderTurnVal:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2357   .bss.hw:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2364   .bss.inputSig:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2375   .bss.isPlaying:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2381   .bss.isRecording:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2383   .bss.keyStartIndex:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2390   .bss.keyStopIndex:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2397   .bss.lcd:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2404   .bss.lengthTrack:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2415   .bss.mode:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2417   .bss.outputMix:0000000000000000 $d
+ARM GAS  /var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s 			page 81
 
 
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2424   .bss.playButton:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2431   .bss.readIndex:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2438   .bss.readIndexFraction:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2445   .bss.readIndexInt:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2452   .bss.readPitch:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2458   .bss.recButton:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2465   .bss.sampleSig:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2472   .bss.startPoint:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2479   .bss.stopPoint:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2486   .bss.testVal:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2493   .bss.writeIndex:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2500   .data.outputAmp:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2507   .data.readFactor:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2514   .data.recordingLength:0000000000000000 $d
-/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//cckHtvjp.s:2521   .sdram_bss:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2424   .bss.playButton:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2431   .bss.readIndex:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2438   .bss.readIndexFraction:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2445   .bss.readIndexInt:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2452   .bss.readPitch:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2458   .bss.recButton:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2465   .bss.sampleSig:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2472   .bss.startPoint:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2479   .bss.stopPoint:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2486   .bss.testVal:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2493   .bss.writeIndex:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2500   .data.outputAmp:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2507   .data.readFactor:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2514   .data.recordingLength:0000000000000000 $d
+/var/folders/m5/x8wc2gdj7z5cpgcqdsb_gkj40000gn/T//ccZYyBcQ.s:2521   .sdram_bss:0000000000000000 $d
                            .group:0000000000000000 _ZN5daisy6SwitchD5Ev
                            .group:0000000000000000 _ZN5daisy7EncoderD5Ev
                            .group:0000000000000000 _ZN5daisy10LcdHD44780D5Ev

@@ -15,6 +15,7 @@ using namespace daisysp;
 
 // |Audio Objects|------------------------------------------------------------------------------------------
 
+
 #define numKeyPads 8
 #define MAX_SIZE (48000 * 60) // 60 seconds of floats at 48 khz
 float DSY_SDRAM_BSS buffer[MAX_SIZE];
@@ -70,7 +71,6 @@ float GetSample()
 
     return out;
 }
-
 
 void SetKeyIndexs()
 {
