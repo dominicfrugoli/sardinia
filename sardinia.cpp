@@ -36,10 +36,13 @@ float sampleSig;
 float inputSig;
 float outputAmp = 0.5f;
 
-int testVal;
+float testValFloat = 0.0f;
+int testValInt;
 
-uint32_t GetStartIndex();
-uint32_t GetStopIndex();
+void UpdateKeys();
+void UpdateControlButtons();
+void RecordControlButtonStates();
+void ModeSelect();
 
 
 // |Main Setup and Audio Callback|------------------------------------------------------------------------------------------
@@ -66,10 +69,18 @@ void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, s
 
 		if(isPlaying)
 		{
-			sampleSig = GetSample();
-			if(readIndex > recordingLength) // recordingLength dynamically changes the size of sample based on recording
+			if(stopPoint == 0)
 			{
-				readIndex = 0;
+				sampleSig = 0.0f;
+			}
+			else
+			{
+				AdvanceReadIndex();
+				sampleSig = GetSample();
+				if(readIndex > recordingLength) // recordingLength dynamically changes the size of sample based on recording
+				{
+					readIndex = 0;
+				}
 			}
 		}
 
@@ -106,7 +117,14 @@ int main(void)
 		lcd.SetCursor(0, 0);
 		PrintMenu();
 		lcd.SetCursor(1, 0);
-		//lcd.PrintInt(testVal); // UNCOMMENT IF WANTING TO TEST A VALUE (USE "testVal" VARIABLE)
+		lcd.PrintInt(testValFloat);
+		lcd.SetCursor(1, 8);
+		lcd.PrintInt(testValInt);
+
+
+
+
+		//hw.PrintLine("Print a float value: %f", testValFloat);
 
 		System::Delay(50);
 	}
@@ -118,46 +136,26 @@ int main(void)
 
 void ProcessControlsKR() // For controls that only need to be processed every audio block
 {
-	recButton.Debounce();
-	playButton.Debounce();
-	encoder.Debounce();
+	UpdateKeys();
 
-	if(recButton.RisingEdge()) // Starts recording from start on press and resets the length track
-	{
-		isRecording = true;
-		lengthTrack = 0;
-	}
-	else if(recButton.FallingEdge()) // Stops recording when let go, resets write index, and assigns recording length
-	{
-		isRecording = false;
-		writeIndex = 0;
-		recordingLength = lengthTrack;
-		SetKeyIndexs();
-		startPoint = GetStartPoint();
-		stopPoint = GetStopPoint();
-	}
+	ModeSelect();
 
-	if(playButton.RisingEdge()) // Starts the sample from the beginning when pressed
+	if(RisingEdge_ControlButtons(0)) // Starts the sample from the beginning when pressed
 	{
 		readIndex = 0;
 	}
 
-	encoderTurnVal = encoder.Increment();
-	if(encoderTurnVal != 0)
-	{
-		IncrementMenu(encoderTurnVal);
-		testVal = encoderTurnVal;
-	}
-
 	outputAmp = fmap(hw.adc.GetMuxFloat(1, 0), 0, 2, Mapping::LINEAR); // bottom far left
 	readFactor = fmap(hw.adc.GetMuxFloat(1, 1), 0.5, 2, Mapping::EXP); // top far left
+
+	
 }
 
 void ProcessControlsAR() // For controls that need to process every sample
 {
-	playButton.Debounce();
+	UpdateControlButtons();
 
-	if(playButton.Pressed()) // Play button is a toggle for the sample
+	if(controlButtonStates[0]) // Play button is a toggle for the sample
 	{
 		isPlaying = true;
 	}
@@ -168,52 +166,78 @@ void ProcessControlsAR() // For controls that need to process every sample
 			isPlaying = false;
 		}
 	}
-}
 
-uint32_t GetStartIndex()
-{
-	bool foundVal = false;
-	uint32_t startIndex = 0;
-
-	for(int i = 0; i < numKeyPads; i++)
+	if(RisingEdge_ControlButtons(1)) // Starts recording from start on press and resets the length track
 	{
-		if(hw.adc.GetMuxFloat(0,i) == 0.0f)
-		{
-			startIndex = keyStartIndex[i];
-			foundVal = true;
-		}
-
-		if(foundVal)
-		{
-			break;
-		}
+		isRecording = true;
+		lengthTrack = 0;
+	}
+	else if(FallingEdge_ControlButtons(1)) // Stops recording when let go, resets write index, and assigns recording length
+	{
+		isRecording = false;
+		writeIndex = 0;
+		recordingLength = lengthTrack;
+		SetKeyIndexs();
 	}
 
-	return startIndex;
+	RecordControlButtonStates();
 }
 
-uint32_t GetStopIndex()
+void UpdateKeys()
 {
-	bool foundVal = false;
-	uint32_t stopIndex = recordingLength;
-
-	for(int i = 0; i < numKeyPads; i++)
+	for(int i = 0; i < 8; i++)
 	{
-		if(hw.adc.GetMuxFloat(0,i) == 0.0f)
-		{
-			stopIndex = keyStopIndex[i];
-			foundVal = true;
-		}
-
-		if(foundVal)
-		{
-			break;
-		}
+		keyStates[i] = hw.adc.GetMuxFloat(1, i) < 0.5f;
 	}
-
-	return stopIndex;
+	for(int i = 8; i < 16; i++)
+	{
+		keyStates[i] = hw.adc.GetMuxFloat(2, i - 8) < 0.5f;
+	}
+	for(int i = 16; i < 24; i++)
+	{
+		keyStates[i] = hw.adc.GetMuxFloat(3, i - 16) < 0.5f;
+	}
+	for(int i = 24; i < 32; i++)
+	{
+		keyStates[i] = hw.adc.GetMuxFloat(4, i - 24) < 0.5f;
+	}
 }
 
+void UpdateControlButtons()
+{
+	for(int i = 0; i < 8; i++)
+	{
+		controlButtonStates[i] = hw.adc.GetMuxFloat(5, i) < 0.5f;
+	}
+}
+
+void RecordControlButtonStates()
+{
+	for(int i = 0; i < 8; i++)
+	{
+		prevControlButtonStates[i] = controlButtonStates[i];
+	}
+}
+
+void ModeSelect()
+{
+	if(RisingEdge_ControlButtons(6)) // Adjusts the output amplitude based on the knob
+	{
+		UpdateMenu(0);
+	}
+	else if(RisingEdge_ControlButtons(7))
+	{
+		UpdateMenu(1);
+	}
+	else if(RisingEdge_ControlButtons(4))
+	{
+		UpdateMenu(2);
+	}
+	else if(RisingEdge_ControlButtons(5))
+	{
+		UpdateMenu(3);
+	}
+}
 
 
 // |Audio Object Init Functions|------------------------------------------------------------------------------------------

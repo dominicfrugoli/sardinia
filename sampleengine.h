@@ -13,10 +13,10 @@ using namespace daisy::seed;
 using namespace daisysp;
 
 
+
+
 // |Audio Objects|------------------------------------------------------------------------------------------
 
-
-#define numKeyPads 8
 #define MAX_SIZE (48000 * 60) // 60 seconds of floats at 48 khz
 float DSY_SDRAM_BSS buffer[MAX_SIZE];
 
@@ -31,8 +31,10 @@ uint32_t lengthTrack = 0; // for tracking recording size while recording
 
 uint32_t keyStartIndex[numKeyPads];
 uint32_t keyStopIndex[numKeyPads];
+bool keyStates[numKeyPads];
 uint32_t startPoint;
 uint32_t stopPoint;
+int currentKey = 0;
 
 bool isRecording = false;
 bool isPlaying = false;
@@ -56,11 +58,14 @@ void RecordSample(float sample) // Records sample from argument and moves forwar
     writeIndex++;
 }
 
+void ResetReadIndex()
+{
+    readIndex = startPoint;
+}
+
 float GetSample()
 {
     float a, b, out;
-
-    readIndex += readFactor; // increase index by play speed
 
     readIndexInt = static_cast<int32_t>(readIndex);
 	readIndexFraction = readIndex - readIndexInt;
@@ -72,21 +77,72 @@ float GetSample()
     return out;
 }
 
-void SetKeyIndexs()
+bool AnyKeyIsPressed()
 {
     for(int i = 0; i < numKeyPads; i++)
     {
-        keyStartIndex[i] = static_cast<uint32_t>((recordingLength * (i/numKeyPads)) + 1);
-        keyStopIndex[i] = static_cast<uint32_t>(recordingLength * ((i+1)/numKeyPads));
+        if(keyStates[i])
+        {
+            return true;
+        }
+    }
+    return false;
+}
+
+int FindNextPressedKey(int key)
+{
+    int nextKey = key;
+    for(int i = 0; i < numKeyPads; i++)
+    {
+        nextKey++;
+        if(nextKey >= numKeyPads)
+        {
+            nextKey = 0;
+        }
+        if(keyStates[nextKey])
+        {
+            break;
+        }
+    }
+    return nextKey;
+}
+
+void SetKeyIndexs()
+{
+    float fraction;
+    auto recordingLengthFloat = static_cast<float>(recordingLength);
+    for(int i = 0; i < numKeyPads; i++)
+    {
+        fraction = static_cast<float>(i) / static_cast<float>(numKeyPads);
+        keyStartIndex[i] = static_cast<uint32_t>((recordingLengthFloat * fraction) + 1.0f);
+        fraction = static_cast<float>(i + 1) / static_cast<float>(numKeyPads);
+        keyStopIndex[i] = static_cast<uint32_t>(recordingLengthFloat * fraction);
+    }
+    currentKey = FindNextPressedKey(-1);
+    startPoint = keyStartIndex[currentKey];
+    stopPoint = keyStopIndex[currentKey];
+    ResetReadIndex();
+}
+
+void AdvanceReadIndex()
+{
+    readIndex += readFactor;
+
+    if(readIndex >= stopPoint)
+    {
+        currentKey = FindNextPressedKey(currentKey);
+        startPoint = keyStartIndex[currentKey];
+        stopPoint = keyStopIndex[currentKey];
+        ResetReadIndex();
     }
 }
 
-uint32_t GetStartPoint() 
+uint32_t GetStartPoint()
 {
-    return keyStartIndex[0];
+    return keyStartIndex[1];
 }
 
 uint32_t GetStopPoint() // check if it works with just one stop point then change it
 {
-    return keyStopIndex[0];
+    return keyStopIndex[1];
 }

@@ -12,6 +12,7 @@ using namespace daisy;
 using namespace daisy::seed;
 
 
+
 // |Pin Declarations|------------------------------------------------------------------------------------------
 
 
@@ -29,8 +30,9 @@ using namespace daisy::seed;
 enum Mode // Just add knobs before last NUM_ADC_CHANNELS as needed
 {
 	record,
-	play,
-	edit // Enum allows for auto tracking the amount
+	edit,
+	keyboard,
+	sampler // Enum allows for auto tracking the amount
 };
 
 
@@ -65,30 +67,39 @@ void PrintMenu()
 	{
 		lcd.Print("Record Mode     ");
 	}
-	else if(mode == play)
-	{
-		lcd.Print("Play Mode       ");
-	}
 	else if(mode == edit)
 	{
 		lcd.Print("Edit Mode       ");
 	}
+	else if(mode == keyboard)
+	{
+		lcd.Print("Keyboard Mode   ");
+	}
+	else if(mode == sampler)
+	{
+		lcd.Print("Sampler Mode    ");
+	}
 }
 
-void IncrementMenu(int increment)
+void UpdateMenu(int menuSelect)
 {
-	if(mode == record && increment == -1) // Check for negative wrap-around
+	if(menuSelect == 0)
 	{
-		mode = Mode::edit;
+		mode = record;
 	}
-	else if(mode == edit && increment == 1)// Check for positive wrap-around
+	else if(menuSelect == 1)
 	{
-		mode = Mode::record;
+		mode = edit;
 	}
-	else
+	else if(menuSelect == 2)
 	{
-		mode = static_cast<Mode>(static_cast<int>(mode) + increment); // Increases or decreases by increment if wrap around is not a problem
+		mode = keyboard;
 	}
+	else if(menuSelect == 3)
+	{
+		mode = sampler;
+	}
+
 }
 
 
