@@ -6,7 +6,6 @@
 <p align="center">
 Sampler based on the Electrosmith Daisy platform
 
-
   
 
 
@@ -14,6 +13,8 @@ Sampler based on the Electrosmith Daisy platform
 </div>
 
 ## About The Project
+
+[Notion Project Homepage](https://fenidesign.notion.site/Sardinia-Independent-Project-24255e64caba44d3b6232d27743844be?pvs=4)
 
 Sardinia is the codename for a sampler that is currently being built by me for an Independent Project during my senior year at Columbia College Chicago. It uses the Electrosmith Daisy platform and is an exercise for me to venture into the world of product design.
 
