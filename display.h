@@ -12,7 +12,6 @@ using namespace daisy;
 using namespace daisy::seed;
 
 
-
 // |Pin Declarations|------------------------------------------------------------------------------------------
 
 
@@ -62,8 +61,10 @@ void InitLCD()
 	lcd.Clear();
 }
 
-void PrintMenu()
+void PrintMenu(float currenteffect, bool effectstates[])
 {
+	//Print Mode Readout
+	lcd.SetCursor(0, 0);
 	if(mode == record)
 	{
 		lcd.Print("Record Mode     ");
@@ -72,9 +73,56 @@ void PrintMenu()
 	{
 		lcd.Print("Play Mode       ");
 	}
+
+	// Print Effect Readout
+	lcd.SetCursor(1, 0);
+	if(currenteffect == 0)
+	{
+		lcd.Print("Overdrive:   ");
+		if(effectstates[0])
+		{
+			lcd.Print(" On");
+		}
+		else
+		{
+			lcd.Print("Off");
+		}
+	}
+	else if(currenteffect == 1)
+	{
+		lcd.Print("Chorus:      ");
+		if(effectstates[1])
+		{
+			lcd.Print(" On");
+		}
+		else
+		{
+			lcd.Print("Off");
+		}
+	}
+	else if(currenteffect == 2)
+	{
+		lcd.Print("Low-Pass:    ");
+		if(effectstates[2])
+		{
+			lcd.Print(" On");
+		}
+		else
+		{
+			lcd.Print("Off");
+		}
+	}
+
+	// For Testing Values
+	/*
+	lcd.SetCursor(1, 0);
+	lcd.PrintInt(testValFloat);
+	lcd.SetCursor(1, 8);
+	lcd.PrintInt(testValInt);
+	*/
 }
 
-void UpdateMenu(int menuSelect)
+void UpdateMode(int menuSelect)
 {
 	if(menuSelect == 0)
 	{
@@ -85,6 +133,9 @@ void UpdateMenu(int menuSelect)
 		mode = play;
 	}
 }
+
+
+
 
 
 

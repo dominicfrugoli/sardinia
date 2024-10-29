@@ -16,6 +16,7 @@
 #include "hardware.h"
 #include "sampleengine.h"
 #include "display.h"
+#include "effects.h"
 
 using namespace daisy;
 using namespace daisy::seed;
@@ -35,6 +36,7 @@ float outputMix;
 float sampleSig;
 float inputSig;
 float outputAmp = 0.5f;
+float inputAmp = 1.0f;
 
 float testValFloat = 0.0f;
 int testValInt = 0;
@@ -43,6 +45,7 @@ void UpdateKeys();
 void UpdateControlButtons();
 void RecordControlButtonStates();
 void ModeSelect();
+void PrintMenu();
 
 
 // |Main Setup and Audio Callback|------------------------------------------------------------------------------------------
@@ -60,6 +63,7 @@ void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, s
 		ProcessControlsAR();
 
 		inputSig = (in[0][i] + in[1][i]) * 0.5f; 
+		inputSig *= inputAmp;
 		
 		if(isRecording)
 		{
@@ -87,6 +91,7 @@ void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, s
 
 		
 		outputMix = inputSig + sampleSig; // Mix the sample playback with the input
+		outputMix = ProcessEffects(outputMix); // Process the mixed signal through the effects
 		outputMix *= outputAmp;
 
 		// Output the mixed signals
@@ -100,7 +105,7 @@ int main(void)
 	hw.Init();
 	hw.SetAudioBlockSize(4); // number of samples handled per callback
 	hw.SetAudioSampleRate(SaiHandle::Config::SampleRate::SAI_48KHZ);
-	//float sampleRate = hw.AudioSampleRate();
+	float sampleRate = hw.AudioSampleRate();
 
 	InitLCD();
 	InitControls();
@@ -108,6 +113,7 @@ int main(void)
 	hw.adc.Start();
 	
 	InitBuffer(); // Initialize buffer to all 0s
+	InitEffects(sampleRate);
 
 	//hw.StartLog(true); // Use for serial testing. COMMENT OUT WHEN NOT USING!!
 
@@ -115,19 +121,8 @@ int main(void)
 
 	while(1)
 	{
-		
-		lcd.SetCursor(0, 0);
-		PrintMenu();
-		lcd.SetCursor(1, 0);
-		lcd.PrintInt(testValFloat);
-		lcd.SetCursor(1, 8);
-		lcd.PrintInt(testValInt);
-		
-
-
-
+		PrintMenu(currentEffect, effectStates);
 		//hw.PrintLine("Print a float value: %f", recordingLength);
-
 		System::Delay(50);
 	}
 }
@@ -140,10 +135,39 @@ void ProcessControlsKR() // For controls that only need to be processed every au
 {
 	UpdateKeys();	
 
+	encoder.Debounce();
 
-	outputAmp = fmap(hw.adc.GetMuxFloat(0, 0), 0, 2, Mapping::LINEAR); // bottom far left
-	testValFloat = outputAmp * 10;
-	readFactor = fmap(hw.adc.GetMuxFloat(0, 1), 0.5, 2, Mapping::EXP); // top far left
+	if(EncoderTurned())
+	{
+		IncrementEffect(encoder.Increment());
+	}
+	if(encoder.RisingEdge())
+	{
+		effectStates[currentEffect] = !effectStates[currentEffect];
+	}
+
+	if(currentEffect == 0)
+	{
+		effectValues[0][0] = fmap(hw.adc.GetMuxFloat(0, 2), 0, 1, Mapping::LINEAR); // Overdrive Gain
+		effectValues[0][1] = fmap(hw.adc.GetMuxFloat(0, 6), .01, .3, Mapping::EXP); // Overdrive Tone Freq
+	}
+	else if(currentEffect == 1)
+	{
+		effectValues[1][0] = fmap(hw.adc.GetMuxFloat(0, 2), 0, 1, Mapping::LINEAR); // Chorus LFO Depth
+		effectValues[1][1] = fmap(hw.adc.GetMuxFloat(0, 6), 0, 10, Mapping::EXP); // Chorus LFO Freq
+	}
+	else if(currentEffect == 2)
+	{
+		effectValues[2][0] = fmap(hw.adc.GetMuxFloat(0, 2), 0, 5000, Mapping::EXP); // LoPass Freq
+		effectValues[2][1] = fmap(hw.adc.GetMuxFloat(0, 6), 0, 1, Mapping::LINEAR); // LoPass Res
+	}
+	
+
+	outputAmp = fmap(hw.adc.GetMuxFloat(0, 3), 0, 2, Mapping::LINEAR); // top far right
+	inputAmp = fmap(hw.adc.GetMuxFloat(0, 7), 0, 2, Mapping::LINEAR); // bottom far right
+
+	readFactor = fmap(hw.adc.GetMuxFloat(0, 0), 0.5, 2, Mapping::EXP); // top far left
+	ProcessEffectParameters();
 }
 
 void ProcessControlsAR() // For controls that need to process every sample
@@ -199,7 +223,7 @@ void ProcessControlsAR() // For controls that need to process every sample
 	if(RisingEdge_ControlButtons(1)) // Starts recording from start on press and resets the length track
 	{
 		isRecording = true;
-		testValInt = 1;
+		testValFloat = 1;
 		lengthTrack = 0;
 	}
 	else if(FallingEdge_ControlButtons(1)) // Stops recording when let go, resets write index, and assigns recording length
@@ -207,25 +231,39 @@ void ProcessControlsAR() // For controls that need to process every sample
 		isRecording = false;
 		writeIndex = 0;
 		recordingLength = lengthTrack;
+		testValFloat = 0;
 		testValInt = recordingLength;
 		SetKeyIndexs();
 	}
 
 	if(RisingEdge_ControlButtons(4))
 	{
-		StoreSpliceBufferOne();
+		if(AnyKeyIsPressed())
+		{
+			StoreSpliceBufferOne();
+		}
+		
 	}
 	if(RisingEdge_ControlButtons(5))
 	{
-		StoreSpliceBufferTwo();
+		if(AnyKeyIsPressed())
+		{
+			StoreSpliceBufferTwo();
+		}
 	}
 	if(RisingEdge_ControlButtons(6))
 	{
-		StoreSpliceBufferThree();
+		if(AnyKeyIsPressed())
+		{
+			StoreSpliceBufferThree();
+		}
 	}
 	if(RisingEdge_ControlButtons(7))
 	{
-		StoreSpliceBufferFour();
+		if(AnyKeyIsPressed())
+		{
+			StoreSpliceBufferFour();
+		}
 	}
 
 	RecordControlButtonStates();
@@ -271,13 +309,15 @@ void ModeSelect()
 {
 	if(RisingEdge_ControlButtons(2)) // Adjusts the output amplitude based on the knob
 	{
-		UpdateMenu(0);
+		UpdateMode(0);
 	}
 	else if(RisingEdge_ControlButtons(3))
 	{
-		UpdateMenu(1);
+		UpdateMode(1);
 	}
 }
+
+
 
 
 // |Audio Object Init Functions|------------------------------------------------------------------------------------------

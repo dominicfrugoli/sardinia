@@ -13,8 +13,6 @@ using namespace daisy::seed;
 using namespace daisysp;
 
 
-
-
 // |Audio Objects|------------------------------------------------------------------------------------------
 
 #define MAX_RECORD_SIZE (48000 * 120) // 60 seconds of floats at 48 khz

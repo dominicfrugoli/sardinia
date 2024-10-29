@@ -234,7 +234,7 @@ build/sardinia.o: sardinia.cpp \
  /Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/metro.h \
  /Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/samplehold.h \
  /Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP/Source/Utility/smooth_random.h \
- hardware.h sampleengine.h display.h
+ hardware.h sampleengine.h display.h effects.h
 /Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:
 /Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h:
 /Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy/Drivers/CMSIS/Include/core_cm7.h:
@@ -473,3 +473,4 @@ build/sardinia.o: sardinia.cpp \
 hardware.h:
 sampleengine.h:
 display.h:
+effects.h:
