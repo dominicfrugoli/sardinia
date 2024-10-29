@@ -29,7 +29,9 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/../../libDaisy//**",
-                "${workspaceFolder}/../../DaisySP//**"
+                "${workspaceFolder}/../../DaisySP//**",
+                "/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/DaisySP",
+                "/Users/dominicfrugoli/Desktop/ProgrammingCode/DaisyCode/DaisyExamples/libDaisy"
             ],
             "name": "macOS"
         }

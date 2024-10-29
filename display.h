@@ -23,6 +23,9 @@ using namespace daisy::seed;
 #define PIN_LCD_D6 D24 // LCD: D6
 #define PIN_LCD_D7 D23 // LCD: D7
 
+#define PLAY_MODE 0
+#define RECORD_MODE 1
+
 
 // |Mode Setup|------------------------------------------------------------------------------------------
 
@@ -30,9 +33,7 @@ using namespace daisy::seed;
 enum Mode // Just add knobs before last NUM_ADC_CHANNELS as needed
 {
 	record,
-	edit,
-	keyboard,
-	sampler // Enum allows for auto tracking the amount
+	play
 };
 
 
@@ -67,17 +68,9 @@ void PrintMenu()
 	{
 		lcd.Print("Record Mode     ");
 	}
-	else if(mode == edit)
+	else if(mode == play)
 	{
-		lcd.Print("Edit Mode       ");
-	}
-	else if(mode == keyboard)
-	{
-		lcd.Print("Keyboard Mode   ");
-	}
-	else if(mode == sampler)
-	{
-		lcd.Print("Sampler Mode    ");
+		lcd.Print("Play Mode       ");
 	}
 }
 
@@ -89,17 +82,8 @@ void UpdateMenu(int menuSelect)
 	}
 	else if(menuSelect == 1)
 	{
-		mode = edit;
+		mode = play;
 	}
-	else if(menuSelect == 2)
-	{
-		mode = keyboard;
-	}
-	else if(menuSelect == 3)
-	{
-		mode = sampler;
-	}
-
 }
 
 

@@ -37,7 +37,7 @@ float inputSig;
 float outputAmp = 0.5f;
 
 float testValFloat = 0.0f;
-int testValInt;
+int testValInt = 0;
 
 void UpdateKeys();
 void UpdateControlButtons();
@@ -48,7 +48,7 @@ void ModeSelect();
 // |Main Setup and Audio Callback|------------------------------------------------------------------------------------------
 
 
-void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, size_t size)
+void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, size_t size) 
 {
 	ProcessControlsKR();
 
@@ -59,7 +59,7 @@ void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, s
 
 		ProcessControlsAR();
 
-		inputSig = (in[0][i] + in[1][i]) * 0.5f;
+		inputSig = (in[0][i] + in[1][i]) * 0.5f; 
 		
 		if(isRecording)
 		{
@@ -67,21 +67,22 @@ void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, s
 			lengthTrack++;
 		}
 
-		if(isPlaying)
+		if(isPlaying && AnyKeyIsPressed() == false) // If no keys are pressed, play the full sample
 		{
-			if(stopPoint == 0)
+			sampleSig = FullSampleGetSample();
+		}
+		else if(isPlaying)
+		{
+			sampleSig = GetSample();
+			AdvanceReadIndex();
+			if(readIndex > recordingLength) // recordingLength dynamically changes the size of sample based on recording
 			{
-				sampleSig = 0.0f;
+				readIndex = 0;
 			}
-			else
-			{
-				AdvanceReadIndex();
-				sampleSig = GetSample();
-				if(readIndex > recordingLength) // recordingLength dynamically changes the size of sample based on recording
-				{
-					readIndex = 0;
-				}
-			}
+		}
+		else if(SpliceBufferOneIsPlaying)
+		{
+			sampleSig = SpliceBufferOneGetSample();
 		}
 
 		
@@ -114,17 +115,18 @@ int main(void)
 
 	while(1)
 	{
+		
 		lcd.SetCursor(0, 0);
 		PrintMenu();
 		lcd.SetCursor(1, 0);
 		lcd.PrintInt(testValFloat);
 		lcd.SetCursor(1, 8);
 		lcd.PrintInt(testValInt);
+		
 
 
 
-
-		//hw.PrintLine("Print a float value: %f", testValFloat);
+		//hw.PrintLine("Print a float value: %f", recordingLength);
 
 		System::Delay(50);
 	}
@@ -136,40 +138,68 @@ int main(void)
 
 void ProcessControlsKR() // For controls that only need to be processed every audio block
 {
-	UpdateKeys();
+	UpdateKeys();	
 
-	ModeSelect();
 
-	if(RisingEdge_ControlButtons(0)) // Starts the sample from the beginning when pressed
-	{
-		readIndex = 0;
-	}
-
-	outputAmp = fmap(hw.adc.GetMuxFloat(1, 0), 0, 2, Mapping::LINEAR); // bottom far left
-	readFactor = fmap(hw.adc.GetMuxFloat(1, 1), 0.5, 2, Mapping::EXP); // top far left
-
-	
+	outputAmp = fmap(hw.adc.GetMuxFloat(0, 0), 0, 2, Mapping::LINEAR); // bottom far left
+	testValFloat = outputAmp * 10;
+	readFactor = fmap(hw.adc.GetMuxFloat(0, 1), 0.5, 2, Mapping::EXP); // top far left
 }
 
 void ProcessControlsAR() // For controls that need to process every sample
 {
-	UpdateControlButtons();
+	// All control keys must be updated at same clock cycle 
+	// So all control key functions must be done at audio rate
+	UpdateControlButtons(); 
+	ModeSelect();
 
-	if(controlButtonStates[0]) // Play button is a toggle for the sample
+
+	if(RisingEdge_ControlButtons(0)) // Starts the sample from the beginning when pressed
 	{
-		isPlaying = true;
+		if(isPlaying == false)
+		{
+			fullSampleReadIndex = 0;
+			isPlaying = true;
+			playButtonOverrule = true;
+		}
+		else
+		{
+			isPlaying = false;
+			playButtonOverrule = false;
+		}
 	}
-	else
+	else if(fullSampleReadIndex== 0 && !controlButtonStates[0]) // Stops the sample when let go
 	{
-		if(readIndex == 0)
+		isPlaying = false;
+		playButtonOverrule = false;
+	}
+
+	if(playButtonOverrule == false)
+	{
+		if(AnyKeyIsPressed())
+		{
+			isPlaying = true;
+		}
+		else
 		{
 			isPlaying = false;
 		}
 	}
 
+	if(RisingEdge_ControlButtons(2))
+	{
+		SpliceBufferOneIsPlaying = true;
+	}
+	else if(spliceBufferOneReadIndex == 0 && !controlButtonStates[2])
+	{
+		SpliceBufferOneIsPlaying = false;
+	}
+
+
 	if(RisingEdge_ControlButtons(1)) // Starts recording from start on press and resets the length track
 	{
 		isRecording = true;
+		testValInt = 1;
 		lengthTrack = 0;
 	}
 	else if(FallingEdge_ControlButtons(1)) // Stops recording when let go, resets write index, and assigns recording length
@@ -177,7 +207,25 @@ void ProcessControlsAR() // For controls that need to process every sample
 		isRecording = false;
 		writeIndex = 0;
 		recordingLength = lengthTrack;
+		testValInt = recordingLength;
 		SetKeyIndexs();
+	}
+
+	if(RisingEdge_ControlButtons(4))
+	{
+		StoreSpliceBufferOne();
+	}
+	if(RisingEdge_ControlButtons(5))
+	{
+		StoreSpliceBufferTwo();
+	}
+	if(RisingEdge_ControlButtons(6))
+	{
+		StoreSpliceBufferThree();
+	}
+	if(RisingEdge_ControlButtons(7))
+	{
+		StoreSpliceBufferFour();
 	}
 
 	RecordControlButtonStates();
@@ -221,21 +269,13 @@ void RecordControlButtonStates()
 
 void ModeSelect()
 {
-	if(RisingEdge_ControlButtons(6)) // Adjusts the output amplitude based on the knob
+	if(RisingEdge_ControlButtons(2)) // Adjusts the output amplitude based on the knob
 	{
 		UpdateMenu(0);
 	}
-	else if(RisingEdge_ControlButtons(7))
+	else if(RisingEdge_ControlButtons(3))
 	{
 		UpdateMenu(1);
-	}
-	else if(RisingEdge_ControlButtons(4))
-	{
-		UpdateMenu(2);
-	}
-	else if(RisingEdge_ControlButtons(5))
-	{
-		UpdateMenu(3);
 	}
 }
 

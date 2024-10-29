@@ -72,6 +72,8 @@ int encoderTurnVal;
 bool controlButtonStates[8] = {false, false, false, false, false, false, false, false};
 bool prevControlButtonStates[8] = {false, false, false, false, false, false, false, false};
 
+bool playButtonOverrule; // For when the playing sample off of play button pressed (overrules keypad)
+
 
 // |Function Declarations|------------------------------------------------------------------------------------------
 // Function declarations for any functions needed
