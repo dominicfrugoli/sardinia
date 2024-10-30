@@ -41,6 +41,10 @@ float inputAmp = 1.0f;
 float testValFloat = 0.0f;
 int testValInt = 0;
 
+void ProcessControlsKR();
+void ProcessControlsAR();
+void RecordModeControls();
+void PlayModeControls();
 void UpdateKeys();
 void UpdateControlButtons();
 void RecordControlButtonStates();
@@ -75,6 +79,10 @@ void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, s
 		{
 			sampleSig = FullSampleGetSample();
 		}
+		else if(SpliceBufferIsPlaying)
+		{
+			sampleSig = SpliceBufferGetSample(currentSpliceBuffer, mode, noteKey);
+		}
 		else if(isPlaying)
 		{
 			sampleSig = GetSample();
@@ -83,10 +91,6 @@ void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, s
 			{
 				readIndex = 0;
 			}
-		}
-		else if(SpliceBufferOneIsPlaying)
-		{
-			sampleSig = SpliceBufferOneGetSample();
 		}
 
 		
@@ -177,7 +181,6 @@ void ProcessControlsAR() // For controls that need to process every sample
 	UpdateControlButtons(); 
 	ModeSelect();
 
-
 	if(RisingEdge_ControlButtons(0)) // Starts the sample from the beginning when pressed
 	{
 		if(isPlaying == false)
@@ -197,29 +200,23 @@ void ProcessControlsAR() // For controls that need to process every sample
 		isPlaying = false;
 		playButtonOverrule = false;
 	}
-
-	if(playButtonOverrule == false)
+	
+	if(mode == record)
 	{
-		if(AnyKeyIsPressed())
-		{
-			isPlaying = true;
-		}
-		else
-		{
-			isPlaying = false;
-		}
+		RecordModeControls();
+	}
+	else if(mode == play)
+	{
+		PlayModeControls();
 	}
 
-	if(RisingEdge_ControlButtons(2))
-	{
-		SpliceBufferOneIsPlaying = true;
-	}
-	else if(spliceBufferOneReadIndex == 0 && !controlButtonStates[2])
-	{
-		SpliceBufferOneIsPlaying = false;
-	}
+	RecordControlButtonStates();
+}
 
+void RecordModeControls() // Controls that only run in record mode
+{	
 
+	// Recording
 	if(RisingEdge_ControlButtons(1)) // Starts recording from start on press and resets the length track
 	{
 		isRecording = true;
@@ -236,37 +233,87 @@ void ProcessControlsAR() // For controls that need to process every sample
 		SetKeyIndexs();
 	}
 
-	if(RisingEdge_ControlButtons(4))
+	// Play slices from keypads
+	if(playButtonOverrule == false)
 	{
 		if(AnyKeyIsPressed())
 		{
-			StoreSpliceBufferOne();
+			isPlaying = true;
 		}
-		
+		else
+		{
+			isPlaying = false;
+		}
+	}
+
+	// Store Splices into Buffers
+	if(RisingEdge_ControlButtons(4))
+	{
+		currentSpliceBuffer = 1;
+		if(AnyKeyIsPressed())
+		{
+			StoreSpliceBuffer(currentSpliceBuffer);
+		}
 	}
 	if(RisingEdge_ControlButtons(5))
 	{
+		currentSpliceBuffer = 2;
 		if(AnyKeyIsPressed())
 		{
-			StoreSpliceBufferTwo();
+			StoreSpliceBuffer(currentSpliceBuffer);
 		}
 	}
 	if(RisingEdge_ControlButtons(6))
 	{
+		currentSpliceBuffer = 3;
 		if(AnyKeyIsPressed())
 		{
-			StoreSpliceBufferThree();
+			StoreSpliceBuffer(currentSpliceBuffer);
 		}
 	}
 	if(RisingEdge_ControlButtons(7))
 	{
+		currentSpliceBuffer = 4;
 		if(AnyKeyIsPressed())
 		{
-			StoreSpliceBufferFour();
+			StoreSpliceBuffer(currentSpliceBuffer);
+		}
+	}
+}
+
+void PlayModeControls()
+{
+	// Play splices on keypads
+	if(playButtonOverrule == false)
+	{
+		if(AnyKeyIsPressed())
+		{
+			SpliceBufferIsPlaying = true;
+		}
+		else
+		{
+			SpliceBufferIsPlaying = false;
 		}
 	}
 
-	RecordControlButtonStates();
+	// Switch current buffer to play
+	if(RisingEdge_ControlButtons(4))
+	{
+		currentSpliceBuffer = 1;
+	}
+	if(RisingEdge_ControlButtons(5))
+	{
+		currentSpliceBuffer = 2;
+	}
+	if(RisingEdge_ControlButtons(6))
+	{
+		currentSpliceBuffer = 3;
+	}
+	if(RisingEdge_ControlButtons(7))
+	{
+		currentSpliceBuffer = 4;
+	}
+
 }
 
 void UpdateKeys()
@@ -287,6 +334,7 @@ void UpdateKeys()
 	{
 		keyStates[i] = hw.adc.GetMuxFloat(4, i - 24) < 0.5f;
 	}
+	noteKey = FindFirstPressedKey();
 }
 
 void UpdateControlButtons()

@@ -42,16 +42,22 @@ bool keyStates[numKeyPads];
 uint32_t startPoint = 0;
 uint32_t stopPoint = MAX_RECORD_SIZE;
 int currentKey = 0;
+int noteKey = 0;
 
 bool isRecording = false;
 bool isPlaying = false;
 
-bool SpliceBufferOneIsPlaying = false;
+float baseFreq = 440.0f;
+int currentSpliceBuffer = 1; // Which splice buffer we are currently playing
 
-float spliceBufferOneReadIndex = 0.0f;
-uint32_t spliceBufferOneReadIndexInt;
-float spliceBufferOneReadIndexFraction;
+bool SpliceBufferIsPlaying = false;
+float spliceBufferReadIndex = 0.0f;
+uint32_t spliceBufferReadIndexInt;
+float spliceBufferReadIndexFraction;
 uint32_t spliceBufferOneLength = MAX_SPLICE_SIZE;
+uint32_t spliceBufferTwoLength = MAX_SPLICE_SIZE;
+uint32_t spliceBufferThreeLength = MAX_SPLICE_SIZE;
+uint32_t spliceBufferFourLength = MAX_SPLICE_SIZE;
 
 
 // |Init Functions|------------------------------------------------------------------------------------------
@@ -63,10 +69,7 @@ void ResetReadIndex();
 void AdvanceReadIndex();
 float GetSample();
 float FullSampleGetSample();
-void StoreSpliceBufferOne();
-void StoreSpliceBufferTwo();
-void StoreSpliceBufferThree();
-void StoreSpliceBufferFour();
+void StoreSpliceBuffer(int bufferNum);
 bool AnyKeyIsPressed();
 void SetKeyIndexs();
 uint32_t GetStartPoint();
@@ -144,84 +147,163 @@ float FullSampleGetSample()
     return out;
 }
 
-void StoreSpliceBufferOne()
+float SpliceBufferGetSample(int currentBuffer, int mode, int keynum)
 {
-    readIndex = startPoint;
-    float startSample = startPoint;
-    for (uint32_t i = 0; i < MAX_SPLICE_SIZE; i++)
+    float a, b, out = 0;
+    if(currentBuffer == 1)
     {
-        spliceBufferOne[i] = GetSample();
-        AdvanceReadIndex();
-        if(readIndex == startSample)
+        if(mode == 0)
         {
-            spliceBufferOneLength = i;
-            break;
+            spliceBufferReadIndex += readFactor;
         }
-    }
-    readIndex = startPoint;
-}
+        else if(mode == 1)
+        {
+            float playFreq = baseFreq * powf(2.0f, static_cast<float>((keynum-12) / 12.0f));
+            float readFactorPitch = playFreq / baseFreq;
+            spliceBufferReadIndex += readFactorPitch;
+        }
 
-float SpliceBufferOneGetSample()
-{
-    spliceBufferOneReadIndex += readFactor;
-    if(spliceBufferOneReadIndex > spliceBufferOneLength) 
+        if(spliceBufferReadIndex > spliceBufferOneLength) 
+        {
+            spliceBufferReadIndex = 0;
+        }
+
+        spliceBufferReadIndexInt = static_cast<int32_t>(spliceBufferReadIndex);
+        spliceBufferReadIndexFraction = spliceBufferReadIndex - spliceBufferReadIndexInt;
+        a = spliceBufferOne[spliceBufferReadIndexInt]; // current sample
+        b = spliceBufferOne[spliceBufferReadIndexInt + 1]; // next sample
+        out = a + (b - a) * spliceBufferReadIndexFraction; // Linear Interpolation
+    }
+    else if(currentBuffer == 2)
     {
-        spliceBufferOneReadIndex = 0;
-    }
+        if(mode == 0)
+        {
+            spliceBufferReadIndex += readFactor;
+        }
+        else if(mode == 1)
+        {
+            float playFreq = baseFreq * powf(2.0f, static_cast<float>(keynum / 12.0f));
+            float readFactorPitch = playFreq / baseFreq;
+            spliceBufferReadIndex += readFactorPitch;
+        }
 
-    float a, b, out;
-    spliceBufferOneReadIndexInt = static_cast<int32_t>(spliceBufferOneReadIndex);
-    spliceBufferOneReadIndexFraction = spliceBufferOneReadIndex - spliceBufferOneReadIndexInt;
-    a = spliceBufferOne[spliceBufferOneReadIndexInt]; // current sample
-    b = spliceBufferOne[spliceBufferOneReadIndexInt + 1]; // next sample
-    out = a + (b - a) * spliceBufferOneReadIndexFraction; // Linear Interpolation
+        if(spliceBufferReadIndex > spliceBufferTwoLength) 
+        {
+            spliceBufferReadIndex = 0;
+        }
+
+        spliceBufferReadIndexInt = static_cast<int32_t>(spliceBufferReadIndex);
+        spliceBufferReadIndexFraction = spliceBufferReadIndex - spliceBufferReadIndexInt;
+        a = spliceBufferTwo[spliceBufferReadIndexInt]; // current sample
+        b = spliceBufferTwo[spliceBufferReadIndexInt + 1]; // next sample
+        out = a + (b - a) * spliceBufferReadIndexFraction; // Linear Interpolation
+    }
+    else if(currentBuffer == 3)
+    {
+        if(mode == 0)
+        {
+            spliceBufferReadIndex += readFactor;
+        }
+        else if(mode == 1)
+        {
+            float playFreq = baseFreq * powf(2.0f, static_cast<float>(keynum / 12.0f));
+            float readFactorPitch = playFreq / baseFreq;
+            spliceBufferReadIndex += readFactorPitch;
+        }
+
+        if(spliceBufferReadIndex > spliceBufferThreeLength) 
+        {
+            spliceBufferReadIndex = 0;
+        }
+
+        spliceBufferReadIndexInt = static_cast<int32_t>(spliceBufferReadIndex);
+        spliceBufferReadIndexFraction = spliceBufferReadIndex - spliceBufferReadIndexInt;
+        a = spliceBufferThree[spliceBufferReadIndexInt]; // current sample
+        b = spliceBufferThree[spliceBufferReadIndexInt + 1]; // next sample
+        out = a + (b - a) * spliceBufferReadIndexFraction; // Linear Interpolation
+    }
+    else if(currentBuffer == 4)
+    {
+        if(mode == 0)
+        {
+            spliceBufferReadIndex += readFactor;
+        }
+        else if(mode == 1)
+        {
+            float playFreq = baseFreq * powf(2.0f, static_cast<float>(keynum / 12.0f));
+            float readFactorPitch = playFreq / baseFreq;
+            spliceBufferReadIndex += readFactorPitch;
+        }
+
+        if(spliceBufferReadIndex > spliceBufferFourLength) 
+        {
+            spliceBufferReadIndex = 0;
+        }
+
+        spliceBufferReadIndexInt = static_cast<int32_t>(spliceBufferReadIndex);
+        spliceBufferReadIndexFraction = spliceBufferReadIndex - spliceBufferReadIndexInt;
+        a = spliceBufferFour[spliceBufferReadIndexInt]; // current sample
+        b = spliceBufferFour[spliceBufferReadIndexInt + 1]; // next sample
+        out = a + (b - a) * spliceBufferReadIndexFraction; // Linear Interpolation
+    }
 
     return out;
 }
 
-void StoreSpliceBufferTwo()
+void StoreSpliceBuffer(int bufferNum)
 {
     readIndex = startPoint;
     float startSample = startPoint;
-    for (uint32_t i = 0; i < MAX_SPLICE_SIZE; i++)
+    if(bufferNum == 1)
     {
-        spliceBufferTwo[i] = GetSample();
-        AdvanceReadIndex();
-        if(readIndex == startSample)
+        for (uint32_t i = 0; i < MAX_SPLICE_SIZE; i++)
         {
-            break;
+            spliceBufferOne[i] = GetSample();
+            AdvanceReadIndex();
+            if(readIndex == startSample)
+            {
+                spliceBufferOneLength = i;
+                break;
+            }
         }
     }
-    readIndex = startPoint;
-}
-
-void StoreSpliceBufferThree()
-{
-    readIndex = startPoint;
-    float startSample = startPoint;
-    for (uint32_t i = 0; i < MAX_SPLICE_SIZE; i++)
+    else if(bufferNum == 2)
     {
-        spliceBufferThree[i] = GetSample();
-        AdvanceReadIndex();
-        if(readIndex == startSample)
+        for (uint32_t i = 0; i < MAX_SPLICE_SIZE; i++)
         {
-            break;
+            spliceBufferTwo[i] = GetSample();
+            AdvanceReadIndex();
+            if(readIndex == startSample)
+            {
+                spliceBufferTwoLength = i;
+                break;
+            }
         }
     }
-    readIndex = startPoint;
-}
-
-void StoreSpliceBufferFour()
-{
-    readIndex = startPoint;
-    float startSample = startPoint;
-    for (uint32_t i = 0; i < MAX_SPLICE_SIZE; i++)
+    else if(bufferNum == 3)
     {
-        spliceBufferFour[i] = GetSample();
-        AdvanceReadIndex();
-        if(readIndex == startSample)
+        for (uint32_t i = 0; i < MAX_SPLICE_SIZE; i++)
         {
-            break;
+            spliceBufferThree[i] = GetSample();
+            AdvanceReadIndex();
+            if(readIndex == startSample)
+            {
+                spliceBufferThreeLength = i;
+                break;
+            }
+        }
+    }
+    else if(bufferNum == 4)
+    {
+        for (uint32_t i = 0; i < MAX_SPLICE_SIZE; i++)
+        {
+            spliceBufferFour[i] = GetSample();
+            AdvanceReadIndex();
+            if(readIndex == startSample)
+            {
+                spliceBufferFourLength = i;
+                break;
+            }
         }
     }
     readIndex = startPoint;
@@ -255,6 +337,18 @@ int FindNextPressedKey(int key)
         }
     }
     return nextKey;
+}
+
+int FindFirstPressedKey()
+{
+    for(int i = 0; i < numKeyPads; i++)
+    {
+        if(keyStates[i])
+        {
+            return (i);
+        }
+    }
+    return -1;
 }
 
 void SetKeyIndexs()
