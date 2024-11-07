@@ -1,0 +1,5 @@
+.gitattributes
+build/
+.DS_Store
+libraries/
+.vscode/
