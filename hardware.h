@@ -32,9 +32,6 @@ using namespace daisy::seed;
 #define encoderPinB D10
 #define encoderPinClick D12
 
-#define playButtonPin D14 
-#define recButtonPin D13
-
 
 // |ADC Config Setup|------------------------------------------------------------------------------------------
 // Setting up ADC system for Daisy
@@ -58,8 +55,6 @@ AdcChannelConfig adcConfig[NUM_ADC_CHANNELS]; // array size for number of ADC ch
 
 
 Encoder encoder;
-Switch playButton;
-Switch recButton;
 
 
 // |Variable Declarations|------------------------------------------------------------------------------------------
@@ -90,10 +85,7 @@ void InitControls()
 	adcConfig[keypadMuxFour].InitMux(keypadMuxPin_Row4, 8, muxConPin1, muxConPin2, muxConPin3);
 	adcConfig[buttonMux].InitMux(buttonMuxPin, 8, muxConPin1, muxConPin2, muxConPin3);
 
-	playButton.Init(playButtonPin, 1000.0f);
-	recButton.Init(recButtonPin, 1000.0f);
 	encoder.Init(encoderPinA, encoderPinB, encoderPinClick);
-
 }
 
 bool RisingEdge(bool buttonState, bool previousButtonState)
