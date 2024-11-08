@@ -93,7 +93,7 @@ Distributed under the MIT License. See [MIT License](https://opensource.org/lice
 
 Dominic Frugoli - [Portfolio](https://www.dominicfrugoli.com/) - dominicfrugoli@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [Notion Page](https://fenidesign.notion.site/Sardinia-Independent-Project-24255e64caba44d3b6232d27743844be?pvs=4)
 ## Acknowledgments
 
 - Professor Visda Goudarzi
