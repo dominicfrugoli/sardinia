@@ -38,8 +38,7 @@ float inputSig;
 float outputAmp = 0.5f;
 float inputAmp = 1.0f;
 
-float testValFloat = 0.0f;
-int testValInt = 0;
+
 
 void ProcessControlsKR();
 void ProcessControlsAR();
@@ -47,7 +46,6 @@ void RecordModeControls();
 void PlayModeControls();
 void UpdateKeys();
 void UpdateControlButtons();
-void RecordControlButtonStates();
 void ModeSelect();
 void PrintMenu();
 
@@ -152,25 +150,27 @@ void ProcessControlsKR() // For controls that only need to be processed every au
 
 	if(currentEffect == 0)
 	{
-		effectValues[0][0] = fmap(hw.adc.GetMuxFloat(0, 2), 0, 1, Mapping::LINEAR); // Overdrive Gain
-		effectValues[0][1] = fmap(hw.adc.GetMuxFloat(0, 6), .01, .3, Mapping::EXP); // Overdrive Tone Freq
+		effectValues[0][0] = fmap(hw.adc.GetMuxFloat(0, 1), 0, 1, Mapping::LINEAR); // Overdrive Gain
+		effectValues[0][1] = fmap(hw.adc.GetMuxFloat(0, 4), .01, .3, Mapping::EXP); // Overdrive Tone Freq
 	}
 	else if(currentEffect == 1)
 	{
-		effectValues[1][0] = fmap(hw.adc.GetMuxFloat(0, 2), 0, 1, Mapping::LINEAR); // Chorus LFO Depth
-		effectValues[1][1] = fmap(hw.adc.GetMuxFloat(0, 6), 0, 10, Mapping::EXP); // Chorus LFO Freq
+		effectValues[1][0] = fmap(hw.adc.GetMuxFloat(0, 1), 0, 1, Mapping::LINEAR); // Chorus LFO Depth
+		effectValues[1][1] = fmap(hw.adc.GetMuxFloat(0, 4), 0, 10, Mapping::EXP); // Chorus LFO Freq
 	}
 	else if(currentEffect == 2)
 	{
-		effectValues[2][0] = fmap(hw.adc.GetMuxFloat(0, 2), 0, 5000, Mapping::EXP); // LoPass Freq
-		effectValues[2][1] = fmap(hw.adc.GetMuxFloat(0, 6), 0, 1, Mapping::LINEAR); // LoPass Res
+		effectValues[2][0] = fmap(hw.adc.GetMuxFloat(0, 1), 0, 5000, Mapping::EXP); // LoPass Freq
+		effectValues[2][1] = fmap(hw.adc.GetMuxFloat(0, 4), 0, 1, Mapping::LINEAR); // LoPass Res
 	}
 	
 
-	outputAmp = fmap(hw.adc.GetMuxFloat(0, 3), 0, 2, Mapping::LINEAR); // top far right
-	inputAmp = fmap(hw.adc.GetMuxFloat(0, 7), 0, 2, Mapping::LINEAR); // bottom far right
+	outputAmp = fmap(hw.adc.GetMuxFloat(0, 2), 0, 2, Mapping::LINEAR); // top far right
+	inputAmp = fmap(hw.adc.GetMuxFloat(0, 5), 0, 2, Mapping::LINEAR); // bottom far right
+	
+	readFactor = fmap(hw.adc.GetMuxFloat(0, 3), 0.5, 2, Mapping::EXP); // top far left
 
-	readFactor = fmap(hw.adc.GetMuxFloat(0, 0), 0.5, 2, Mapping::EXP); // top far left
+
 	ProcessEffectParameters();
 }
 
@@ -181,7 +181,7 @@ void ProcessControlsAR() // For controls that need to process every sample
 	UpdateControlButtons(); 
 	ModeSelect();
 
-	if(RisingEdge_ControlButtons(0)) // Starts the sample from the beginning when pressed
+	if(controlButtons[0].RisingEdge()) // Starts the sample from the beginning when pressed
 	{
 		if(isPlaying == false)
 		{
@@ -195,7 +195,7 @@ void ProcessControlsAR() // For controls that need to process every sample
 			playButtonOverrule = false;
 		}
 	}
-	else if(fullSampleReadIndex== 0 && !controlButtonStates[0]) // Stops the sample when let go
+	else if(fullSampleReadIndex== 0 && !controlButtons[0].Pressed()) // Stops the sample when let go
 	{
 		isPlaying = false;
 		playButtonOverrule = false;
@@ -209,21 +209,19 @@ void ProcessControlsAR() // For controls that need to process every sample
 	{
 		PlayModeControls();
 	}
-
-	RecordControlButtonStates();
 }
 
 void RecordModeControls() // Controls that only run in record mode
 {	
 
 	// Recording
-	if(RisingEdge_ControlButtons(1)) // Starts recording from start on press and resets the length track
+	if(controlButtons[1].RisingEdge()) // Starts recording from start on press and resets the length track
 	{
 		isRecording = true;
 		testValFloat = 1;
 		lengthTrack = 0;
 	}
-	else if(FallingEdge_ControlButtons(1)) // Stops recording when let go, resets write index, and assigns recording length
+	else if(controlButtons[1].FallingEdge()) // Stops recording when let go, resets write index, and assigns recording length
 	{
 		isRecording = false;
 		writeIndex = 0;
@@ -247,7 +245,7 @@ void RecordModeControls() // Controls that only run in record mode
 	}
 
 	// Store Splices into Buffers
-	if(RisingEdge_ControlButtons(4))
+	if(controlButtons[4].RisingEdge())
 	{
 		currentSpliceBuffer = 1;
 		if(AnyKeyIsPressed())
@@ -255,7 +253,7 @@ void RecordModeControls() // Controls that only run in record mode
 			StoreSpliceBuffer(currentSpliceBuffer);
 		}
 	}
-	if(RisingEdge_ControlButtons(5))
+	if(controlButtons[5].RisingEdge())
 	{
 		currentSpliceBuffer = 2;
 		if(AnyKeyIsPressed())
@@ -263,7 +261,7 @@ void RecordModeControls() // Controls that only run in record mode
 			StoreSpliceBuffer(currentSpliceBuffer);
 		}
 	}
-	if(RisingEdge_ControlButtons(6))
+	if(controlButtons[6].RisingEdge())
 	{
 		currentSpliceBuffer = 3;
 		if(AnyKeyIsPressed())
@@ -271,7 +269,7 @@ void RecordModeControls() // Controls that only run in record mode
 			StoreSpliceBuffer(currentSpliceBuffer);
 		}
 	}
-	if(RisingEdge_ControlButtons(7))
+	if(controlButtons[7].RisingEdge())
 	{
 		currentSpliceBuffer = 4;
 		if(AnyKeyIsPressed())
@@ -297,19 +295,19 @@ void PlayModeControls()
 	}
 
 	// Switch current buffer to play
-	if(RisingEdge_ControlButtons(4))
+	if(controlButtons[4].RisingEdge())
 	{
 		currentSpliceBuffer = 1;
 	}
-	if(RisingEdge_ControlButtons(5))
+	if(controlButtons[5].RisingEdge())
 	{
 		currentSpliceBuffer = 2;
 	}
-	if(RisingEdge_ControlButtons(6))
+	if(controlButtons[6].RisingEdge())
 	{
 		currentSpliceBuffer = 3;
 	}
-	if(RisingEdge_ControlButtons(7))
+	if(controlButtons[7].RisingEdge())
 	{
 		currentSpliceBuffer = 4;
 	}
@@ -337,31 +335,24 @@ void UpdateKeys()
 	noteKey = FindFirstPressedKey();
 }
 
+
+void ModeSelect()
+{
+	if(controlButtons[2].RisingEdge()) // Adjusts the output amplitude based on the knob
+	{
+		UpdateMode(0);
+	}
+	else if(controlButtons[3].RisingEdge()) // Adjusts the input amplitude based on the knob
+	{
+		UpdateMode(1);
+	}
+}
+
 void UpdateControlButtons()
 {
 	for(int i = 0; i < 8; i++)
 	{
-		controlButtonStates[i] = hw.adc.GetMuxFloat(5, i) < 0.5f;
-	}
-}
-
-void RecordControlButtonStates()
-{
-	for(int i = 0; i < 8; i++)
-	{
-		prevControlButtonStates[i] = controlButtonStates[i];
-	}
-}
-
-void ModeSelect()
-{
-	if(RisingEdge_ControlButtons(2)) // Adjusts the output amplitude based on the knob
-	{
-		UpdateMode(0);
-	}
-	else if(RisingEdge_ControlButtons(3))
-	{
-		UpdateMode(1);
+		controlButtons[i].Debounce();
 	}
 }
 

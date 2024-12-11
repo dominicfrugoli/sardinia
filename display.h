@@ -11,6 +11,8 @@
 using namespace daisy;
 using namespace daisy::seed;
 
+float testValFloat = 0.0f;
+float testValInt = 0.0f;
 
 // |Pin Declarations|------------------------------------------------------------------------------------------
 
@@ -116,9 +118,9 @@ void PrintMenu(float currenteffect, bool effectstates[])
 	// For Testing Values
 	/*
 	lcd.SetCursor(1, 0);
-	lcd.PrintInt(testValFloat);
+	lcd.PrintInt(testValFloat * 100);
 	lcd.SetCursor(1, 8);
-	lcd.PrintInt(testValInt);
+	lcd.PrintInt(testValInt * 100);
 	*/
 }
 
