@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "kailhChoc_hexKeycaps")(type "KiCad")(uri "${KIPRJMOD}/kailhChoc_hexKeycaps.pretty")(options "")(descr ""))
+)
