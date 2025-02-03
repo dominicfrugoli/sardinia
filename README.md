@@ -86,9 +86,7 @@ This independent project is called "The Product Design Process for Electronic In
     - Add writeup to portfolio website
     - Present it to friends and professors
     - Any last requirements for Visda
-## License
 
-Distributed under the MIT License. See [MIT License](https://opensource.org/licenses/MIT) for more information.
 ## Contact
 
 Dominic Frugoli - [Portfolio](https://www.dominicfrugoli.com/) - dominicfrugoli@gmail.com
