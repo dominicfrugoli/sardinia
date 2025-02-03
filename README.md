@@ -94,6 +94,6 @@ Dominic Frugoli - [Portfolio](https://www.dominicfrugoli.com/) - dominicfrugoli@
 Project Link: [Notion Page](https://fenidesign.notion.site/Sardinia-Independent-Project-24255e64caba44d3b6232d27743844be?pvs=4)
 ## Acknowledgments
 
-- Professor Visda Goudarzi
+- Dr. Visda Goudarzi
 
 
